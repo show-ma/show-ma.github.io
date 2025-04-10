@@ -18,6 +18,12 @@
         总计{{ div ($scratch.Get "total") 1000.0 | lang.FormatNumber 2 }}k字
     </section>
 
+    <!-- Add blog running time -->
+    <section class="running-time">
+        本博客已稳定运行
+        <span id="runningdays" class="running-days"></span>
+    </section>
+    
     <section class="powerby">
         {{ with .Site.Params.footer.customText }}
             {{ . | safeHTML }} <br/>
