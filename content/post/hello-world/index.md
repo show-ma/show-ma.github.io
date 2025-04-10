@@ -1,20 +1,26 @@
 ---
-title: Hello World
-description: Welcome to Hugo Theme Stack
+title: Preface
+description: Hello World
 slug: hello-world
-date: 2022-03-06 00:00:00+0000
-image: cover.jpg
-categories:
-    - Example Category
-tags:
-    - Example Tag
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+date: 2019-04-04 00:00:00+0000
+weight: 1 
 ---
 
-Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
+写在第三次搬家。本科的时候建了站，研究生的时候分了domain和subdomain，如今从比较简单的jekyll换成了更快用户更多的hugo。
 
-For more information about this theme, check the documentation: https://stack.jimmycai.com/
+就是日记而已，没什么好看。我关注的还在写博客的人基本上都前额叶发育成熟了，post都是很能帮助到大家的内容。而我什么都没有，看完除了更了解我一点好像没什么特别的。
 
-Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
+## 分类说明
 
-> Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)
+`Meaningness`：输出无意义的观点
+
+`Nothingless`：搞点没必要的艺术
+
+`repost`：转载喜欢的东西
+
+## 注意事项
+
+- 可能偶尔会提到身边的一些朋友。要是出现了觉得冒犯的内容，我先在此一并道歉。
+- 偶尔也会转载网上看到的文章，因为可能会被夹&仅半年可见。但我的网站既不能被搜索引擎搜到又不产生商业价值所以完全没有去要授权`评论区@印象笔记也不用要授权嘛！`。不过我有认真标注来源，希望万一原作者们真的看到了不要骂我。
+
+in case 有人想和我聊天：`xxyyzz1@tuta.io`
