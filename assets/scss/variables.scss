@@ -1,4 +1,4 @@
-$defaultTagBackgrounds: #8ea885, #df7988, #0177b8, #ffb900, #6b69d6;
+$defaultTagBackgrounds: #57b4ba, #ca4c33, #015551, #b14b8d, #5e5cbd;
 $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 
 /*
@@ -11,10 +11,10 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --main-top-padding: 50px;
     }
 
-    --body-background: #f5f5fa;
+    --body-background: #c6e3e7;
 
-    --accent-color: #34495e;
-    --accent-color-darker: #2c3e50;
+    --accent-color: #4bb8a5;
+    --accent-color-darker: #337469;
     --accent-color-text: #fff;
     --body-text-color: #707070;
 
@@ -26,11 +26,11 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --scrollbar-track: var(--body-background);
 
     &[data-scheme="dark"] {
-        --body-background: #303030;
-        --accent-color: #ecf0f1;
-        --accent-color-darker: #bdc3c7;
+        --body-background: #2b2f35;
+        --accent-color: #ccdfce;
+        --accent-color-darker: #a4c2a7;
         --accent-color-text: #000;
-        --body-text-color: rgba(255, 255, 255, 0.7);
+        --body-text-color: rgba(212, 252, 243, 0.76);
         --scrollbar-thumb: hsl(0, 0%, 40%);
         --scrollbar-track: var(--body-background);
     }
