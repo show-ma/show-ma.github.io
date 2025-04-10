@@ -16,7 +16,7 @@ categories:
 | -------- | ------- | ------- |
 | Glass Animals | I Love You So Fucking Much | 6/10 |
 | Magdalena Bay | Imaginal Disk | 6.5/10 |
-| Sabrina Carpenter | Short n'Sweet | 3/10 |
+| Sabrina Carpenter | Short n'Sweet | 7/10 |
 | Slenderbodies | the sugar machine | /10
 
 评分标准：
