@@ -3,6 +3,8 @@ title: 夏天的感受
 date: 2024-06-28
 description: 人间观察中
 image:
+tags: 
+    - summer
 categories:
     - Meaningless
 ---
