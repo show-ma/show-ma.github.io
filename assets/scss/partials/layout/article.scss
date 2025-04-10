@@ -286,7 +286,7 @@
         background-color: var(--code-background-color);
         padding: 2px 4px;
         font-size: 14px;
-        border-radius: var(--tag-border-radius);
+        border-radius: var(--category-border-radius);
         font-family: var(--code-font-family);
     }
 
@@ -358,7 +358,7 @@
         background: var(--card-background);
         border: none;
         box-shadow: var(--shadow-l2);
-        border-radius: var(--tag-border-radius);
+        border-radius: var(--category-border-radius);
         padding: 8px 16px;
         color: var(--card-text-color-main);
         cursor: pointer;
