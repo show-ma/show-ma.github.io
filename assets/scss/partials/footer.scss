@@ -23,7 +23,17 @@ footer.site-footer {
         font-weight: normal;
         margin-bottom: 5px;
         }
-    
+
+    .running-time {
+            color: var(--card-text-color-secondary);
+            font-weight: normal;
+        
+            .running-days {
+                font-weight:bold;
+                color: var(--card-text-color-secondary);
+            }   
+    }
+        
     .powerby {
         color: var(--body-text-color);
         font-weight: normal;
