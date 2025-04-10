@@ -16,3 +16,13 @@ menu:
 
 ![image](miami1.jpeg)
 ![image](miami2.jpeg)
+
+## New York
+
+## Orlando
+
+## Rhodes Island
+
+## Boston
+
+## Lake Tahoe
