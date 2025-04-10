@@ -6,23 +6,36 @@ menu:
     params:
       icon: gallery
 ---
+Click to enlarge.
 
+# Places we walked together
 
 ## Las Vegas
 
-![Image 1](vegas1.jpeg) ![Image 2](vegas2.jpeg)
+![ ](vegas1.jpeg) ![ ](vegas2.jpeg)
 
 ## Miami
 
-![image](miami1.jpeg)
-![image](miami2.jpeg)
+![ ](miami1.jpeg)
+
+![ ](miami2.jpeg)
 
 ## New York
+
+![ ](nyc1.jpeg) ![ ](nyc2.jpeg)
 
 ## Orlando
 
 ## Rhodes Island
 
+![ ](rhodeisland1.jpeg)
+
+## Portland
+
+![](portland1.jpeg)
+
+![](portland2.jpeg)
+
 ## Boston
 
-## Lake Tahoe
+# Solotrip
