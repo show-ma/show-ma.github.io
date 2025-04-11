@@ -2,7 +2,7 @@
 title:  2019/10/31
 date: 2019-10-31
 description: 
-image: 1.jpg
+image: 1.png
 categories:
     - Meaningless
 ---
