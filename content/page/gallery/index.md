@@ -26,6 +26,18 @@ Click to enlarge.
 
 ## Orlando
 
+![ ](orlando1.jpeg) 
+
+![ ](orlando2.jpeg)
+
+![ ](orlando3.jpeg)
+
+## Washington DC
+
+![ ](dc1.jpeg) 
+
+![ ](dc2.jpeg)
+
 ## Rhodes Island
 
 ![ ](rhodeisland1.jpeg)
