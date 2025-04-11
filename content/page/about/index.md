@@ -2,7 +2,7 @@
 title: "About Me"
 menu:
   main:
-    weight: 1
+    weight: 2
     params:
       icon: user
 ---
