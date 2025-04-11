@@ -5,6 +5,7 @@ description:
 image:
 tags: 
     - school
+    - life
 categories:
     - Meaningless
 ---
