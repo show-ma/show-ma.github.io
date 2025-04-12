@@ -1,25 +1,4 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
 
-body {
-    position: relative; // make sure ::before stays anchored
-    z-index: 0;
-  }
-  
-  body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -9999; // super low, stays behind everything
-    background-image: url("6background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 0.5;
-    pointer-events: none;
-  }
   
   

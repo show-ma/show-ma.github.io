@@ -15,6 +15,4 @@ hasCJKLanguage = true
 disqusShortname = "xyz"
 
 [pagination]
-pagerSize = 5
-
-backgroundImage = '6background.jpg'
+pagerSize = 6
