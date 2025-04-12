@@ -7,7 +7,7 @@ menu:
       icon: gallery
 ---
 
-本宝宝和对象一起去过的地方！点击有更清楚的版本
+> 感谢伟大的男友哥制定的又精密又灵活的计划，让我只带着手机到处拍照片就行，其他什么都不用管
 
 ## Las Vegas
 
@@ -25,9 +25,7 @@ menu:
 
 ## Orlando
 
-![ ](orlando1.jpeg) 
-
-![ ](orlando2.jpeg) ![ ](orlando3.jpeg)
+![ ](orlando1.jpeg)  ![ ](orlando2.jpeg)
 
 ## Washington DC
 
@@ -37,7 +35,7 @@ menu:
 
 ## Rhodes Island
 
-![ ](rhodeisland1.jpeg)
+![ ](ri1.jpeg) ![ ](ri2.jpeg) ![ ](ri3.jpeg)
 
 ## Portland
 
@@ -47,4 +45,18 @@ menu:
 
 ## Boston
 
+![](bos1.jpeg) ![](bos2.jpeg)
+
+## New Hampshire
+
+坐小火车路过
+
+![ ](nh1.jpeg) ![ ](nh2.jpeg) 
+
+![ ](nh3.jpeg) ![ ](nh4.jpeg) 
+
 ## San Diego
+
+![ ](sd1.jpg) ![ ](sd2.jpeg) 
+
+![ ](sd3.jpg)
