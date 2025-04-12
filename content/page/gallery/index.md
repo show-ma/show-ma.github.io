@@ -35,7 +35,17 @@ menu:
 
 ## Rhodes Island
 
-![ ](ri1.jpeg) ![ ](ri2.jpeg) ![ ](ri3.jpeg)
+### Provindence
+
+![ ](ri1.jpeg) 
+
+![ ](ri2.jpeg) ![ ](ri3.jpeg)
+
+### Newport
+
+![](newport1.JPG)
+
+![](newport2.JPG)
 
 ## Portland
 
@@ -43,7 +53,7 @@ menu:
 
 ![](portland2.jpeg)
 
-## Boston
+## Boston·
 
 ![](bos1.jpeg) ![](bos2.jpeg)
 
@@ -57,6 +67,9 @@ menu:
 
 ## San Diego
 
-![ ](sd1.jpg) ![ ](sd2.jpeg) 
+![](sd1.jpg) ![](sd2.jpeg) 
 
-![ ](sd3.jpg)
+![](sd3.jpg)
+
+## Bay Area·
+![](bay1.JPG)
