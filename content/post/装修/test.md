@@ -144,3 +144,6 @@ categories:
 
 ```
 
+## 固定代码块高度
+
+参考：[Hugo Stack 魔改美化](https://www.xalaok.top/post/stack-modify/#固定块的高度)
