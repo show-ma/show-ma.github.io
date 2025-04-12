@@ -63,13 +63,13 @@ menu:
 
 坐小火车路过
 
-![ ](nh1.jpeg) ![ ](nh2.jpeg) 
+![ ](nh1.jpeg) ![ ](nh2.jpeg)
 
-![ ](nh3.jpeg) ![ ](nh4.jpeg) 
+![ ](nh3.jpeg) ![ ](nh4.jpeg)
 
 ## San Diego
 
-![](sd1.jpg) ![](sd2.jpeg) 
+![](sd1.jpg) ![](sd2.jpeg)
 
 ![](sd3.jpg)
 
