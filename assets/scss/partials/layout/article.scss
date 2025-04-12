@@ -330,9 +330,7 @@
     }
 
     .highlight {
-
         background-color: var(--pre-background-color);
-        padding: var(--card-padding);
         position: relative;
         border-radius: 10px;
         max-width: 100% !important;
@@ -348,17 +346,15 @@
         [dir="rtl"] & {
             direction: ltr;
         }
-        pre {
+        pre {  // 固定高度
             margin: initial;
-            padding: var(--card-padding);
+            padding: 0;
             margin: 0;
             width: auto;
             max-height: 20em;
-            scrollbar-width: none;
-            /* Firefox */
+            scrollbar-width: none; /* Firefox */
             &::-webkit-scrollbar {
-                display: none;
-                /* Chrome Safari */
+                display: none; /* Chrome Safari */
             }
         }
     }
