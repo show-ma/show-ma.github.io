@@ -2,6 +2,8 @@
 title: 新冠开始了
 date: 2020-02-04
 description: 
+tags:
+    - covid
 categories:
     - Meaningless
 ---
