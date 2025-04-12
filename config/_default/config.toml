@@ -16,3 +16,5 @@ disqusShortname = "xyz"
 
 [pagination]
 pagerSize = 5
+
+backgroundImage = '6background.jpg'
