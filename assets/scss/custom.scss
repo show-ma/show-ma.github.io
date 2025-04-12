@@ -1,28 +1,25 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
 
-body::before {
+body {
+    position: relative; // make sure ::before stays anchored
+    z-index: 0;
+  }
+  
+  body::before {
     content: "";
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    background-image: url("6background.jpg");
+    width: 100vw;
+    height: 100vh;
+    z-index: -9999; // super low, stays behind everything
+    background-image: url("/img/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.5; // Adjust transparency
-    pointer-events: none; // Prevent it from blocking clicks
-}
-
-// body::before {
-//     // default (light)
-//     background-image: url("bg-light.jpg");
-//     opacity: 0.5;
-//   }
+    background-attachment: fixed;
+    opacity: 0.5;
+    pointer-events: none;
+  }
   
-//   [data-scheme="dark"] body::before {
-//     background-image: url("bg-dark.jpg");
-//   }
   
