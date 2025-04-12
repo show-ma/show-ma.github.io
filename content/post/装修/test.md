@@ -147,3 +147,10 @@ categories:
 ## 固定代码块高度
 
 参考：[Hugo Stack 魔改美化](https://www.xalaok.top/post/stack-modify/#固定块的高度)
+
+## remove苹果相册自带的EXIF方向信息
+
+```
+cd content/page/gallery
+mogrify -auto-orient *.jpeg
+```
