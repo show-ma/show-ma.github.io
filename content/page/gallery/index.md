@@ -27,9 +27,7 @@ menu:
 
 ![ ](orlando1.jpeg) 
 
-![ ](orlando2.jpeg)
-
-![ ](orlando3.jpeg)
+![ ](orlando2.jpeg) ![ ](orlando3.jpeg)
 
 ## Washington DC
 
