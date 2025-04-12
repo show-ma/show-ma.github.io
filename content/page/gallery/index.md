@@ -6,9 +6,8 @@ menu:
     params:
       icon: gallery
 ---
-Click to enlarge.
 
-# Places we walked together
+本宝宝和对象一起去过的地方！点击有更清楚的版本
 
 ## Las Vegas
 
@@ -50,4 +49,4 @@ Click to enlarge.
 
 ## Boston
 
-# Solotrip
+## San Diego
