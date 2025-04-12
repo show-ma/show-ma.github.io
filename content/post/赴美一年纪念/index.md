@@ -2,7 +2,7 @@
 title: 赴美一年纪念
 date: 2024-08-07
 description: 
-image: IMG_5098
+image: IMG_5098.JPG
 tags: 
     - school
     - life

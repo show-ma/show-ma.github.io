@@ -57,7 +57,7 @@ menu:
 
 ![](bos1.jpeg) ![](bos2.jpeg)
 
-![](bos3.JPG)
+![](bos3.JPG) ![](bos4.JPG)
 
 ## New Hampshire
 
@@ -75,4 +75,4 @@ menu:
 
 ## Bay Area·
 
-![](bay1.JPG)
+![](bay1.JPG) ![](bay2.jpg)
