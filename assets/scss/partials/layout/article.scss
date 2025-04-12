@@ -331,7 +331,7 @@
 
     .highlight {
         background-color: var(--pre-background-color);
-        padding: var(--card-padding);
+        // padding: var(--card-padding);
         position: relative;
         border-radius: 10px;
         max-width: 100% !important;
@@ -352,6 +352,11 @@
             padding: 0;
             margin: 0;
             width: auto;
+            max-height: 20em;
+            scrollbar-width: none; /* Firefox */
+            &::-webkit-scrollbar {
+                display: none; /* Chrome Safari */
+            }
         }
     }
 
