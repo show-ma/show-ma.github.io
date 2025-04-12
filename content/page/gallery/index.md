@@ -37,15 +37,15 @@ menu:
 
 ### Provindence
 
-![ ](ri1.jpeg) 
+![ ](ri1.jpeg)  ![ ](ri2.jpeg)
 
-![ ](ri2.jpeg) ![ ](ri3.jpeg)
+![ ](ri3.jpeg)
 
 ### Newport
 
 ![](newport1.JPG)
 
-![](newport2.JPG)
+![](newport2.jpeg)
 
 ## Portland
 
@@ -56,6 +56,8 @@ menu:
 ## Boston·
 
 ![](bos1.jpeg) ![](bos2.jpeg)
+
+![](bos3.JPG)
 
 ## New Hampshire
 
@@ -72,4 +74,5 @@ menu:
 ![](sd3.jpg)
 
 ## Bay Area·
+
 ![](bay1.JPG)
