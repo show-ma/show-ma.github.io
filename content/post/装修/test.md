@@ -154,3 +154,56 @@ categories:
 cd content/page/gallery
 mogrify -auto-orient *.jpeg
 ```
+
+## notice
+
+参考 [Naive Koala_一些Hugo短代码](https://www.xalaok.top/post/hugo-shortcodes/)
+
+使用例
+
+```
+{\{< notice notice-warning >}}
+你好。
+{\{< /notice >}}
+
+{\{< notice notice-info >}}
+你好。
+{\{< /notice >}}
+
+{\{< notice notice-note >}}
+你好。
+{\{< /notice >}}
+
+{\{< notice notice-tip >}}
+你好。
+{\{< /notice >}}
+```
+
+{{< notice notice-warning >}}
+你好。
+{{< /notice >}}
+
+{{< notice notice-info >}}
+你好。
+{{< /notice >}}
+
+{{< notice notice-note >}}
+你好。
+{{< /notice >}}
+
+{{< notice notice-tip >}}
+你好。
+{{< /notice >}}
+
+## neodb
+
+[参考](https://www.xalaok.top/post/hugo-shortcodes/#配置-4)
+
+使用
+
+```
+{\{< neodb "NeoDB 网址/豆瓣网址" >}\}
+```
+示例
+
+{{< neodb "https://neodb.social/game/3abGCov9P5QHlNNqHZIlM3" >}}
