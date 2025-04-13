@@ -9,8 +9,7 @@ categories:
     - Nothingness
 ---
 
-
-![image.png](https://i.loli.net/2020/12/24/VEC5uJ8NFzjPXRI.png)
+{{< neodb "https://movie.douban.com/subject/30402296" >}}
 
 昨日和同学一起去看了诚哥的新作。距离上次看君名已经三年过去了...第一次，日漫主角比我年轻。属于高中生的中二和冲动好像再和我没什么关系，我只是在匆忙的生活中，抽出一段时间逃避现实而已。
 

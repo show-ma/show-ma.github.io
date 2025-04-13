@@ -118,7 +118,9 @@
 }
 
 .db-card-content {
-    flex: 1 1 auto
+  flex: 1 1 auto;
+  min-height: 0; /* ✅ allows children like .db-card-comment to scroll properly */
+  overflow: hidden; /* optional: hides any overflow */
 }
 
 .db-card-post {

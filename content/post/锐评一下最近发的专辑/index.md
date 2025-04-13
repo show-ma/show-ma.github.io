@@ -26,6 +26,8 @@ categories:
 ## I Love You So Fucking Much
 `6/10`
 
+{{< neodb "https://music.douban.com/subject/36842887" >}}
+
 cut: A Tear in Space(Airlock)
 
 一开始听的时候不敢相信，给我端上来一盘什么东西这是……上一张heatwave火了就接着做十首一模一样的，这就是你们的计划吗玻璃动物？
@@ -41,6 +43,9 @@ cut: A Tear in Space(Airlock)
 ## Imaginal Disk
 `6.5/10`
 
+
+{{< neodb "https://music.douban.com/subject/36958821" >}}
+
 cut: Image, Death & Romance, Cry for Me
 
 明显感觉制作水平比上一张进步了，可是旋律没有前一张抓耳了。也不算意外，能让我爱上的曲子实在是不多，如果每张专辑每首都有这水平，那早就火得拳打Sabrina脚踢碧梨了。
@@ -49,11 +54,14 @@ cut: Image, Death & Romance, Cry for Me
 
 但更喜欢之前那种廉价的感觉，毕竟梦核很重要的一部分就是失真的塑料小玩意。
 
-推荐一下上一张的`Secrets(Your Fire)`
+推荐一下上一张Mercurial World的`Secrets(Your Fire)`
+
+{{< neodb "https://music.douban.com/subject/35512356" >}}
 
 ## Short n' Sweet
 `3/10 -> 7/10`
 
+{{< neodb "https://neodb.social/album/0ZhyOPHtvwaiSun2DoxRbZ">}}
 
 大家都觉得espresso有say so的感觉，如果每首歌都像espresso就好了。现在就是千篇一律地不知道在干什么，dumb & poetic这首甚至听出一种nfr的感觉，但很显然离nfr还差了一百个TTPD，which makes这张专非常普通。。听一遍什么都没记住，也不想多听几遍。
 
