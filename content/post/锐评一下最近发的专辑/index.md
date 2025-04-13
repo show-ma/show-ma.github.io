@@ -1,6 +1,7 @@
 ---
 title: 锐评一下最近发的专辑
 date: 2024-08-31
+image: short-n-sweet.jpg
 description: 一切都在不可避免地向抖音短视频滑去
 tags: 
     - music
@@ -17,7 +18,6 @@ categories:
 | Glass Animals | I Love You So Fucking Much | 6/10 |
 | Magdalena Bay | Imaginal Disk | 6.5/10 |
 | Sabrina Carpenter | Short n'Sweet | 7/10 |
-| Slenderbodies | the sugar machine | /10
 
 评分标准：
 
