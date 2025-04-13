@@ -24,7 +24,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff;
 
     --section-separation: 40px;
 
-    --scrollbar-thumb: hsl(0, 0%, 85%);
+    --scrollbar-thumb: hsla(160, 7%, 84%, 0.70);
     --scrollbar-track: var(--body-background);
 
     &[data-scheme="dark"] {
@@ -112,29 +112,38 @@ $defaultTagColors: #fff, #fff, #fff, #fff;
 
     --heading-border-size: 4px;
 
-    --link-background-color: 189, 195, 199;
+    --link-background-color: 221, 237, 235;
     --link-background-opacity: 0.5;
     --link-background-opacity-hover: 0.7;
 
     --pre-background-color: #272822;
     --pre-text-color: #f8f8f2;
 
-    --code-background-color: rgba(0, 0, 0, 0.12);
+    --code-background-color: rgba(33, 34, 33, 0.12);
     --code-text-color: #808080;
 
-    --table-border-color: #dadada;
-    --tr-even-background-color: #efefee;
+    --table-border-color: #c2d8d6;
+    --tr-even-background-color: #e6f3f2;
 
-    --kbd-border-color: #dadada;
+    --kbd-border-color: #aaaca7;
 
     &[data-scheme="dark"] {
-        --code-background-color: #272822;
-        --code-text-color: rgba(255, 255, 255, 0.9);
+        --blockquote-background-color: #1e2d2b;
 
-        --table-border-color: #717171;
-        --tr-even-background-color: #545454;
+        --link-background-color: 42, 72, 70;
+        --link-background-opacity: 0.4;
+        --link-background-opacity-hover: 0.6;
 
-        --blockquote-background-color: rgb(75 75 75);
+        --pre-background-color: #1e2d2b;
+        --pre-text-color: #f1f1f1;
+
+        --code-background-color: #2a3f3d;
+        --code-text-color: #e0f8f6;
+
+        --table-border-color: #475c5a;
+        --tr-even-background-color: #2c3e3c;
+
+        --kbd-border-color: #37514e;
     }
 }
 
