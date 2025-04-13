@@ -8,6 +8,8 @@ categories:
     - Maintain
 ---
 
+[stack主题的图标](https://tabler.io/icons)
+
 ## Apr 12 聊天气泡
 
 参考：[Yelle - hugo stack 主题美化](https://yelleis.top/p/hugo-theme-stack-beautification/)
