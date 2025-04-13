@@ -150,6 +150,8 @@ categories:
 
 ## remove苹果相册自带的EXIF方向信息
 
+从MacBook的相册拖拽到vscode的时候发现渲染之后图片方向会变。询问gpt以后发现是mac自带了方向信息来保证显示正确，但hugo并不识别这个信息。遂使用命令行把方向校正一下。在mac的相册里转一下再转回来也可以。
+
 ```
 cd content/page/gallery
 mogrify -auto-orient *.jpeg
@@ -207,3 +209,30 @@ mogrify -auto-orient *.jpeg
 示例
 
 {{< neodb "https://neodb.social/game/3abGCov9P5QHlNNqHZIlM3" >}}
+
+## 归档页面双栏
+
+[参考](https://www.xalaok.top/post/stack-modify/#双栏)
+
+在 `/assets/scss/custom.scss` 中加入以下代码
+
+```css
+// 归档页面两栏
+@media (min-width: 1024px) {
+  .article-list--compact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: none;
+    box-shadow: none;
+    gap: 1rem;
+
+    article {
+      background: var(--card-background);
+      border: none;
+      box-shadow: var(--shadow-l2);
+      margin-bottom: 8px;
+      border-radius: 16px;
+    }
+  }
+}
+```

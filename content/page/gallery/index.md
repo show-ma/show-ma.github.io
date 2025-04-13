@@ -7,7 +7,12 @@ menu:
       icon: gallery
 ---
 
-> 感谢伟大的男友哥制定的又精密又灵活的计划，让我只带着手机到处拍照片就行，其他什么都不用管
+{{< notice notice-note >}}
+感谢伟大的男友哥制定的又精密又灵活的计划，让我只带着手机到处拍照片就行，其他什么都不用管。
+
+后面有`·`的是for some reason本人一个人去的地方。希望以后的旅行都是我们一起去的。
+{{< /notice >}}
+
 
 ## Las Vegas
 
@@ -15,9 +20,7 @@ menu:
 
 ## Miami
 
-![ ](miami1.jpeg)
-
-![ ](miami2.jpeg)
+![ ](miami1.jpeg) ![ ](miami2.jpeg)
 
 ## New York
 
@@ -33,7 +36,7 @@ menu:
 
 ![ ](dc2.jpeg)
 
-## Rhodes Island
+## Rhode Island
 
 ### Provindence
 
