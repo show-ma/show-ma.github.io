@@ -2,6 +2,8 @@
 title:  在图书馆自习
 date: 2019-10-19
 description: 
+tags:
+    - school
 categories:
     - Meaningless
 ---

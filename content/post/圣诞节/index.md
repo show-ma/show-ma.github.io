@@ -2,6 +2,8 @@
 title:  过圣诞节🎄
 date: 2020-12-25
 description: 嘿嘿 吃好吃的 和好朋友玩
+tags:
+    - life
 categories: 
     - Meaningless
 ---
