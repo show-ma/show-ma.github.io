@@ -39,52 +39,38 @@
     position: fixed;
     bottom: 5px;
     right: 15px;
-    width: 40px; /* Reduced size */
-    height: 40px; /* Reduced size */
-    border-radius: 50%; /* Circular button for modern look */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     background-color: var(--body-background);
     box-shadow: var(--shadow-l2);
-    font-size: 20px; /* Adjusted for smaller button */
-    text-align: center;
-    line-height: 38px; /* Center align arrow */
     cursor: pointer;
-    transition:
-      transform 0.3s ease,
-      background-color 0.3s ease; /* Added smooth interaction */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+    /* 👇 SVG icon */
+    background-image: url('/icons/backTop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
   }
 
-  #back-to-top:before {
-    content: "";
-    display: inline-block;
-    position: relative;
-    transform: rotate(135deg);
-    height: 8px; /* Reduced size */
-    width: 8px; /* Reduced size */
-    border-width: 0 0 2px 2px;
-    border-color: var(--back-to-top-color);
-    border-style: solid;
-  }
 
   #back-to-top:hover {
-    transform: scale(1.1); /* Slightly larger on hover */
-    background-color: var(--accent-background); /* Optional hover effect */
+    transform: scale(1.1);
+    background-color: var(--accent-background);
   }
 
-  #back-to-top:hover:before {
-    border-color: var(--accent-color); /* Change arrow color on hover */
-  }
-
-  /* Responsive styles */
+  /* 📱 Mobile: Bigger button */
   @media screen and (max-width: 768px) {
     #back-to-top {
       bottom: 5px;
       right: var(--container-padding);
-      width: 30px; /* Slightly smaller for mobile */
-      height: 30px;
-      font-size: 16px;
-      line-height: 32px;
+      width: 60px;
+      height: 60px;
+      background-size: 70%; /* larger icon inside */
     }
   }
+
 
   @media screen and (min-width: 1024px) {
     #back-to-top {
@@ -104,7 +90,7 @@
     #back-to-top {
       bottom: 15px;
       right: 25px;
-      /* visibility: hidden; */
     }
   }
 </style>
+
