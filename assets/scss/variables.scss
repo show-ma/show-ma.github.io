@@ -108,7 +108,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff;
 */
 :root {
     --blockquote-border-size: 4px;
-    --blockquote-background-color: rgb(248 248 248);
+    --blockquote-background-color: rgb(237, 247, 245);
 
     --heading-border-size: 4px;
 
@@ -120,12 +120,12 @@ $defaultTagColors: #fff, #fff, #fff, #fff;
     --pre-text-color: #f8f8f2;
 
     --code-background-color: rgba(33, 34, 33, 0.12);
-    --code-text-color: #808080;
+    --code-text-color: #4ca0ac;
 
     --table-border-color: #c2d8d6;
     --tr-even-background-color: #e6f3f2;
 
-    --kbd-border-color: #aaaca7;
+    --kbd-border-color: #a2b6b2;
 
     &[data-scheme="dark"] {
         --blockquote-background-color: #1e2d2b;
@@ -138,7 +138,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff;
         --pre-text-color: #f1f1f1;
 
         --code-background-color: #2a3f3d;
-        --code-text-color: #e0f8f6;
+        --code-text-color: #b3faf4;
 
         --table-border-color: #475c5a;
         --tr-even-background-color: #2c3e3c;
@@ -160,14 +160,14 @@ $defaultTagColors: #fff, #fff, #fff, #fff;
 }
 
 [data-scheme="light"] {
-    --pre-text-color: #272822;
+    --pre-text-color: #222826;
     --pre-background-color: #fafafa;
     @import "partials/highlight/light.scss";
 }
 
 [data-scheme="dark"] {
     --pre-text-color: #f8f8f2;
-    --pre-background-color: #272822;
+    --pre-background-color: #222826;
     @import "partials/highlight/dark.scss";
 }
 
