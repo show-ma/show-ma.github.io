@@ -12,14 +12,16 @@ categories:
 
 ## Safari浏览器书签收录网站icon
 
-效果：![](IMG_2086.jpeg)
+效果：![safari启动页](1.jpeg)
 
-1. 在`static/ `文件夹，添加一个exactly named `apple-touch-icon.png` 的文件
+1. 在`static/`文件夹，添加一个exactly named `apple-touch-icon.png` 的文件
 
 2. 在`layouts/partials/head/custom.html`，添加
+
 ```html
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 ```
+
 3. 清除Safari中关于网站的cache
 
 4. 添加书签到启动页

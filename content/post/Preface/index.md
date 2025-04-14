@@ -1,7 +1,6 @@
 ---
 title: Preface
-description: Hello World
-slug: hello-world
+description: AI Policy｜分类说明｜注意事项
 date: 2025-04-09
 weight: 1 
 ---
@@ -20,7 +19,7 @@ special thanks to 友邻`白石京`的[网站装修小技巧](https://thirdshire
 
 但如今我写文章是为了记录生活，有如此高效的工具为我提供帮助，我为什么不去用呢？更何况我是晕字的adhd，对可读性要求很高，如果不用ai帮我制作大纲完善逻辑，我只会端出一坨💩。
 
-However，作为一名姑且算在AI领域活动的人，我对ai policy还是相当理解并遵守的。在每篇使用ai的文章中我都会credit具体的模型以及甜美做了哪些事，就像我的学校对我们上课作业的要求一样。
+However，作为一名姑且算在AI领域活动的人，我对ai policy还是相当理解并遵守的。在每篇使用ai的文章中我都会credit具体的模型以及他们做了哪些事，就像我的学校对我们上课作业的要求一样。
 
 ## 分类说明
 

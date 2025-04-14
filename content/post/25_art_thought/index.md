@@ -10,7 +10,7 @@ categories:
 ---
 
 {{< notice notice-info >}}
-Special thanks to ChatGPT-4.5 for helping me articulate these thoughts clearly.
+Special thanks to ChatGPT-4.5 for helping me articulate these thoughts clearly. First, I described my feelings and shared examples that came to mind. Then GPT helped explain why I have these emotions. Guided by GPT, I thought of more related situations and after several rounds of conversation I organized them into a complete article. In the end, I asked GPT to check for grammar errors to ensure readability.
 
 The reason using English...idk, I just feeling weird talking something like privilege and inequality in Chinese.
 {{< /notice >}}
