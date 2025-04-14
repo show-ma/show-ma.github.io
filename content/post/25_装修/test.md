@@ -10,7 +10,16 @@ categories:
 
 [stack主题的图标](https://tabler.io/icons)
 
-## Apr 12 聊天气泡
+## Safari浏览器书签收录网站icon
+
+在`static/ `文件夹，添加一个exactly named `apple-touch-icon.png` 的文件
+
+之后，在`layouts/partials/head/custom.html`，添加
+```html
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+```
+
+## 聊天气泡
 
 参考：[Yelle - hugo stack 主题美化](https://yelleis.top/p/hugo-theme-stack-beautification/)
 
