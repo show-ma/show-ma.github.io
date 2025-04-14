@@ -10,6 +10,12 @@ categories:
 
 [stack主题的图标](https://tabler.io/icons)
 
+## 添加回到顶部
+
+[参考](https://thirdshire.com/hugo-stack-renovation/#增加返回顶部按钮)
+
+
+
 ## Safari浏览器书签收录网站icon
 
 效果：![safari启动页](1.jpeg)
