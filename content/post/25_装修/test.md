@@ -241,7 +241,7 @@ mogrify -auto-orient *.jpeg
 
 ## 美化滚动条
 
-[参考](https://xrg.fj.cn/p/hugo-stack主题更新小记/#目录项紧凑)
+[参考](https://xrg.fj.cn/p/hugo-stack主题更新小记/#滚动条美化)
 
 在`custom.scss`中添加
 
@@ -270,6 +270,8 @@ html{
 ```
 
 ## 相关文章添加日期
+
+[参考](https://xrg.fj.cn/p/hugo-stack主题更新小记/#相关文章组件美化)
 
 `layouts/partials/article-list/tile.html`中修改line 33 article details：
 
