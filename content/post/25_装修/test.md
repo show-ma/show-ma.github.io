@@ -238,3 +238,51 @@ mogrify -auto-orient *.jpeg
   }
 }
 ```
+
+## 美化滚动条
+
+[参考](https://xrg.fj.cn/p/hugo-stack主题更新小记/#目录项紧凑)
+
+在`custom.scss`中添加
+
+```css
+//美化滚动条
+html{
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background-color: transparent;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+}
+```
+
+## 相关文章添加日期
+
+`layouts/partials/article-list/tile.html`中修改line 33 article details：
+
+```html
+        <div class="article-details">
+            <h2 class="article-title">
+                {{- .context.Title -}}
+            </h2>
+            <!-- 自行增加的文章发布日期 -->
+            <h2 class="article-time">
+                <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+                    {{- .context.Date.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+                </time>
+            </h2>
+        </div>
+```

@@ -34,6 +34,12 @@
             <h2 class="article-title">
                 {{- .context.Title -}}
             </h2>
+            <!-- 自行增加的文章发布日期 -->
+            <footer class="article-time">
+                <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+                    {{- .context.Date.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+                </time>
+            </footer>
         </div>
     </a>
 </article>
