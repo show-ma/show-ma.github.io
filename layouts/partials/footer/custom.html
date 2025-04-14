@@ -30,44 +30,49 @@
    </script>
    
 <!-- Add back to top button -->
-<a href="#" id="back-to-top" title="返回顶部"></a>
+<a href="#" id="back-to-top" title="返回顶部">
+  {{ $icon := resources.Get "icons/backTop.svg" }}
+  {{ $icon.Content | safeHTML }}
+</a>
 
 <!--返回顶部 CSS -->
+<!-- {{ $backIcon := resources.Get "icons/backTop.svg" }} -->
 <style>
   #back-to-top {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* ensure no internal spacing */
     position: fixed;
-    bottom: 5px;
+    bottom: 15px;
     right: 15px;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: var(--body-background);
     box-shadow: var(--shadow-l2);
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
+  }
 
-    /* 👇 SVG icon */
-    background-image: url('/icons/backTop.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60%;
+  #back-to-top svg {
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin: auto; /* centers it inside the button */
+    fill: var(--accent-color);
+  }
+
+  #back-to-top:hover svg {
+    fill: var(--accent-color-darker);
   }
 
 
-  #back-to-top:hover {
-    transform: scale(1.1);
-    background-color: var(--accent-background);
-  }
-
-  /* 📱 Mobile: Bigger button */
   @media screen and (max-width: 768px) {
     #back-to-top {
-      bottom: 5px;
-      right: var(--container-padding);
-      width: 60px;
-      height: 60px;
-      background-size: 70%; /* larger icon inside */
+      width: 50px;
+      height: 50px;
+      background-size: 70%;
     }
   }
 
