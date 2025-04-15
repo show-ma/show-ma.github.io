@@ -302,4 +302,53 @@ font-weight: bold;
       }
     }
   }
+// 手机端
+@media (max-width: 1023px) {
+    .article-list--compact.links {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+  
+      article {
+        background: var(--card-background);
+        border: none;
+        box-shadow: var(--shadow-l2);
+        border-radius: 16px;
+        padding: 1rem;
+  
+        a {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
+  
+        .article-image {
+          width: 60px;
+          height: 60px;
+          flex-shrink: 0;
+  
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+  
+        .article-details {
+          flex-grow: 1;
+  
+          h2 {
+            margin: 0;
+            
+          }
+  
+          footer {
+            
+            color: var(--body-text-color);
+          }
+        }
+      }
+    }
+  }
   

@@ -33,7 +33,18 @@
             </article>
         {{ end }}
     </div>
-    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          document.querySelectorAll(".article-list--compact.links article").forEach(card => {
+            const image = card.querySelector(".article-image");
+            image.addEventListener("click", function (e) {
+              e.preventDefault(); // prevent link jump
+              card.classList.toggle("active");
+            });
+          });
+        });
+      </script>
+      
     {{ if not (eq .Params.comments false) }}
         {{ partial "comments/include" . }}
     {{ end }}
