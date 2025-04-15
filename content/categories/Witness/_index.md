@@ -6,5 +6,5 @@ image: peter.jpg
 # Badge style
 style:
     background: 
-    color: "#fff"
+    color: 
 ---

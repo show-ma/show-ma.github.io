@@ -256,3 +256,50 @@ font-weight: bold;
 color: #c39f2d;
 font-weight: bold;
 }
+
+// 友情链接三栏
+.article-list--compact.links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  
+    article {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background: var(--card-background);
+      overflow: hidden;
+      min-height: 100px;
+  
+      a {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 2rem;
+      }
+  
+      .article-image {
+        flex-shrink: 0;
+        width: 60px;
+        height: 60px;
+        margin-left: auto; /* aligns it to the right */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+  
+      .article-details {
+        flex-grow: 1;
+        min-width: 0; /* prevents overflow */
+        margin-right: 1rem;
+      }
+    }
+  }
+  
