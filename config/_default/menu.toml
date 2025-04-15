@@ -7,13 +7,13 @@
 # icon = "home"
 # newtab = true
 
-# [[social]]
-# identifier = "github"
-# name = "GitHub"
-# url = "https://github.com/xyyy9"
+[[social]]
+identifier = "Steam"
+name = "Steam"
+url = "https://steamcommunity.com/profiles/76561199051896101/"
 
-# [social.params]
-# icon = "brand-github"
+[social.params]
+icon = "steam"
 
 [[social]]
 identifier = "Mastodon"
@@ -22,3 +22,11 @@ url = "https://alive.bar/@elysium"
 
 [social.params]
 icon = "brand-mastodon"
+
+[[social]]
+identifier = "Discord"
+name = "Discord"
+url = "https://discordapp.com/users/920200091367792691"
+
+[social.params]
+icon = "brand-discord"
