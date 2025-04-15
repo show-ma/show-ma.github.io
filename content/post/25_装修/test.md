@@ -8,6 +8,58 @@ categories:
     - Maintain
 ---
 
+## 极乐迪斯科风格着色
+
+其实就是html标签，插入md过程稍显复杂，先凑合用着。[极乐迪24个技能汇总](https://www.vgbaike.com/disco_elysium/baike787)
+
+效果：
+
+<span class="disco-blue">故弄玄虚</span> <span class="disco-grey">[极难:失败]</span> - 不幸的是，您的成就当中似乎没什么值得一提的。您应该求助于谎言了。
+
+<span class="disco-purple">内陆帝国</span> <span class="disco-grey">[简单:成功]</span> - 是时候面对源头了。不要害怕，因为宇宙的力量会支持你完成这次的超自然任务。
+
+<span class="disco-yellow">五感发达（视觉）</span> <span class="disco-grey">[中等:成功]</span> - 一群附近的海鸥被轰鸣的电台吓了一跳，惊慌飞起。
+
+<span class="disco-pink">天人感应</span> - 抬头望向天空，冰冷的雨水从你的头发上滴落。
+
+在`custom.scss`添加：（为了同时适配light/dark mode对原作颜色进行了一些更改）
+
+```html
+.disco-purple {
+    color: #8266d1;
+    font-weight: bold;
+}
+
+.disco-pink {
+color: #c75372;
+font-weight: bold;
+}
+
+.disco-grey {
+    color: #a0a0a0
+}
+
+.disco-blue {
+    color: #4ea7b7;
+    font-weight: bold;
+  }
+  
+.disco-yellow {
+color: #c39f2d;
+font-weight: bold;
+}
+```
+
+使用：
+```html
+<span class="disco-blue">故弄玄虚</span> <span class="disco-grey">[极难:失败]</span> - 不幸的是，您的成就当中似乎没什么值得一提的。您应该求助于谎言了。
+
+<span class="disco-purple">内陆帝国</span> <span class="disco-grey">[简单:成功]</span> - 是时候面对源头了。不要害怕，因为宇宙的力量会支持你完成这次的超自然任务。
+
+<span class="disco-yellow">五感发达（视觉）</span> <span class="disco-grey">[中等:成功]</span> - 一群附近的海鸥被轰鸣的电台吓了一跳，惊慌飞起。
+
+<span class="disco-pink">天人感应</span> - 抬头望向天空，冰冷的雨水从你的头发上滴落。
+```
 
 ## 添加回到顶部
 
@@ -136,10 +188,6 @@ categories:
 ```
 
 ## Safari浏览器书签收录网站icon
-
-效果：
-
-![](1.png)
 
 
 1. 在`static/`文件夹，添加一个exactly named `apple-touch-icon.png` 的文件
