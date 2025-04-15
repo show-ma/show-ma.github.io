@@ -8,17 +8,139 @@ categories:
     - Maintain
 ---
 
-[stack主题的图标](https://tabler.io/icons)
 
 ## 添加回到顶部
 
 [参考](https://thirdshire.com/hugo-stack-renovation/#增加返回顶部按钮)
 
+首先准备一个图标，放在`assets/icons/backTop.svg`。我准备的叫arrow-up-dashed，可以直接复制如下代码也可以去下载别的[stack主题图标](https://tabler.io/icons)
 
+```xml
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="100%" height="100%"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 5v6m0 3v1.5m0 3v.5" />
+  <path d="M18 11l-6 -6" />
+  <path d="M6 11l6 -6" />
+</svg>
+```
+
+在`layouts/partials/footer/custom.html`中，添加
+
+```html
+<!--返回顶部 CSS -->
+<style>
+  #back-to-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* ensure no internal spacing */
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--body-background);
+    box-shadow: var(--shadow-l2);
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+
+  #back-to-top svg {
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin-top: 7px; /*折腾半天无法居中 代码比较丑陋*/
+    margin-left: 7px;
+    fill: var(--accent-color);
+  }
+
+  #back-to-top:hover svg {
+    fill: var(--accent-color-darker);
+  }
+
+
+  @media screen and (max-width: 768px) {
+    #back-to-top {
+      width: 50px;
+      height: 50px;
+      background-size: 70%;
+    }
+  }
+
+
+  @media screen and (min-width: 1024px) {
+    #back-to-top {
+      bottom: 10px;
+      right: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+    }
+  }
+
+  @media screen and (min-width: 1536px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+    }
+  }
+</style>
+```
+
+在`layouts/partials/footer/components/script.html`添加
+
+```html
+<!-- Add back to top button -->
+ <script>
+     function backToTop() {
+       document.documentElement.scrollIntoView({
+         behavior: 'smooth',
+       })
+     }
+   
+     window.onload = function () {
+       let scrollTop =
+         this.document.documentElement.scrollTop || this.document.body.scrollTop
+       let totopBtn = this.document.getElementById('back-to-top')
+       if (scrollTop > 0) {
+         totopBtn.style.display = 'inline'
+       } else {
+         totopBtn.style.display = 'none'
+       }
+     }
+   
+     window.onscroll = function () {
+       let scrollTop =
+         this.document.documentElement.scrollTop || this.document.body.scrollTop
+       let totopBtn = this.document.getElementById('back-to-top')
+       if (scrollTop < 200) {
+         totopBtn.style.display = 'none'
+       } else {
+         totopBtn.style.display = 'inline'
+         totopBtn.addEventListener('click', backToTop, false)
+       }
+     }
+   </script>
+```
 
 ## Safari浏览器书签收录网站icon
 
-效果：![safari启动页](1.jpeg)
+效果：
+
+![](1.png)
+
 
 1. 在`static/`文件夹，添加一个exactly named `apple-touch-icon.png` 的文件
 
