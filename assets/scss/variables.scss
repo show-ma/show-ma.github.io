@@ -117,7 +117,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff;
     --link-background-opacity: 0.5;
     --link-background-opacity-hover: 0.7;
 
-    --pre-background-color: #222d2b;
+    --pre-background-color: #272822;
     --pre-text-color: #f8f8f2;
 
     --code-background-color: rgba(226, 233, 232, 0.5);
@@ -135,7 +135,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff;
         --link-background-opacity: 0.4;
         --link-background-opacity-hover: 0.6;
 
-        --pre-background-color: #222d2b;
+        --pre-background-color: #272822;
         --pre-text-color: #f1f1f1;
 
         --code-background-color: #2a3f3d;
@@ -168,7 +168,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff;
 
 [data-scheme="dark"] {
     --pre-text-color: #f8f8f2;
-    --pre-background-color: #222d2b;
+    --pre-background-color: #272822;
     @import "partials/highlight/dark.scss";
 }
 
