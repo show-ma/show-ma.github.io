@@ -12,7 +12,7 @@ block = [['\[', '\]'], ['$$', '$$']]
 inline = [['\(', '\)']]
 
 [tableOfContents]
-endLevel = 4
+endLevel = 3
 ordered = true
 startLevel = 2
 
@@ -21,6 +21,6 @@ noClasses = false
 codeFences = true
 guessSyntax = true
 lineNoStart = 1
-lineNos = true
+lineNos = false
 lineNumbersInTable = false
 tabWidth = 4
