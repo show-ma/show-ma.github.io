@@ -59,11 +59,42 @@ GitHub要求用户站点的repository必须以`<user>.github.io`的格式命名�
 点`code`按钮，选择右边的codespace，点下面这个绿的
 ![ ](6.png)
 
-出现如下图所示的新页面。等待一小段时间，第一次加载需要一分钟是正常现象
+出现如下图所示的新页面。等待一小段时间，第一次加载需要一分钟是正常现象。如果使用Safari或者Firefox发现等好久都加载不出来的话，请换edge或Chrome。
 ![ ](7.png)
 
 当 Codespace 打开后，你会看到一个像这样的界面：左边是文件列表，右边是代码编辑区。不要害怕，我们只需改几个文件。
 
+## 添加网站主题（Stack）
+
+由于作者设置的原因，主题代码（也就是网站的样式、布局、颜色）通常是作为`子模块（submodule）`存在的，并不会自动复制到你的新仓库中。
+
+所以，我们需要手动把主题加回来。
+
+### 操作步骤
+
+1. 在 Codespace 左下角点击「终端 Terminal」打开命令行
+2. 粘贴下面这2行命令并回车：
+
+```bash
+git submodule add https://github.com/CaiJimmy/hugo-theme-stack themes/stack
+git submodule update --init --recursive
+```
+第一行是获取主题，第二行是加载主题。
+
+如果你看到如下结果，那就成功了。
+```bash
+Cloning into '/workspaces/xxx.github.io/themes/stack'...
+remote: Enumerating objects: 5281, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 5281 (delta 3), reused 1 (delta 1), pack-reused 5270 (from 2)
+Receiving objects: 100% (5281/5281), 1.27 MiB | 4.08 MiB/s, done.
+Resolving deltas: 100% (3405/3405), done.
+```
+
+{{< notice notice-tip >}}
+主题文件是 Hugo 网站能正常显示样式的关键。如果你没有执行这一步，部署后的网站只会显示文字，没有排版、颜色、导航栏等内容。
+{{< /notice >}}
 
 ## 修改网站信息（config）
 
