@@ -401,6 +401,9 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 ![ ](tangguo.png)
 
 ```css
+$defaultTagBackgrounds: #fcb5c9, #ffe27a, #c9f7f2, #b7c9ff, #ffd6e0;
+$defaultTagColors: #333, #333, #333, #333, #333;
+
 :root {
   --main-top-padding: 35px;
 
@@ -551,6 +554,340 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 [data-scheme="dark"] {
   --pre-text-color: #f8f8f2;
   --pre-background-color: #272822;
+  @import "partials/highlight/dark.scss";
+}
+
+:root {
+  --menu-icon-separation: 40px;
+  --container-padding: 15px;
+  --widget-separation: var(--section-separation);
+}
+```
+
+### 梦幻紫
+
+![ ](purple.png)
+
+```css
+$defaultTagBackgrounds: #3d2b4f, #4a406a, #9f4c5b, #e4c0bb, #f3e6e2;
+$defaultTagColors: #fff, #fff, #fff, #333, #333;
+
+:root {
+  --main-top-padding: 35px;
+
+  @include respond(xl) {
+    --main-top-padding: 50px;
+  }
+
+  --body-background: #f7f3f2;
+  --body-text-color: #3d2b4f;
+
+  --accent-color: #9f4c5b;
+  --accent-color-darker: #7c3746;
+  --accent-color-text: #ffffff;
+
+  --tag-border-radius: 6px;
+  --section-separation: 40px;
+
+  --scrollbar-thumb: #e4c0bb;
+  --scrollbar-track: var(--body-background);
+
+  &[data-scheme="dark"] {
+    --body-background: #2e243b;
+    --body-text-color: #f2e7e7;
+
+    --accent-color: #e4c0bb;
+    --accent-color-darker: #caa0a0;
+    --accent-color-text: #2e243b;
+
+    --scrollbar-thumb: #9f4c5b;
+    --scrollbar-track: var(--body-background);
+  }
+}
+
+:root {
+  --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
+  --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
+
+  --base-font-family: "Lato", var(--sys-font-family), var(--zh-font-family), sans-serif;
+  --code-font-family: Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
+}
+
+:root {
+  --card-background: #ffffff;
+  --card-background-selected: #f3e6e2;
+
+  --card-text-color-main: #3d2b4f;
+  --card-text-color-secondary: #726179;
+  --card-text-color-tertiary: #9a8b9f;
+  --card-separator-color: rgba(0, 0, 0, 0.06);
+
+  --card-border-radius: 12px;
+
+  --card-padding: 20px;
+
+  @include respond(md) {
+    --card-padding: 25px;
+  }
+
+  @include respond(xl) {
+    --card-padding: 30px;
+  }
+
+  --small-card-padding: 25px 20px;
+
+  @include respond(md) {
+    --small-card-padding: 25px;
+  }
+
+  &[data-scheme="dark"] {
+    --card-background: #3d2b4f;
+    --card-background-selected: rgba(255, 255, 255, 0.05);
+    --card-text-color-main: #f8f4f2;
+    --card-text-color-secondary: rgba(255, 245, 240, 0.7);
+    --card-text-color-tertiary: rgba(255, 245, 240, 0.5);
+    --card-separator-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+:root {
+  --article-font-family: var(--base-font-family);
+  --article-font-size: 1.6rem;
+
+  @include respond(md) {
+    --article-font-size: 1.7rem;
+  }
+
+  --article-line-height: 1.85;
+}
+
+:root {
+  --blockquote-border-size: 4px;
+  --blockquote-background-color: #f3e6e2;
+
+  --heading-border-size: 4px;
+
+  --link-background-color: 159, 76, 91;
+  --link-background-opacity: 0.15;
+  --link-background-opacity-hover: 0.3;
+
+  --pre-background-color: #f9f6f5;
+  --pre-text-color: #4a406a;
+
+  --code-background-color: rgba(159, 76, 91, 0.1);
+  --code-text-color: #9f4c5b;
+
+  --table-border-color: #e6d3d0;
+  --tr-even-background-color: #f7f1f0;
+
+  --kbd-border-color: #e4c0bb;
+
+  &[data-scheme="dark"] {
+    --code-background-color: rgba(228, 192, 187, 0.12);
+    --code-text-color: #e4c0bb;
+
+    --table-border-color: #655369;
+    --tr-even-background-color: #443556;
+
+    --blockquote-background-color: rgba(159, 76, 91, 0.1);
+  }
+}
+
+:root {
+  --shadow-l1: 0px 4px 8px rgba(159, 76, 91, 0.05),
+    0px 0px 2px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.02);
+
+  --shadow-l2: 0px 10px 20px rgba(159, 76, 91, 0.05),
+    0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.03);
+
+  --shadow-l3: 0px 10px 20px rgba(159, 76, 91, 0.05),
+    0px 2px 6px rgba(0, 0, 0, 0.03),
+    0px 0px 1px rgba(0, 0, 0, 0.02);
+
+  --shadow-l4: 0px 24px 32px rgba(159, 76, 91, 0.04),
+    0px 16px 24px rgba(0, 0, 0, 0.04),
+    0px 4px 8px rgba(0, 0, 0, 0.02),
+    0px 0px 1px rgba(0, 0, 0, 0.02);
+}
+
+[data-scheme="light"] {
+  --pre-text-color: #272822;
+  --pre-background-color: #fafafa;
+  @import "partials/highlight/light.scss";
+}
+
+[data-scheme="dark"] {
+  --pre-text-color: #f8f8f2;
+  --pre-background-color: #2e243b;
+  @import "partials/highlight/dark.scss";
+}
+
+:root {
+  --menu-icon-separation: 40px;
+  --container-padding: 15px;
+  --widget-separation: var(--section-separation);
+}
+```
+
+### 樱桃粉
+
+![ ](pink.png)
+
+```css
+$defaultTagBackgrounds: #756ab6, #ac87c5, #e0aed0, #ffe5e5, #eea5a6;
+$defaultTagColors: #fff, #fff, #333, #333, #333;
+
+:root {
+  --main-top-padding: 35px;
+
+  @include respond(xl) {
+    --main-top-padding: 50px;
+  }
+
+  --body-background: #fff5f7;
+  --body-text-color: #5e4a62;
+
+  --accent-color: #ac87c5;
+  --accent-color-darker: #756ab6;
+  --accent-color-text: #ffffff;
+
+  --tag-border-radius: 8px;
+  --section-separation: 40px;
+
+  --scrollbar-thumb: #e0aed0;
+  --scrollbar-track: var(--body-background);
+
+  &[data-scheme="dark"] {
+    --body-background: #2e2438;
+    --body-text-color: #f3eaf0;
+
+    --accent-color: #eea5a6;
+    --accent-color-darker: #ac87c5;
+    --accent-color-text: #2e2438;
+
+    --scrollbar-thumb: #ac87c5;
+    --scrollbar-track: var(--body-background);
+  }
+}
+
+:root {
+  --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
+  --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
+
+  --base-font-family: "Lato", var(--sys-font-family), var(--zh-font-family), sans-serif;
+  --code-font-family: Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
+}
+
+:root {
+  --card-background: #ffffff;
+  --card-background-selected: #ffe5e5;
+
+  --card-text-color-main: #4d3b5c;
+  --card-text-color-secondary: #7c6d88;
+  --card-text-color-tertiary: #b9a9c7;
+  --card-separator-color: rgba(0, 0, 0, 0.06);
+
+  --card-border-radius: 12px;
+
+  --card-padding: 20px;
+
+  @include respond(md) {
+    --card-padding: 25px;
+  }
+
+  @include respond(xl) {
+    --card-padding: 30px;
+  }
+
+  --small-card-padding: 25px 20px;
+
+  @include respond(md) {
+    --small-card-padding: 25px;
+  }
+
+  &[data-scheme="dark"] {
+    --card-background: #3e3350;
+    --card-background-selected: rgba(255, 255, 255, 0.05);
+    --card-text-color-main: #fceefc;
+    --card-text-color-secondary: rgba(255, 235, 245, 0.7);
+    --card-text-color-tertiary: rgba(255, 235, 245, 0.5);
+    --card-separator-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+:root {
+  --article-font-family: var(--base-font-family);
+  --article-font-size: 1.6rem;
+
+  @include respond(md) {
+    --article-font-size: 1.7rem;
+  }
+
+  --article-line-height: 1.85;
+}
+
+:root {
+  --blockquote-border-size: 4px;
+  --blockquote-background-color: #fce9f1;
+
+  --heading-border-size: 4px;
+
+  --link-background-color: 172, 135, 197;
+  --link-background-opacity: 0.25;
+  --link-background-opacity-hover: 0.4;
+
+  --pre-background-color: #fff5fb;
+  --pre-text-color: #5e4a62;
+
+  --code-background-color: rgba(172, 135, 197, 0.1);
+  --code-text-color: #7b5c90;
+
+  --table-border-color: #f1d5e7;
+  --tr-even-background-color: #fff0f5;
+
+  --kbd-border-color: #e0aed0;
+
+  &[data-scheme="dark"] {
+    --code-background-color: rgba(238, 165, 166, 0.12);
+    --code-text-color: #ffe5e5;
+
+    --table-border-color: #7d5f78;
+    --tr-even-background-color: #4e3a57;
+
+    --blockquote-background-color: rgba(172, 135, 197, 0.08);
+  }
+}
+
+:root {
+  --shadow-l1: 0px 4px 8px rgba(172, 135, 197, 0.05),
+    0px 0px 2px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.02);
+
+  --shadow-l2: 0px 10px 20px rgba(172, 135, 197, 0.05),
+    0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.03);
+
+  --shadow-l3: 0px 10px 20px rgba(172, 135, 197, 0.05),
+    0px 2px 6px rgba(0, 0, 0, 0.03),
+    0px 0px 1px rgba(0, 0, 0, 0.02);
+
+  --shadow-l4: 0px 24px 32px rgba(172, 135, 197, 0.04),
+    0px 16px 24px rgba(0, 0, 0, 0.04),
+    0px 4px 8px rgba(0, 0, 0, 0.02),
+    0px 0px 1px rgba(0, 0, 0, 0.02);
+}
+
+[data-scheme="light"] {
+  --pre-text-color: #272822;
+  --pre-background-color: #fafafa;
+  @import "partials/highlight/light.scss";
+}
+
+[data-scheme="dark"] {
+  --pre-text-color: #f8f8f2;
+  --pre-background-color: #2e2438;
   @import "partials/highlight/dark.scss";
 }
 
