@@ -99,3 +99,26 @@
   }
 </style>
 
+<!-- toc button -->
+<div id="mobile-toc-toggle" title="toc">
+  {{ with resources.Get "icons/list.svg" }}
+    {{ .Content | safeHTML }}
+  {{ end }}
+</div>
+
+<div class="widget--toc" id="mobile-toc">
+  {{ .TableOfContents }}
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const tocToggle = document.getElementById("mobile-toc-toggle");
+    const toc = document.getElementById("mobile-toc");
+
+    if (tocToggle && toc) {
+      tocToggle.addEventListener("click", function () {
+        toc.classList.toggle("show");
+      });
+    }
+  });
+</script>

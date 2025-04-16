@@ -413,4 +413,57 @@ font-weight: bold;
     }
   }
   
+
+  // 手机端隐藏 TOC，改为按钮
+@media (max-width: 768px) {
+  .widget--toc {
+    position: fixed;
+    bottom: 70px;
+    left: 16px;
+    width: 85%;
+    max-height: 60vh;
+    overflow-y: auto;
+    z-index: 999;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .widget--toc.show {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  #mobile-toc-toggle {
+    position: fixed;
+    bottom: 16px;
+    left: 16px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--body-background);
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-l2);
+    z-index: 1000;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+    svg, img.toc-icon {
+      width: 28px;
+      height: 28px;
+      stroke: var(--accent-color); /* works if inline SVG uses stroke="currentColor" */
+      fill: none;
+    }
+
+    &:hover {
+      background: var(--accent-background);
+      transform: scale(1.05);
+    }
+  }
+}
   
