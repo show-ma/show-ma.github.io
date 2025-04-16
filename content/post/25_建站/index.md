@@ -73,6 +73,8 @@ GitHub要求用户站点的repository必须以`<user>.github.io`的格式命名�
 
 请修改以下内容（改成你自己的）：
 
+### 网站名称
+
 ```toml
 title = "你的名字或网站标题"
 baseURL = "https://你的用户名.github.io/"
@@ -85,30 +87,96 @@ title = "Xiaohong's Site"
 baseURL = "https://xiaohong.github.io/"
 ```
 
-然后往下翻，找到default language：
+### 界面（语言，每页条数）
 
 ```toml
 defaultContentLanguage = "en"
-theme = "stack"
+
+# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
+# This will make .Summary and .WordCount behave correctly for CJK languages.
+hasCJKLanguage = false
 ```
 
-喜欢英文界面就选en，喜欢简体中文就是zh-cn，喜欢繁中就是zh-tw。
+喜欢英文界面就选en，喜欢简体中文就是zh-cn，喜欢繁中就是zh-tw。注意到人家说如果选`zh-cn`就要把这里的`false`改成`true`。
 
-`写一半懒癌犯了，以下内容由gpt-4o完成，本人少量修改`
+下面的disqus name是设置评论区的，不太重要，先跳过。你也可以先注释掉（<kbd>CTRL</kbd> + <kbd>/</kbd> 或 <kbd>Command</kbd> + <kbd>/</kbd>）之后再加上。pagination是每一页显示几篇文章，选你喜欢的数量。本站选了8。
 
+```toml
+# Change it to your Disqus shortname before using
+disqusShortname = "hugo-theme-stack"
 
-## 📝 保存更改
+[pagination]
+pagerSize = 5
+```
 
-改完之后，点击右上角的绿色按钮 **"Commit & push"**，把你的更改保存并上传到 GitHub。
+切换到同一文件夹的`params.toml`继续修改。
+
+```toml
+favicon = "/favicon.png" //你的网站图标。为了方便显示最好不要太大。
+
+[footer]
+since = 2020 //你的网站从哪年开始运营
+customText = "" //其他的想写在页面底部的文字
+
+[dateFormat] //日期格式，不用管
+published = "Jan 02, 2006"
+lastUpdated = "Jan 02, 2006 15:04 MST"
+
+[sidebar]
+emoji = "🍥" //可以删掉也可以换你喜欢的
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."//一句话简介
+
+[sidebar.avatar]
+enabled = true
+local = true
+src = "img/avatar.png" //换成你的网站图标
+```
+
+## 保存更改，提交到仓库
+
+改完之后，点击左侧像电路板的按钮（1），把你的更改保存，随便输入点文字总结一下你干了什么（2）并点击commit上传到 GitHub（3）。
+![ ](8.png)
+
+然后会出现这个弹窗，为了偷懒你可以选always。
+![ ](9.png)
+
+最后点击sync changes，你的代码就保存到仓库了。
+![ ](10.png)
+
+对于更详细的此部分内容，你可以参考[GitHub-关于Git](https://docs.github.com/zh/get-started/using-git/about-git)
+
+## 预览你的网站
+
+![ ](11.png)
+
+找到界面下半部分的terminal。输入
+
+```text
+hugo server
+```
+
+然后你会看到如（2）所示的表格，记录了你的网站页面和文件的数量。
+
+右下角的弹窗会告诉你网站已经好了，可以打开。
+
+你也可以切换到terminal边上的port，点击🌐图标打开。
+![ ](12.png)
+
+你的网站此时应该长这样
+![ ](13.png)
+
+`写一半懒癌犯了，以下内容由gpt-4o完成，本人少量修改&添加截图`
 
 ## 🚀 部署你的网站
 
 这一步非常简单，我们只需要把网站“发布”到 GitHub Page 上。
 
-1. 回到你刚才创建的 GitHub 仓库页面
-2. 点击上方的 **Settings**
-3. 在左边菜单里往下滑，找到 **Pages**
-4. 找到 **Source**，选择 `GitHub Actions` 作为部署方式
+0. 回到你刚才创建的 GitHub 仓库页面
+1. 点击上方的 **Settings**
+2. 在左边菜单里往下滑，找到 **Pages**
+3. 找到 **Source**，选择 `GitHub Actions` 作为部署方式
+
+![ ](14.png)
 
 这样设置好之后，GitHub 就会自动构建并部署你的网站。等个几分钟（一般不超过 5 分钟），你就可以在浏览器中访问 `https://你的用户名.github.io/` 来查看自己的网站啦！
 
@@ -116,29 +184,8 @@ theme = "stack"
 如果你看到 404 页面，别急，等 2~3 分钟再刷新一下页面，GitHub 需要一点时间来完成部署。
 {{< /notice >}}
 
-## 🎨 修改网站的主题颜色
-
-接下来我们来改一下网站配色，让你的网站更有个性。
-
-找到左边的 `assets` 文件夹，展开它，点进去后依次打开 `scss > _variables.scss`
-
-前两行：
-
-```scss
-$defaultTagBackgrounds: #57b4ba, #b9614f, #015551, #b14b8d, #5e5cbd;
-$defaultTagColors: #fff, #fff, #fff, #fff, #fff; //白色，黑色是#000
-```
-
-这几行定义了你的网站标签颜色。如果你想要换颜色，可以把颜色代码改成你喜欢的。例如你想用粉色系：
-
-```scss
-$defaultTagBackgrounds: #e091c7, #d87ca0, #ffb6c1, #f19cb5, #fcd3e1;
-```
-
-你也可以搜索“hex color picker”来找你喜欢的颜色代码。
-
 {{< notice notice-note >}}
-每个颜色代码前面都有 `#`，这是16进制的hex颜色值。如果你想换风格，只需要替换这些颜色就行了。
+注意到截图下面有个custom domain，你可以去各种卖域名的地方买个自己的域名，填在这里，按GitHub的提示操作就可以了。
 {{< /notice >}}
 
 ## ✍️ 修改文章内容，发表自己的文章
@@ -173,7 +220,7 @@ content > posts
 你会看到有几个文件夹，这些就是文章文件了。文章是Markdown格式的。
 
 {{< notice notice-note >}}
-Markdown这个名字可能很陌生，但其实就是你复制AI的回复的时候要手动删掉的那些井号和星号。是不是一下就熟悉了！基础markdown语法可自行google或参考你下载的模板中的示例文章。
+Markdown这个名字可能很陌生，但其实就是你复制AI的回复的时候要手动删掉的那些井号和星号。是不是一下就熟悉了！基础markdown语法可自行google或参考你下载的模板中的示例文章`content/post/markdown-syntax/index.md`。
 {{< /notice >}}
 
 > 但其实我最常用的也就只有标题 `一个井号是大标题H1，##和###就是显示在目录里的这些`，加粗`文字两边各加两个星号`，分割线`---`，插入图片`![图片名](图片链接)`，插入链接`[显示的文字](链接)`
@@ -209,6 +256,7 @@ categories:
 | `image` | 封面图文件名，推荐尺寸：横图，存在和 `index.md` 同一目录中 |
 | `tags` | 更细的标签，用于归档、过滤 |
 | `categories` | 主页显示的大分类名称，用于在主页卡片上标注文章类型 |
+| `weight` | 是否置顶，留空时为无，值为1时放在第一个 |
 
 {{< notice notice-tip >}}
 `categories` 是大类，会显示在文章卡片左上角，而 `tags` 是细分类，只会出现在文章内部或归档中。
@@ -257,9 +305,16 @@ categories:
 ![Codespace 启动界面](1.png)
 ```
 
+如果你在使用浏览器端的codespace，那么网页会自动编译同步你的更新`你可以在terminal中看到`。你只需切换标签页并刷新就能看到你的更改了！
+
+不出意外的话它现在应该是这个样子。
+
+![ ](15.png)
+
+此时你已经可以把其他这几篇文章都删掉了。但我还是推荐删之前阅读一下看看网站都能显示什么。
 
 ### ✅ 保存并上传
 
-改完之后，记得点右上角绿色按钮 `Commit & push` 保存你的更改。
+改完之后，参照`4.保存更改`再次提交到仓库。
 
-GitHub 会自动部署，几分钟后刷新你的网站，就可以在首页看到这篇文章啦！
+恭喜你，你已经有了一个默认风格的个人网站！耶！
