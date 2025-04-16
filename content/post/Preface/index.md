@@ -5,7 +5,11 @@ date: 2025-04-09
 weight: 1 
 ---
 
-第三次搬家。本科的时候建了站，研究生的时候分了domain和subdomain，如今从比较简单的jekyll换成了加载速度更快功能更多的hugo。
+本站使用 [GitHub Pages](https://pages.github.com/) 作为托管平台，[Hugo](https://gohugo.io/) 作为静态网站生成器，并通过 [IONOS](https://www.ionos.com/) 管理自定义域名。
+
+- 2025-04-09 由Jekyll迁移至Hugo构建。傻瓜式教程见[草履虫看了也能建自己的个人网站]({{< relref "post/25_建站/index.md" >}})
+- 2024-08-14 购买新域名
+- 2020-12-19 建立网站
 
 special thanks to 友邻`白石京`的[网站装修小技巧](https://thirdshire.com/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/)，照猫画虎地魔改了[stack](https://github.com/CaiJimmy/hugo-theme-stack)主题，真是方便！
 

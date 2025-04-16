@@ -8,20 +8,20 @@
 # newtab = true
 
 [[social]]
-identifier = "Steam"
-name = "Steam"
-url = "https://steamcommunity.com/profiles/76561199051896101/"
-
-[social.params]
-icon = "steam"
-
-[[social]]
 identifier = "Mastodon"
 name = "Mastodon"
 url = "https://alive.bar/@elysium"
 
 [social.params]
 icon = "brand-mastodon"
+
+[[social]]
+identifier = "Steam"
+name = "Steam"
+url = "https://steamcommunity.com/profiles/76561199051896101/"
+
+[social.params]
+icon = "steam"
 
 [[social]]
 identifier = "Discord"

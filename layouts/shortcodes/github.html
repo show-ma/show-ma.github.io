@@ -1,0 +1,20 @@
+{{- $repoUrl := .Get "url" -}}
+{{- $slug := replace $repoUrl "https://github.com/" "" -}}
+{{- $api := printf "https://api.github.com/repos/%s" $slug -}}
+
+{{- with resources.GetRemote $api | transform.Unmarshal -}}
+<article class="github-card">
+  <a href="{{ .html_url }}" target="_blank" rel="noopener">
+    <div class="gh-card-content">
+      <img class="gh-avatar" src="{{ .owner.avatar_url }}" alt="{{ .owner.login }}">
+      <div class="gh-info">
+        <div class="gh-title">{{ .full_name }}</div>
+        <div class="gh-description">{{ .description }}</div>
+        <div class="gh-stats">
+          ⭐ {{ .stargazers_count }}&nbsp;&nbsp;|&nbsp;&nbsp;🍴 {{ .forks_count }}
+        </div>
+      </div>
+    </div>
+  </a>
+</article>
+{{- end }}
