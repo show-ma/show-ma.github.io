@@ -180,6 +180,10 @@ hugo server
 
 这样设置好之后，GitHub 就会自动构建并部署你的网站。等个几分钟（一般不超过 5 分钟），你就可以在浏览器中访问 `https://你的用户名.github.io/` 来查看自己的网站啦！
 
+{{< notice notice-tip >}}
+GitHub page的坏处是它会渲染你根目录的`readme.md`。打开你的网站前请先把这个文件删掉。它通常在你的文件管理器的最下面。
+{{< /notice >}}
+
 {{< notice notice-note >}}
 如果你看到 404 页面，别急，等 2~3 分钟再刷新一下页面，GitHub 需要一点时间来完成部署。
 {{< /notice >}}
