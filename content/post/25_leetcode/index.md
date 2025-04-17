@@ -8,11 +8,13 @@ tags:
 
 感觉自己笨笨的。开看！
 
-[灵茶山艾府_合集·基础算法精讲 高频面试题](https://space.bilibili.com/206214/lists/842776?type=season)
+视频讲解：[灵茶山艾府_合集·基础算法精讲 高频面试题](https://space.bilibili.com/206214/lists/842776?type=season)
+
+题目合集：[【基础算法精讲】题目+题解汇总](https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/README.md)
 
 ## 双指针
 
-两数之和-167，三数之和-15
+### 两数之和-167
 
 > 167: 一些从小到大排序的数，有一个target数。目标是选出唯一的两个数，和为target。
 
@@ -35,6 +37,8 @@ while l < r:
         # found our answer
         return [l + 1, r + 1] # lr是数组(从0开始数)，题要求第几个(从1开始)
 ```
+
+### 三数之和-15
 
 > 15: Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]]` such that `i != j, i != k, and j != k`, and `nums[i] + nums[j] + nums[k] == 0`.
 > 
@@ -74,7 +78,7 @@ def threeSum(self, nums):
                 ans.append([x, nums[j], nums[k]]) # 把这三个数存到结果里
                 j += 1 # 去看下一个更大的j
                 while j < k and nums[j] == nums[j - 1]: 
-                # 如果这个下一个j和刚刚的j值一样
+                # 如果这个新j和刚刚的j值一样
                     j += 1 # 跳过这个数，看更下一个j
                 k -= 1 # 去看下一个更小的k
                 while j < k and nums[k] == nums[k + 1]:
@@ -86,7 +90,92 @@ def threeSum(self, nums):
 
 时间复杂度：O(n²)，外层O(n)，内层双指针O(n)
 
-## python小知识（gpt把我变成笨蛋）
+### 3 sum closest-16
+
+>Given an integer array `nums` of length `n` and an integer `target`, find three integers in `nums` such that the `sum` is closest to `target`.
+>
+>Return the sum of the three integers.
+>
+>You may assume that each input would have exactly one solution.
+
+方法：多引入一个变量`diff`，记录三数之和与target的差，遇到更小的就更新。题目只要三数之和，所以不需要记录具体是哪个数以及他们的位置。每一次循环的diff与diff之间比较时需要比较绝对值`abs(diff)`，但最后我们需要`sum`，所以存储的`diff`需要正负号信息。
+
+先sort，再循环第一个数`i`。设置两个指针，一个是`i+1`，另一个是最大的。把这三个数加起来。
+
+计算target与sum的差，如果它们的绝对值小于现在的diff的绝对值，更新diff。
+
+比较target与sum谁大谁小。如果是sum大，说明大了，把最大的往左移一个。如果sum小，把小的往右移一个。再更新diff，一直移动直到这两个指针相遇，说明都加过一遍了。只有一个答案，所以相等的时候可以直接break
+
+```python
+diff = float("inf") # 初始化一个足够大的diff
+nums.sort() # sort
+for i in range(len(nums)-2): # 留位置
+    j = i + 1
+    k = len(nums) - 1
+    while j < k: 
+        sum = nums[i] + nums[j] + nums[k]
+        if abs(target - sum) < abs(diff): # 比较新旧diff的绝对值，哪个离target更近
+            diff = target - sum # update diff
+        if target > sum: # sum is small, move j
+            j += 1
+        elif target < sum: # sum too big, move k
+            k -= 1
+        else: # target == sum
+            break
+    # we need sum
+    return target - diff
+```
+
+写第二次的易错点：忘记加`while j < k`
+
+增快速度：
+
+|Change | Why it helps|
+|---|---|
+|nums[i] + nums[-2] + nums[-1] < target check | Skips whole loop when result can’t be improved|
+|Use closest_sum directly | No need for diff, avoids reconstructing
+|Early return s | Terminates early if exact match|
+|Optional duplicate skip for i | Avoids redundant loops on repeated elements|
+
+```python
+def threeSumClosest(self, nums, target):
+    nums.sort()
+    closest_sum = float('inf')
+
+    for i in range(len(nums) - 2):
+        # Optional: skip duplicate i values (safe performance boost)
+        if i > 0 and nums[i] == nums[i - 1]:
+            continue
+
+        # Optimization: if the biggest possible sum is still too small
+        if nums[i] + nums[-2] + nums[-1] < target:
+            s = nums[i] + nums[-2] + nums[-1]
+            if abs(s - target) < abs(closest_sum - target):
+                closest_sum = s
+            continue
+
+        j = i + 1
+        k = len(nums) - 1
+
+        while j < k:
+            s = nums[i] + nums[j] + nums[k]
+
+            if abs(s - target) < abs(closest_sum - target):
+                closest_sum = s
+
+            if s < target:
+                j += 1
+            elif s > target:
+                k -= 1
+            else:
+                return s  # exact match
+
+    return closest_sum
+```
+
+### 四数之和-18
+
+## 全都忘记的python基础
 
 1. if, elif, else
 
@@ -97,3 +186,7 @@ def threeSum(self, nums):
 此时else执行的条件只有非B一个事件……也就是A和C
 
 所以一定要用`elif`哩！
+
+2. while
+
+每次循环一次之后，都会判断while里条件的真假
