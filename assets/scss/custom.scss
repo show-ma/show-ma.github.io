@@ -413,8 +413,15 @@ font-weight: bold;
     }
   }
   
+// 桌面端隐藏 mobile toc
+@media (min-width: 769px) {
+  #mobile-toc,
+  #mobile-toc-toggle {
+    display: none !important;
+  }
+}
 
-  // 手机端隐藏 TOC，改为按钮
+// 手机端隐藏 TOC，改为按钮
 @media (max-width: 768px) {
   .widget--toc {
     position: fixed;
