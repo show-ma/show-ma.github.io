@@ -520,11 +520,11 @@ font-weight: bold;
 
 .goods-image {
   width: 100%;
-  height: 180px;
+  height: 160px; /* slightly reduced */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
+  padding: 1.25rem;
   background-color: var(--card-background);
   overflow: hidden;
 }
@@ -541,12 +541,13 @@ font-weight: bold;
 }
 
 .goods-content {
-  padding: 1.5rem;
+  padding: 1.25rem;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
 
+// ✅ mobile-first sizing
 .goods-title {
   font-size: 1.65rem;
   font-weight: 600;
@@ -568,7 +569,8 @@ font-weight: bold;
   margin-bottom: 0rem;
 }
 
-/* Dark mode adjustments */
+
+/* Dark mode image background */
 [data-scheme="dark"] .goods-image {
   background-color: rgba(255, 255, 255, 0.05);
 }
