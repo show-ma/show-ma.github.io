@@ -1,0 +1,47 @@
+{
+    "goods": [
+        {
+            "title": "MacBook Air M2",
+            "description": "Win电脑让你无法忍受时再买Mac",
+            "price": 1079.42,
+            "purchase_date": "2023-11-27",
+            "image": "https://s2.loli.net/2025/04/23/VDw1K9vly2Rp7Wq.png"
+        },
+        {
+            "title": "iPhone 12",
+            "description": "祖传手机，传奇耐摔王，裸机两年摔了十次一点事没有",
+            "image": "https://s2.loli.net/2025/04/23/D4YyhVrS9XafHwP.png"
+        },
+        {
+            "title": "AirPods Pro 2",
+            "description": "为了解决xm3戴久了脑袋疼的问题",
+            "price": 230.86,
+            "purchase_date": "2024-09-22",
+            "image": "https://s2.loli.net/2025/04/23/PilXaHFV6vQNGKg.png"
+        },
+        {
+            "title": "Apple Watch S8",
+            "description": "没记录锻炼，但记录了优质睡眠，预测了每一次月经",
+            "price": 254.95,
+            "purchase_date": "2024-04-30",
+            "image": "https://s2.loli.net/2025/04/23/2dJT48fp6woczUP.png"
+        },
+        {
+            "title": "Switch + Mario Kart 8",
+            "description": "黑五刷了很多遍才刷到有货",
+            "price": 237.39,
+            "purchase_date": "2024-11-30",
+            "image": "https://s2.loli.net/2025/04/23/sUd9KZEFoOWiImw.png"
+        },
+        {
+            "title": "Sony WH-1000XM3",
+            "description": "祖传耳机，解决了AirPods戴久了耳朵疼的问题",
+            "image": "https://s2.loli.net/2025/04/23/KBQJkOvfxYcMnm8.png"
+        },
+        {
+            "title": "iPad Air 4",
+            "description": "大二做ra怒赚2k贴钱购入",
+            "image": "https://s2.loli.net/2025/04/23/MPN3ztxTs29aiSq.png"
+        }
+    ]
+}

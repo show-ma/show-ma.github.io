@@ -1,0 +1,14 @@
+{{ define "body-class" }}article-page keep-sidebar{{ end }}
+{{ define "main" }}
+    <div class="goods-grid">
+        {{ range .Site.Data.goods.goods }}
+            {{ partial "goods-card.html" . }}
+        {{ end }}
+    </div>
+
+    {{ if not (eq .Params.comments false) }}
+        {{ partial "comments/include" . }}
+    {{ end }}
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}

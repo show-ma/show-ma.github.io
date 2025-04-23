@@ -8,6 +8,12 @@ categories:
     - Maintain
 ---
 
+## 好物页面
+
+参考[Stack 主题“好物”页面](https://www.xalaok.top/post/how-to-create-a-goods-page-for-stack/)
+
+创建`/layouts/page/goods.html`,  `/layouts/partials/goods-card.html`, `/data/goods.json`
+
 ## 极乐迪斯科风格着色
 
 其实就是html标签，插入md过程稍显复杂，先凑合用着。[极乐迪24个技能汇总](https://www.vgbaike.com/disco_elysium/baike787)
