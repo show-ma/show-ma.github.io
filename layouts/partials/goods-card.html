@@ -1,24 +1,30 @@
-{{ if and .price .purchase_date }}
-  {{ $price := .price }}
-  {{ $purchase := time .purchase_date }}
-  {{ $now := now }}
-
-  {{ $end := $now }}
-  {{ with .end_date }}
-    {{ $end = time . }}
-  {{ end }}
-
-  {{ $days := div (sub $end.Unix $purchase.Unix) 86400 | int }}
-  {{ $dailyCost := printf "%.2f" (div $price (add $days 1)) }}
-
-  <div class="goods-card">
-    <div class="goods-image">
-      <img src="{{ .image }}" alt="{{ .title }}" loading="lazy">
-    </div>
-    <div class="goods-content">
-      <p class="goods-daily">日均成本：${{ $dailyCost }}</p>
-      <h3 class="goods-title">{{ .title }}</h3>
-      <p class="goods-description">{{ .description }}</p>
-    </div>
+<div class="goods-card">
+  <div class="goods-image">
+    <img src="{{ .image }}" alt="{{ .title }}" loading="lazy">
   </div>
-{{ end }}
+
+  <div class="goods-content">
+    {{/* ✅ If we have both price and purchase_date, do the math */}}
+    {{ if and .price .purchase_date }}
+      {{ $price := .price }}
+      {{ $purchase := time .purchase_date }}
+      {{ $now := now }}
+
+      {{ $end := $now }}
+      {{ with .end_date }}
+        {{ $end = time . }}
+      {{ end }}
+
+      {{ $days := div (sub $end.Unix $purchase.Unix) 86400 | int }}
+      {{ $dailyCost := printf "%.2f" (div $price (add $days 1)) }}
+
+      <p class="goods-daily">日均成本：${{ $dailyCost }} &nbsp;|&nbsp; {{ $days }} 天</p>
+
+    {{/* ❌ Otherwise, skip the math */}}
+    {{ else }}
+    {{ end }}
+
+    <h3 class="goods-title">{{ .title }}</h3>
+    <p class="goods-description">{{ .description }}</p>
+  </div>
+</div>
