@@ -2,7 +2,13 @@
   {{ $price := .price }}
   {{ $purchase := time .purchase_date }}
   {{ $now := now }}
-  {{ $days := div (sub $now.Unix $purchase.Unix) 86400 | int }}
+
+  {{ $end := $now }}
+  {{ with .end_date }}
+    {{ $end = time . }}
+  {{ end }}
+
+  {{ $days := div (sub $end.Unix $purchase.Unix) 86400 | int }}
   {{ $dailyCost := printf "%.2f" (div $price (add $days 1)) }}
 
   <div class="goods-card">
@@ -11,16 +17,6 @@
     </div>
     <div class="goods-content">
       <p class="goods-daily">日均成本：${{ $dailyCost }}</p>
-      <h3 class="goods-title">{{ .title }}</h3>
-      <p class="goods-description">{{ .description }}</p>
-    </div>
-  </div>
-  {{ else }}
-  <div class="goods-card">
-    <div class="goods-image">
-      <img src="{{ .image }}" alt="{{ .title }}" loading="lazy">
-    </div>
-    <div class="goods-content">
       <h3 class="goods-title">{{ .title }}</h3>
       <p class="goods-description">{{ .description }}</p>
     </div>

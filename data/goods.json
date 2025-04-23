@@ -44,6 +44,14 @@
             "price": 614.28,
             "purchase_date": "2021-10-29",
             "image": "https://s2.loli.net/2025/04/23/MPN3ztxTs29aiSq.png"
+        },
+        {
+            "title": "Surface Pro 6（已退役）",
+            "description": "高考后吵着要，没想到此物竟如此歹毒，千万不要相信微软的硬件",
+            "price": 998,
+            "purchase_date": "2019-08-20",
+            "end_date":"2023-11-27",
+            "image": "https://s2.loli.net/2025/04/23/gSLQriI6UYClObB.png"
         }
     ]
 }
