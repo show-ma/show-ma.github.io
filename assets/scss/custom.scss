@@ -569,6 +569,19 @@ font-weight: bold;
   margin-bottom: 0rem;
 }
 
+@supports (-webkit-touch-callout: none) {
+  .goods-image {
+    height: auto !important;
+  }
+
+  .goods-content {
+    font-size: 1rem !important;
+  }
+
+  .goods-card {
+    flex-direction: column !important;
+  }
+}
 
 /* Dark mode image background */
 [data-scheme="dark"] .goods-image {
