@@ -2,7 +2,7 @@
     "goods": [
         {
             "title": "MacBook Air M2",
-            "description": "Win电脑让你无法忍受时再买Mac",
+            "description": "等到Win电脑让你无法忍受时再买Mac，直接买只会觉得它难用",
             "price": 1079.42,
             "purchase_date": "2023-11-27",
             "image": "https://s2.loli.net/2025/04/23/VDw1K9vly2Rp7Wq.png"
@@ -21,7 +21,7 @@
         },
         {
             "title": "AirPods Pro 2",
-            "description": "为了解决xm3戴久了脑袋疼的问题",
+            "description": "修复xm3戴久了脑袋疼以及戴xm3没法戴帽子的问题",
             "price": 230.86,
             "purchase_date": "2024-09-22",
             "image": "https://s2.loli.net/2025/04/23/PilXaHFV6vQNGKg.png"
@@ -40,7 +40,7 @@
         },
         {
             "title": "iPad Air 4",
-            "description": "大二做ra怒赚2k贴钱购入",
+            "description": "大二做ra怒赚2k贴钱购入，这么多年了仍然好使，性价比之王",
             "price": 614.28,
             "purchase_date": "2021-10-29",
             "image": "https://s2.loli.net/2025/04/23/MPN3ztxTs29aiSq.png"
