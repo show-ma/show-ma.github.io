@@ -35,6 +35,10 @@ categories:
 
 [louvre](https://collections.louvre.fr/en/recherche)
 
+[Mac系统开源免费软件列表](https://indiegoodies.com/awesome-open-source-mac-apps)
+
+无神论注释全本圣经，包括但不限于谬误、矛盾、女性、同性恋、性和政治，让你在骂战中言必有据挥斥方遒，脚下堆满心梗而死的基要派和福音派[The Skeptic's Annotated Bible](https://www.skepticsannotatedbible.com)
+
 ## 电影
 
 I'm thinking of ending things
