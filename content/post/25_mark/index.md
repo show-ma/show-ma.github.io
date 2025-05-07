@@ -21,6 +21,8 @@ categories:
 
 ## 神秘小网站
 
+毛象数据可视化 [meow](https://purr.neocities.org)
+
 老物件的声音 [conserve the sound](https://www.conservethesound.de)
 
 [搜集日本海边车站场景的网站](https://seaside-station.com/region/recommended-whole-of-japan/)

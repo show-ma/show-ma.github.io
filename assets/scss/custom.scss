@@ -587,3 +587,11 @@ font-weight: bold;
 [data-scheme="dark"] .goods-image {
   background-color: rgba(255, 255, 255, 0.05);
 }
+
+//文字颜色渐变
+.colorfulfont {
+  background: linear-gradient(to right, #c0b785, #6cc6cb); //第一个颜色代码是渐变起始色，第二个颜色代码是渐变结束色；
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
