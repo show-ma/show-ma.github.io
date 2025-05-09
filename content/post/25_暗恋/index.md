@@ -2,7 +2,7 @@
 title: 暗恋是不能让别人知道的
 date: 2024-09-18
 description: 但在一起之后可以反复讲很多遍
-image: 
+image: cover.png
 tags: 
     - love
 ---
