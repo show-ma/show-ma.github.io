@@ -1,7 +1,7 @@
 ---
 title: Trump和他把全世界搞得一团糟的政策
 date: 2025-04-14
-description: 开始考虑离开美国去别的地方发展的可能……
+description: 因为讨厌中国的一些地方才来美国，这下好了，美国也变一样了
 image: tariff.png
 tags:
     - politics
