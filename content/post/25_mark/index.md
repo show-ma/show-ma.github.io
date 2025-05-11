@@ -23,6 +23,8 @@ categories:
 
 毛象数据可视化 [meow](https://purr.neocities.org)
 
+手帐模板 [pdf de calendar 2](http://pdc2.u1m.biz)
+
 老物件的声音 [conserve the sound](https://www.conservethesound.de)
 
 [搜集日本海边车站场景的网站](https://seaside-station.com/region/recommended-whole-of-japan/)
