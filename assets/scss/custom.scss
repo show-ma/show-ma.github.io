@@ -611,6 +611,13 @@ font-weight: bold;
   gap: 16px;
 }
 
+.share-card-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--card-text-color-secondary);
+  margin-right: auto;
+}
+
 .share-card-buttons a {
   margin-right: 12px;
   display: inline-flex;
@@ -618,8 +625,8 @@ font-weight: bold;
 }
 
 .share-card svg.icon {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   transition: color 0.3s ease;
 }
 
