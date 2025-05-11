@@ -595,3 +595,47 @@ font-weight: bold;
   background-clip: text;
   color: transparent;
 }
+
+// share
+.share-card {
+  background: var(--card-background);
+  color: var(--card-text-color-main);
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+  margin-top: var(--section-separation);
+  box-shadow: var(--shadow-l1);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.share-card-buttons a {
+  margin-right: 12px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.share-card svg.icon {
+  width: 24px;
+  height: 24px;
+  transition: color 0.3s ease;
+}
+
+.share-card-qr {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.share-card-qr .wechat-icon {
+  color: var(--card-text-color-main);
+  stroke: currentColor;
+}
+
+.share-card-qr #wechat-qr-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+}
