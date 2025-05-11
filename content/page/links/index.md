@@ -2,6 +2,7 @@
 title: "Links"
 layout: "link"
 slug: "link"
+draft: true
 menu:
     main:
         weight: 6
