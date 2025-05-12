@@ -147,7 +147,8 @@ if(galleryPhotos){
 }
 });
 </script>
-//图片灯箱
+
+<!-- //图片灯箱 -->
 <script type="text/javascript" src="https://immmmm.com/view-image.js"></script>
 <script>
   window.ViewImage && ViewImage.init('.gallery-photo img')
@@ -156,23 +157,7 @@ if(galleryPhotos){
 <script src="https://immmmm.com/imgStatus.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  //外链 gallery 标签相册瀑布流
-  var photosAll = document.getElementsByTagName('gallery') || '';
-  if(photosAll){
-    for(var i=0;i < photosAll.length;i++){
-      photosAll[i].innerHTML = '<div class="gallery-photos">'+photosAll[i].innerHTML+'</div>'
-      var photosIMG = photosAll[i].getElementsByTagName('img')
-      for(var j=0;j < photosIMG.length;j++){
-        wrap(photosIMG[j], document.createElement('div'));
-      }
-    }
-  }
-  function wrap(el, wrapper) {
-    wrapper.className = "gallery-photo";
-    el.parentNode.insertBefore(wrapper, el);
-    wrapper.appendChild(el);
-  }
-  //相册瀑布流
+  // 相册瀑布流
   let galleryPhotos = document.querySelectorAll('.gallery-photos') || ''
   if(galleryPhotos){
     imgStatus.watch('.gallery-photo img', function(imgs) {
