@@ -4,7 +4,7 @@ layout: "photos"
 slug: "photos"
 menu:
     main:
-        weight: 4
+        weight: 3
         params: 
             icon: gallery
 ---
