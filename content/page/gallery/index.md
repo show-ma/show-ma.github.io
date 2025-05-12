@@ -1,5 +1,6 @@
 ---
 title: "Gallery"
+draft: true
 menu:
   main:
     weight: 3
