@@ -10,8 +10,9 @@ weight: 1
 - 2025-04-09 由Jekyll迁移至Hugo构建。傻瓜式教程见[草履虫看了也能建自己的个人网站]({{< relref "post/25_建站/index.md" >}})
 - 2024-08-14 购买新域名
 - 2020-12-19 建立网站
+- 2019-04-04 开始写作
 
-special thanks to 友邻`白石京`的[网站装修小技巧](https://thirdshire.com/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/)，照猫画虎地魔改了[stack](https://github.com/CaiJimmy/hugo-theme-stack)主题，真是方便！
+special thanks to 友邻`白石京`的[网站装修小技巧](https://thirdshire.com/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/)和友邻`Yelle`的[hugo stack 主题美化](https://yelleis.top/p/hugo-theme-stack-beautification/)，照猫画虎地魔改了[stack](https://github.com/CaiJimmy/hugo-theme-stack)主题，真是方便！
 
 我关注的还在写博客的人基本上都前额叶发育成熟了，post都是很能帮助到大家的内容。而我什么都没有，看完除了更了解我一点好像没什么特别的。所以没有评论区，感觉这对一本日记来说还是太超过了。这本日记的定位是存放我想说的话，等我什么时候想给别人看了甩出链接给朋友。
 
