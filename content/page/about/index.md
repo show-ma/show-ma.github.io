@@ -31,9 +31,40 @@ menu:
 
 ## 足迹
 
-去过这么多地方最喜欢的还是318国道，有机会我会再去自驾一遍的
+最喜欢的还是318国道 我❤️无人区^^
 
-<iframe src="https://www.google.com/maps/d/u/1/embed?mid=13m3n-fbAoM2H3LZt7SFchwGkp-Ikh60&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+（使用Google map记录 不确保在墙内能正常加载）
+
+<div class="map-container">
+  <iframe 
+    src="https://www.google.com/maps/d/u/1/embed?mid=13m3n-fbAoM2H3LZt7SFchwGkp-Ikh60&ehbc=2E312F&noprof=1"
+    width="100%" 
+    height="100%" 
+    allowfullscreen="" 
+    loading="lazy"
+    style="border:0;"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+<style>
+.map-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
 
 ## TMI
 
