@@ -1,14 +1,37 @@
 {{ define "main" }}
+<!-- <div class="button-group">
+  <button class="filter-button" data-category="-">&nbsp;All&nbsp;</button>
+  <button class="filter-button" data-category="home">#家</button>
+  <button class="filter-button" data-category="nyc">#纽约</button>
+  <button class="filter-button" data-category="bos">#波士顿</button>
+  <button class="filter-button" data-category="fl">#佛罗里达</button>
+  <button class="filter-button" data-category="sd">#SanDiego</button>
+</div> -->
+
 <div class="gallery-photos page">
-  {{ range (sort (readDir "./static/photos") "Name" "desc")}}
-    {{ if ( .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)") }}
-    <div class="gallery-photo">
-      <img class="photo-img" loading='lazy' decoding="async" src="/photos/{{ .Name }}" alt="{{ .Name }}" />
-      <span class="photo-title">{{ .Name | replaceRE "^[0-9 -]+(.*)[.].*" "$1"}}</span><span class="photo-time">{{ .Name | replaceRE "^([0-9-]+).*[.].*" "$1" }}</span>
+
+  <!-- 🌐 Cloud-hosted images -->
+  {{ range .Site.Data.images }}
+  <div class="gallery-photo visible" data-tags="{{ delimit (default (slice) .tags) " " }}">
+    <img class="photo-img" loading="lazy" decoding="async" src="{{ .url }}" alt="{{ .title }}">
+    <span class="photo-title">{{ .title }}</span>
+    <span class="photo-time">{{ .date }}</span>
+  </div>
+  {{ end }}
+
+  <!-- 🖼️ Local static/images -->
+  {{ range (sort (readDir "./static/photos") "Name" "desc") }}
+    {{ if ( .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)$") }}
+    <div class="gallery-photo visible" data-tags="{{ .Name }}">
+      <img class="photo-img" loading="lazy" decoding="async" src="/photos/{{ .Name }}" alt="{{ .Name }}">
+      <span class="photo-title">{{ .Name | replaceRE "^[0-9 -]+(.*)[.].*" "$1" }}</span>
+      <span class="photo-time">{{ .Name | replaceRE "^([0-9-]+).*[.].*" "$1" }}</span>
     </div>
     {{ end }}
   {{ end }}
+
 </div>
+
 
 <style>
 .gallery-photos{width:100%;}
@@ -50,6 +73,30 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 </script>
+<!-- <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const filterButtons = document.querySelectorAll('.filter-button');
+    const galleryPhotos = document.querySelectorAll('.gallery-photo');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const category = button.dataset.category;
+
+        galleryPhotos.forEach(photo => {
+          const tags = photo.dataset.tags || '';
+          if (category === '-' || tags.includes(category)) {
+            photo.style.display = 'block';
+          } else {
+            photo.style.display = 'none';
+          }
+        });
+
+        filterButtons.forEach(btn => btn.classList.remove('selected-button'));
+        button.classList.add('selected-button');
+      });
+    });
+  });
+</script> -->
 <script src="https://immmmm.com/view-image.js"></script>
 <script src="https://immmmm.com/lately.min.js"></script>
 <script>
