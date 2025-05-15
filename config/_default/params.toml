@@ -111,7 +111,7 @@ visitor = false
 avatar = ""
 emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
 requiredMeta = ["name", "email", "url"]
-placeholder = "评论的话我会很高兴，不评论我会以为是服务器坏了"
+placeholder = "人，我会一直刷新直到你评论我"
 
 [comments.waline.locale]
 admin = "xyz"
