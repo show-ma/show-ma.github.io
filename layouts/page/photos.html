@@ -11,12 +11,15 @@
 <div class="gallery-photos page">
 
   <!-- 🌐 Cloud-hosted images -->
-  {{ range .Site.Data.images }}
-  <div class="gallery-photo visible" data-tags="{{ delimit (default (slice) .tags) " " }}">
-    <img class="photo-img" loading="lazy" decoding="async" src="{{ .url }}" alt="{{ .title }}">
-    <span class="photo-title">{{ .title }}</span>
-    <span class="photo-time">{{ .date }}</span>
-  </div>
+    {{ range .Site.Data.images }}
+    {{ $preview := .preview | default .url }}
+    {{ $link := .url | default .preview }}
+    <div class="gallery-photo visible" data-tags="{{ delimit (.tags | default slice) " " }}">
+      <a href="{{ $link }}" target="_blank">
+        <img class="photo-img" loading="lazy" decoding="async" src="{{ $preview }}" alt="{{ .title }}">
+      </a>
+      <span class="photo-title">{{ .title }}</span>
+    </div>
   {{ end }}
 
   <!-- 🖼️ Local static/images -->

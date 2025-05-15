@@ -1,7 +1,7 @@
 ---
 title: 草履虫看了也能建自己的个人网站（3）
 date: 2025-04-03
-description: 写博客的应该很难再找一个像我一样懒的
+description: 头像链接｜评论区配置
 tags: 
     - blog
 categories:
@@ -39,3 +39,9 @@ url = "https://steamcommunity.com/profiles/76561199051896101/"
 [social.params]
 icon = "steam" //我把svg图片重命名为steam了
 ```
+
+## 配置评论
+
+参考：[Waline官方教程](https://waline.js.org/guide/get-started) [配置评论功能](https://site.zhelper.net/Hugo/hugo-comment/)
+
+比想象的简单好多啊！注册一个leancloud一个vercel就好了

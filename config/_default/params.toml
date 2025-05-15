@@ -76,8 +76,8 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = false
-provider = "disqus"
+enabled = true
+provider = "waline"
 
 [comments.disqusjs]
 shortname = ""
@@ -105,16 +105,16 @@ clientSecret = ""
 autoCreateIssue = false
 
 [comments.waline]
-serverURL = ""
-lang = ""
-visitor = ""
+serverURL = "https://comments-jl4az1ykv-niconiconi0906-4132s-projects.vercel.app"
+lang = "zh-CN"
+visitor = false
 avatar = ""
 emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
 requiredMeta = ["name", "email", "url"]
-placeholder = ""
+placeholder = "评论的话我会很高兴，不评论我会以为是服务器坏了"
 
 [comments.waline.locale]
-admin = "Admin"
+admin = "xyz"
 
 [comments.twikoo]
 envId = ""
