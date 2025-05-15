@@ -52,4 +52,5 @@ icon = "steam" //我把svg图片重命名为steam了
 
 给我折腾了半个小时。
 
-还有注意把vercel的Authentication关掉，不然会出现`401 unauthorized`，因为只有登录了vercel才能进行读写。
+还有注意把vercel的Authentication关掉，不然会出现`401 unauthorized`，因为开了authentication的话，就只有登录了vercel才能进行读写，网站本身就无法使用这个服务了。
+![](vercel.png)
