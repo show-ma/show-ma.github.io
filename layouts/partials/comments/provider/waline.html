@@ -1,34 +1,72 @@
-<script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
-<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<!-- Waline 样式和 JS -->
+<link href="https://unpkg.com/@waline/client@v2/dist/waline.css" rel="stylesheet" />
+<script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+
+<!-- 评论容器 -->
 <div id="waline" class="waline-container"></div>
+
+<!-- 样式 -->
 <style>
-    .waline-container {
-        background-color: var(--card-background);
-        border-radius: var(--card-border-radius);
-        box-shadow: var(--shadow-l1);
-        padding: var(--card-padding);
-        --waline-font-size: var(--article-font-size);
-    }
-    .waline-container .wl-count {
-        color: var(--card-text-color-main);
-    }
+  .waline-container {
+    background-color: var(--card-background);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--shadow-l1);
+    padding: var(--card-padding);
+    --waline-font-size: var(--article-font-size);
+  }
+  .waline-container .wl-count {
+    color: var(--card-text-color-main);
+  }
+  .wl-empty {
+  font-size: 0.9em;
+  color: var(--body-text-color); /* 或用 #888 更明显 */
+  opacity: 0.8;
+  }
+
 </style>
 
 {{- with .Site.Params.comments.waline -}}
-{{- $config := dict "el" "#waline" "dark" `html[data-scheme="dark"]` -}}
-{{- $replaceKeys := dict "serverurl" "serverURL" "requiredmeta" "requiredMeta" "wordlimit" "wordLimit" "pagesize" "pageSize" "imageuploader" "imageUploader" "texrenderer" "texRenderer" -}}
 
-{{- range $key, $val := . -}}
-    {{- if ne $val nil -}}  
-        {{- $replaceKey := index $replaceKeys $key -}}
-        {{- $k := default $key $replaceKey -}}
+  {{- $replaceKeys := dict
+    "serverurl" "serverURL"
+    "requiredmeta" "requiredMeta"
+    "wordlimit" "wordLimit"
+    "pagesize" "pageSize"
+    "imageuploader" "imageUploader"
+    "texrenderer" "texRenderer"
+  -}}
 
-        {{- $config = merge $config (dict $k $val) -}}
+  {{- $config := dict "el" "#waline" "dark" `html[data-scheme='dark']` -}}
+
+  {{- range $key, $val := . -}}
+    {{- if ne $val nil -}}
+      {{- $k := default $key (index $replaceKeys $key) -}}
+      {{- $config = merge $config (dict $k $val) -}}
     {{- end -}}
-{{- end -}}
+  {{- end -}}
 
-<script>
-    /// Waline client configuration see: https://waline.js.org/en/reference/client.html
-    Waline.init({{ $config | jsonify | safeJS }});
-</script>
+  {{- $msgs := shuffle site.Data.emptyMessages.messages -}}
+  {{- $emptyText := (index $msgs 0).text -}}
+
+  {{- $locale := index $config "locale" | default dict -}}
+  {{- $locale = merge $locale (dict "empty" $emptyText) -}}
+  {{- $config = merge $config (dict "locale" $locale) -}}
+
+  <script>
+    const config = {{ $config | jsonify | safeJS }};
+    console.log("Waline config:", config);
+    Waline.init(config);
+
+    // Fallback：自动替换 wl-empty 的默认提示
+    const observer = new MutationObserver(() => {
+        const empty = document.querySelector('.wl-empty');
+        if (empty && empty.textContent.includes('来发评论吧')) {
+        empty.innerHTML = config.locale.empty.replace(/\n/g, "<br>");
+        observer.disconnect();
+        }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+    </script>
+
+
 {{- end -}}
