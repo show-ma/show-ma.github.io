@@ -114,7 +114,7 @@ requiredMeta = ["name", "email", "url"]
 
 [comments.waline.locale]
 admin = "作者"
-placeholder = "人，我会一直刷新直到你评论我"
+placeholder = "你注视这片空白太久了，小心它开始反过来理解你。"
 
 [comments.twikoo]
 envId = ""
