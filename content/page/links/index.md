@@ -9,4 +9,13 @@ menu:
             icon: link
 ---
 
-我暗恋的一些女网友的博客。因为时常去看就放在这里了。很内向，还没有敢去申请双向友链。但大家都是毛象互关，擅自添加一下应该也无妨（i guess）
+请和我交换链接……没有什么要求，只是希望`不在中国大陆备案，支持女权和LGBT rights`。
+
+我的info：
+
+```json
+      "title":"Meaningless Nothingness",
+      "description":"桂棹兮兰桨，击空明兮溯流光",
+      "website":"https://xyzxy.me",
+      "image":"http://xyzxy.me/favicon.png"
+```

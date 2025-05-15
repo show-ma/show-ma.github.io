@@ -1,11 +1,22 @@
 ---
-title: "About Me"
+title: "About"
 menu:
   main:
     weight: 2
     params:
       icon: user
 ---
+
+## 基本信息
+
+本站使用 [GitHub Pages](https://pages.github.com/) 作为托管平台，[Hugo](https://gohugo.io/) 作为静态网站生成器，并通过 [IONOS](https://www.ionos.com/) 管理自定义域名。
+
+- 2025-04-09 由Jekyll迁移至Hugo构建。傻瓜式教程见[草履虫看了也能建自己的个人网站]({{< relref "post/25_建站/index.md" >}})
+- 2024-08-14 购买新域名
+- 2020-12-19 建立网站
+- 2019-04-04 开始写作
+
+special thanks to 友邻`白石京`的[网站装修小技巧](https://thirdshire.com/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/)和友邻`Yelle`的[hugo stack 主题美化](https://yelleis.top/p/hugo-theme-stack-beautification/)，照猫画虎地魔改了[stack](https://github.com/CaiJimmy/hugo-theme-stack)主题，真是方便！
 
 ## 建站原因
 
@@ -19,9 +30,7 @@ menu:
 
 ## 自我介绍
 
-女的，intp，学生，adhd
-
-我在每个社交媒体的id都不一样，我不喜欢一个能和我绑定的名字……称呼我什么都可以
+女的，intp，学生，adhd，称呼我什么都可以
 
 三分钟热度，什么都会一点，什么都不精，略微拿得出手的爱好有：摄影/板绘/平面设计/混音/动画PV制作/篮球
 
@@ -65,13 +74,28 @@ menu:
 }
 </style>
 
+## AI Policy
 
-## TMI
+由于本人的adhd，说话有点找不到重点，颠三倒四的。如果不用ai帮我制作大纲完善逻辑，我只会端出一坨💩。
 
-最近沉迷的游戏：王国之泪
+However，作为一名在AI领域活动的人，我对ai policy还是相当理解并遵守的。在每篇使用ai的文章中我都会credit具体的模型以及他们做了哪些事，就像我的学校对我们上课作业的要求一样。
 
-人生旅行计划：去北极圈和珠峰大本营
+## 分类说明
 
-爱不释手的小东西：在拉斯维加斯的可口可乐商店买的AirPods保护套
+`Meaningness`：输出无意义的观点
 
-曾经的愿望是做一个语气像自己的ai，后来害怕它把我替代遂终止计划
+`Nothingless`：搞点没必要的艺术
+
+`Repost`：转载喜欢的东西
+
+`Witness`：重大事件发生时我的视角
+
+`Maintain`：网站装修相关
+
+## 注意事项
+
+- 偶尔会转载网上看到的文章，因为在这个互联网上除了自己的硬盘真是不能相信任何人。现在了再去看以前疫情时期的post觉得超级有意义！由于此网站是日记本，不产生商业价值所以完全没有去要授权`不是好习惯对不起`。不过我有认真标注来源，希望万一原作者们真的看到了不要骂我。
+
+## 联系方式
+
+`xxyyzz1@tuta.io`

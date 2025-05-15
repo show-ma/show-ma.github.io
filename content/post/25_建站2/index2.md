@@ -51,3 +51,5 @@ icon = "steam" //我把svg图片重命名为steam了
 > 点击顶部的 Settings - Environment Variables 进入环境变量配置页，并配置三个环境变量 LEAN_ID, LEAN_KEY 和 LEAN_MASTER_KEY 。它们的值分别对应上一步在 LeanCloud 中获得的 APP ID, APP KEY, Master Key。
 
 给我折腾了半个小时。
+
+还有注意把vercel的Authentication关掉，不然会出现`401 unauthorized`，因为只有登录了vercel才能进行读写。
