@@ -2,12 +2,14 @@
 title: 赛博房子装修计划（3）极乐迪斯科
 date: 2025-05-15
 description: 此游戏因为文本太神天天被二游抄，今天我也抄抄
-image: https://media.vgbaike.com/wiki/2022/1130/00/004518536304591.png
+image: 2.png
 tags: 
     - blog
 categories:
     - Maintain
 ---
+
+>封面来自[vg百科](https://www.vgbaike.com/disco_elysium/baike787)
 
 ## 游戏对话风格着色
 
