@@ -2,6 +2,7 @@
 title: 赛博房子装修计划（2）页面结构
 date: 2025-05-10
 description: 发明创造
+image: 1.png
 tags: 
     - blog
 categories:
