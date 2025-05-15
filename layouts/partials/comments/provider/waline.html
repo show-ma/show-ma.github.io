@@ -18,7 +18,7 @@
     color: var(--card-text-color-main);
   }
   .wl-empty {
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: var(--body-text-color); /* 或用 #888 更明显 */
   opacity: 0.8;
   }
@@ -51,7 +51,8 @@
   {{- $locale := index $config "locale" | default dict -}}
   {{- $locale = merge $locale (dict "empty" $emptyText) -}}
   {{- $config = merge $config (dict "locale" $locale) -}}
-
+  {{- $msgs := site.Data.emptyMessages.messages | default slice -}}
+  
   <script>
     const config = {{ $config | jsonify | safeJS }};
     console.log("Waline config:", config);
