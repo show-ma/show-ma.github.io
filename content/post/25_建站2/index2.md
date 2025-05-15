@@ -45,3 +45,9 @@ icon = "steam" //我把svg图片重命名为steam了
 参考：[Waline官方教程](https://waline.js.org/guide/get-started) [配置评论功能](https://site.zhelper.net/Hugo/hugo-comment/)
 
 比想象的简单好多啊！注册一个leancloud一个vercel就好了
+
+眼大漏神，忽略了文档里的这句：
+
+> 点击顶部的 Settings - Environment Variables 进入环境变量配置页，并配置三个环境变量 LEAN_ID, LEAN_KEY 和 LEAN_MASTER_KEY 。它们的值分别对应上一步在 LeanCloud 中获得的 APP ID, APP KEY, Master Key。
+
+给我折腾了半个小时。
