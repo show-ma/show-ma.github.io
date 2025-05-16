@@ -117,6 +117,8 @@ text = "没人评论。也没人证明。完美的不在场证明。"
 text = "没人留言。你注视着这片空白，它注视着你。"
 ```
 
+`layouts/partials/comments/provider/waline.html`:
+
 ```gohtml
 {{- $msgs := shuffle site.Data.emptyMessages.messages -}}
 {{- $sofaText := (index $msgs 0).text -}}
@@ -124,8 +126,6 @@ text = "没人留言。你注视着这片空白，它注视着你。"
 ```
 
 无需额外 JS，能达到**构建期随机替换纯文本**的效果，结构也很干净。
-
-### 🧱 技术实现方案
 
 #### 1. 使用 `data/emptyMessages.toml` 存储文案池
 
@@ -138,6 +138,8 @@ text = "这里曾有一次请求响应，但你来得太迟了。\n<span class=\
 ```
 
 #### 2. 在构建阶段随机挑选一句 Hugo 模板内注入
+
+`layouts/partials/comments/provider/waline.html`:
 
 ```gohtml
 {{- $msgs := shuffle site.Data.emptyMessages.messages | default slice -}}

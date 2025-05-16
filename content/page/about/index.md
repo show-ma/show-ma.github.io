@@ -38,7 +38,7 @@ special thanks to 友邻`白石京`的[网站装修小技巧](https://thirdshire
 
 计划尝试的东西：打毛线/潜水/做衣服/跳舞
 
-## 足迹
+## 我的足迹
 
 最喜欢的还是318国道 我❤️无人区^^
 
@@ -80,7 +80,7 @@ special thanks to 友邻`白石京`的[网站装修小技巧](https://thirdshire
 
 However，作为一名在AI领域活动的人，我对ai policy还是相当理解并遵守的。在每篇使用ai的文章中我都会credit具体的模型以及他们做了哪些事，就像我的学校对我们上课作业的要求一样。
 
-## 分类说明
+## 标签说明
 
 `Meaningness`：输出无意义的观点
 
