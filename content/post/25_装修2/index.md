@@ -302,3 +302,48 @@ UI方面，我从[tabler.io](https://tabler.io/icons)下载的，并inline到我
   }
 }
 ```
+
+## 页边距
+
+参考：[hugo-stack主题更新小记](https://xrg.fj.cn/p/hugo-stack主题更新小记/)
+
+在`custom.scss`添加：
+
+```scss
+.container {
+    margin-left: auto;
+    margin-right: auto;
+
+    &.extended {
+        /* range: 768-1024 */
+        @include respond(md) {
+            max-width: 1024px;
+            --left-sidebar-max-width: 25%;
+            --right-sidebar-max-width: 30%;
+        }
+
+        /* range: 1024-1280 */
+        @include respond(lg) {
+            max-width: 1280px;
+            --left-sidebar-max-width: 25%;
+            --right-sidebar-max-width: 22%;
+        }
+    }
+
+    &.compact {
+        @include respond(md) {
+            --left-sidebar-max-width: 25%;
+            max-width: 768px;
+        }
+
+        @include respond(lg) {
+            max-width: 1024px;
+            --left-sidebar-max-width: 20%;
+        }
+
+        @include respond(xl) {
+            max-width: 1280px;
+        }
+    }
+}
+```
