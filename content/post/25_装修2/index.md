@@ -13,47 +13,27 @@ categories:
 
 感谢gpt-4o的帮助
 
-### 初始方案：伪元素添加背景图与遮罩
+一开始，我用 `body::before` 和 `body::after` 分别添加背景图与遮罩，实现深浅模式切换不同的背景图。
 
-使用 `body::before` 和 `body::after` 添加背景图与遮罩，实现深浅模式切换不同的背景图。
+电脑上看起来不错，我美滋滋打开手机，发现效果十分鬼畜。我震惊极了，掏出安卓手机，正常，掏出iPad，正常，打开chrome选苹果设备，还是正常。于是询问gpt。
 
-`custom.scss`：
+{{< notice notice-info >}}
 
-```scss
-body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  z-index: -1;
-  background-image: url('/light.jpg');
-  background-size: cover;
-  background-position: center;
-  opacity: 1;
-}
+这正是 background-attachment: fixed 在 iOS 上的经典 bug 症状：
 
-body::after {
-  content: "";
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  z-index: -1;
-  background-color: rgba(218, 255, 251, 0.8);
-  pointer-events: none;
-  transition: background-color 0.3s ease;
-}
+❌ 滚动卡顿、不平滑、页面切换缩放异常，甚至页面跳动
 
-[data-scheme="dark"] body::after {
-  //background-image: url('/dark.jpg');
-  background-color: rgba(34, 45, 41, 0.4);
-}
-```
+✅ Chrome 模拟器不出现，但 iPhone 真机 Safari / Chrome 都有问题（因为都用 WebKit）
 
-### 遇到的问题
+{{< /notice >}}
 
 * iPhone 上页面滚动卡顿，切换页面时出现缩放跳动
 * `background-attachment: fixed` 在 iOS 上无效
 * 遮罩与背景图共用一个层容易产生兼容性问题
 
-### 解决方案：使用真实 DOM 元素代替伪元素
+---
+
+**解决方案：使用真实 DOM 元素代替伪元素**
 
 将背景图和遮罩分为 `.bg-layer` 与 `.bg-mask` 两个固定层，结构更稳定。
 

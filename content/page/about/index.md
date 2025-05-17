@@ -9,7 +9,7 @@ menu:
 
 ## 基本信息
 
-本站使用 [GitHub Pages](https://pages.github.com/) 作为托管平台，[Hugo](https://gohugo.io/) 作为静态网站生成器，并通过 [IONOS](https://www.ionos.com/) 管理自定义域名。
+本站使用 [GitHub Pages](https://pages.github.com/) 作为托管平台，[Hugo](https://gohugo.io/) 作为静态网站生成器，并通过 [IONOS](https://www.ionos.com/) 管理自定义域名。背景来自[Jeffrey Hemsworth_Unsplash](https://unsplash.com/photos/an-abandoned-factory-building-with-stairs-leading-up-to-it-vMwLi4apFOA)
 
 - 2025-04-09 由Jekyll迁移至Hugo构建。傻瓜式教程见[草履虫看了也能建自己的个人网站]({{< relref "post/25_建站/index.md" >}})
 - 2024-08-14 购买新域名
