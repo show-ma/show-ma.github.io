@@ -54,3 +54,12 @@ icon = "steam" //我把svg图片重命名为steam了
 
 还有注意把vercel的Authentication关掉，不然会出现`401 unauthorized`，因为开了authentication的话，就只有登录了vercel才能进行读写，网站本身就无法使用这个服务了。
 ![](vercel.png)
+
+为了取消评论区对IP地址和浏览器型号的显示，需要添加这两个环境变量，再redeploy一下。
+
+| Name                | Value  |
+| ------------------- | ------ |
+| `DISABLE_USERAGENT` | `true` |
+| `DISABLE_REGION`    | `true` |
+
+![](ev.png)

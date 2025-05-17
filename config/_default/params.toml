@@ -105,7 +105,7 @@ clientSecret = ""
 autoCreateIssue = false
 
 [comments.waline]
-serverURL = "https://comments-g4ele7dgy-niconiconi0906-4132s-projects.vercel.app/"
+serverURL = "https://comments-8zjiahjvv-niconiconi0906-4132s-projects.vercel.app"
 lang = "zh-CN"
 visitor = false
 avatar = ""
