@@ -713,3 +713,28 @@ opacity: 0.8;
 .right-sidebar {
   margin-left: 25px;
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+  background-image: url('/dark.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 1;
+}
+body::after {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+  background-color: rgba(218, 255, 251, 0.8); // 浅色默认遮罩
+  pointer-events: none;
+  transition: background-color 0.3s ease;
+}
+
+[data-scheme="dark"] body::after {
+  background-color: rgba(34, 45, 41, 0.4); // 深色模式遮罩
+}

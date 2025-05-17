@@ -12,12 +12,12 @@ $defaultTagColors: #fff, #fff, #fff, #fff;
         --main-top-padding: 50px;
     }
 
-    --body-background: #cdebe8;
+    --body-background: #b2d0cc;
 
-    --accent-color: #4bb8a5;
+    --accent-color: #379b8a;
     --accent-color-darker: #337469;
     --accent-color-text: #fff;
-    --body-text-color: #707070;
+    --body-text-color: #535456;
 
     --tag-border-radius: 24px; // Change from 4px to make it round corner
     --category-border-radius: 4px; // Add category border setting
@@ -29,7 +29,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff;
     --scrollbar-track: var(--body-background);
 
     &[data-scheme="dark"] {
-        --body-background: #2b2f35;
+        --body-background: #1a2220;
         --accent-color: #bedfc2;
         --accent-color-darker: #82df99;
         --accent-color-text: #000;
