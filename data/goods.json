@@ -1,6 +1,11 @@
 {
     "goods": [
         {
+            "title": "Acai Juice",
+            "description": "Costco发现的神奇果汁，兑水和酸奶都别有一番风味，每次去都会买两瓶，适合普通果汁喝腻的人",
+            "image": "https://s2.loli.net/2025/05/17/V8z26LYhaMsAlXf.png"
+        },
+        {
             "title": "MacBook Air M2",
             "description": "等到Win电脑让你无法忍受时再买Mac，直接买只会觉得它难用",
             "price": 1079.42,
