@@ -9,6 +9,95 @@ categories:
     - Maintain
 ---
 
+## 全站背景图
+
+感谢gpt-4o的帮助
+
+### 初始方案：伪元素添加背景图与遮罩
+
+使用 `body::before` 和 `body::after` 添加背景图与遮罩，实现深浅模式切换不同的背景图。
+
+`custom.scss`：
+
+```scss
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+  background-image: url('/light.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+  background-color: rgba(218, 255, 251, 0.8);
+  pointer-events: none;
+  transition: background-color 0.3s ease;
+}
+
+[data-scheme="dark"] body::after {
+  //background-image: url('/dark.jpg');
+  background-color: rgba(34, 45, 41, 0.4);
+}
+```
+
+### 遇到的问题
+
+* iPhone 上页面滚动卡顿，切换页面时出现缩放跳动
+* `background-attachment: fixed` 在 iOS 上无效
+* 遮罩与背景图共用一个层容易产生兼容性问题
+
+### 解决方案：使用真实 DOM 元素代替伪元素
+
+将背景图和遮罩分为 `.bg-layer` 与 `.bg-mask` 两个固定层，结构更稳定。
+
+`layouts/_default/baseof.html`（插入至 `<body>` 内部顶部）：
+
+```html
+<div class="bg-layer"></div>
+<div class="bg-mask"></div>
+```
+
+`custom.scss`: 
+
+```scss
+.bg-layer {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -3;
+  background-image: url('/dark.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  transition: background-image 0.3s ease;
+}
+
+.bg-mask {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -2;
+  background-color: rgba(34, 45, 41, 0.4); // 遮罩
+  transition: background-color 0.3s ease;
+  pointer-events: none;
+}
+
+// 如果深浅模式都用一张图，可以去掉这三行
+[data-scheme="light"] .bg-layer {
+  background-image: url('/light.jpg');
+}
+
+[data-scheme="light"] .bg-mask {
+  background-color: rgba(218, 255, 251, 0.8);
+}
+```
+
 ## 页尾添加分享链接
 
 感谢gpt-4o和gemini老师的帮助

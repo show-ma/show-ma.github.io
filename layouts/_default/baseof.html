@@ -5,6 +5,8 @@
         {{- block "head" . -}}{{ end }}
     </head>
     <body class="{{ block `body-class` . }}{{ end }}">
+        <div class="bg-layer"></div>
+        <div class="bg-mask"></div>
         {{- partial "head/colorScheme" . -}}
 
         {{/* The container is wider when there's any activated widget */}}

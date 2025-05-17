@@ -714,27 +714,30 @@ opacity: 0.8;
   margin-left: 25px;
 }
 
-body::before {
-  content: "";
+// 背景图
+.bg-layer {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  z-index: -1;
+  z-index: -3;
   background-image: url('/dark.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  opacity: 1;
+  background-repeat: no-repeat;
+  pointer-events: none;
 }
-body::after {
-  content: "";
+
+/* 遮罩层独立出来 */
+.bg-mask {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  z-index: -1;
-  background-color: rgba(218, 255, 251, 0.8); // 浅色默认遮罩
+  z-index: -2;
+  background-color: rgba(34, 45, 41, 0.4); // 深色遮罩
   pointer-events: none;
   transition: background-color 0.3s ease;
 }
 
-[data-scheme="dark"] body::after {
-  background-color: rgba(34, 45, 41, 0.4); // 深色模式遮罩
+/* 浅色模式切换遮罩 */
+
+[data-scheme="light"] .bg-mask {
+  background-color: rgba(218, 255, 251, 0.8); // 浅色遮罩
 }
