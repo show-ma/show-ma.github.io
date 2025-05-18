@@ -731,7 +731,7 @@ opacity: 0.8;
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   z-index: -2;
-  background-color: rgba(34, 45, 41, 0.4); // 深色遮罩
+  background-color: rgba(34, 45, 41, 0.3); // 深色遮罩
   pointer-events: none;
   transition: background-color 0.3s ease;
 }
