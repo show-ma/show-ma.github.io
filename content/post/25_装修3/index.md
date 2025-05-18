@@ -67,7 +67,7 @@ font-weight: bold;
 
 ## 评论区空状态文案
 
-众所周知，评论输入框的placeholder是很容易自己更改的。但是，空状态的文案`<dev class="wl-empty">`，很难改！
+众所周知，评论输入框的placeholder是很容易自己更改的，看的不同博客都有自己的占位文本。但是，没有评论时显示的文案！大家都一样！这怎么行呢！
 
 [Waline](https://waline.js.org/) 作为评论系统默认在无评论时显示：
 
@@ -93,18 +93,17 @@ font-weight: bold;
 
 ### 🧩 如果只是想改纯文本
 
-如果你只是想把「来发评论吧～」这句换掉，而不需要花哨的颜色或换行，其实可以**直接在 `config.toml` 中设置**：
+如果只是想把「来发评论吧～」这句换掉，而不需要花哨的颜色或换行，可以**直接在 `config.toml` 中设置**：
 
 ```toml
 [params.comments.waline.locale]
-sofa = "没人评论。也没人证明。完美的不存在场证明。"
+sofa = "没人评论。也没人证明。完美的不在场证明。"
 ```
 
-这样就可以优雅地替换空状态文案，无需任何额外 JS 逻辑。
 
 ### 🎲 想要多条纯文本轮换
 
-如果你想要**每次刷新一条不同的文案**，但仍然只用纯文本（不加样式），可以这样：
+如果你想要**每次刷新一条不同的文案**，可以这样：
 
 * 用 Hugo 从 `data/emptyMessages.toml` 随机挑一条
 * 注入到 `locale.sofa`，直接显示
@@ -116,16 +115,6 @@ text = "没人评论。也没人证明。完美的不在场证明。"
 [[messages]]
 text = "没人留言。你注视着这片空白，它注视着你。"
 ```
-
-`layouts/partials/comments/provider/waline.html`:
-
-```gohtml
-{{- $msgs := shuffle site.Data.emptyMessages.messages -}}
-{{- $sofaText := (index $msgs 0).text -}}
-{{- $locale = merge $locale (dict "sofa" $sofaText) -}}
-```
-
-无需额外 JS，能达到**构建期随机替换纯文本**的效果，结构也很干净。
 
 #### 1. 使用 `data/emptyMessages.toml` 存储文案池
 
@@ -154,11 +143,12 @@ text = "这里曾有一次请求响应，但你来得太迟了。\n<span class=\
 {{- $config = merge $config (dict "locale" $locale) -}}
 ```
 
----
 
 ### ⚠️ 我想要html样式怎么办
 
-这时候，直接传 HTML 到 `locale.sofa` 是**不会生效的**！你看到的可能是：
+都极乐迪了，我想模仿一下游戏样式也不过分吧！
+
+这时候，直接传 HTML 到 `locale.sofa` 没有用！经过调试，发现我的`<span>`被加载成了`&lt;` `&gt;`：
 
 ```html
 &lt;span class="disco-grey"&gt;[普通：成功]&lt;/span&gt;
