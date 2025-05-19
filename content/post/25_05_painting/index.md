@@ -29,6 +29,8 @@ categories:
 
 然而，命运弄人。诸神决意要毁灭特洛伊，派来了两条巨大的海蛇。在众目睽睽之下，海蛇从海中蜿蜒而出，先是缠死了拉奥孔的两个年幼的儿子，继而将这位绝望的父亲也一并绞杀。特洛伊人目睹此景，误以为这是拉奥孔亵渎神圣木马而遭受的天谴，于是更加坚信木马是献给神的礼物，并将其拖入城内，最终导致了特洛伊的陷落。
 
+<a href="https://commons.wikimedia.org/wiki/File:Laocoon_and_His_Sons.jpg#/media/File:Laocoon_and_His_Sons.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Laocoon_and_His_Sons.jpg" alt="Laocoon and His Sons.jpg" height="1080" width="1201"></a>
+
 因此，拉奥孔的故事充满了悲剧性的张力：他是真理的先知，却因道出真相而死。他是绝望的父亲，无力拯救自己的孩子。他的死，更讽刺地促成了灾难的发生。这座雕塑以其高度写实的技法、人物动态的强烈戏剧性以及对人类极致痛苦的深刻描绘，成为了古希腊化时期艺术的典范之作。自1506年在罗马重新出土以来，它便对西方艺术产生了深远影响，无数艺术家为之着迷，并从中汲取灵感。
 
 **豪斯纳的二次创作：从古典悲剧到宇宙警示**

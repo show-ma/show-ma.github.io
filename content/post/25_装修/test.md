@@ -8,6 +8,47 @@ categories:
     - Maintain
 ---
 
+## 调色盘
+
+使用(去掉`\`)：
+
+``` text
+{\{< swatches "#537d5d" "#73946b" "#9ebc8a" >}\}
+```
+
+效果：
+
+{{< swatches "#537d5d" "#73946b" "#9ebc8a" >}}
+
+偷看[Blowfish主题的短代码](https://blowfish.page/zh-cn/docs/shortcodes/#色板)觉得很喜欢，于是抄了。
+
+首先是`layouts/shortcodes/swatches.html`
+
+```html
+  <div class="swatches-container">
+    {{ range .Params }}
+      <div class="swatch" style="background-color: {{ . }}" title="{{ . }}"></div>
+    {{ end }}
+  </div>
+```
+
+然后是`custom.scss`
+
+```scss
+// 调色盘
+.swatches-container {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.swatch {
+  flex: 1 1 0;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+```
+
 ## 文字渐变、左中右对齐
 
 [参考](https://www.sleepymoon.cyou/2023/hugo-shortcodes/#文本位置)

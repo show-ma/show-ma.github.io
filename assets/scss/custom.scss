@@ -741,3 +741,16 @@ opacity: 0.8;
 [data-scheme="light"] .bg-mask {
   background-color: rgba(218, 255, 251, 0.8); // 浅色遮罩
 }
+
+// 调色盘
+.swatches-container {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.swatch {
+  flex: 1 1 0;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
