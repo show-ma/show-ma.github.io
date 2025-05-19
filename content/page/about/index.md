@@ -13,11 +13,13 @@ comments: false
 
 本站使用 [GitHub Pages](https://pages.github.com/) 作为托管平台，[Hugo](https://gohugo.io/) 作为静态网站生成器，并通过 [IONOS](https://www.ionos.com/) 管理自定义域名。背景来自[Jeffrey Hemsworth_Unsplash](https://unsplash.com/photos/an-abandoned-factory-building-with-stairs-leading-up-to-it-vMwLi4apFOA)
 
-📓 查看[网站更新日志]({{< relref "post/log/index.md" >}})
+📓 查看[网站更新日志]({{< relref "page/hidden/1.md" >}})
 
 special thanks to 友邻`白石京`的[网站装修小技巧](https://thirdshire.com/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/)和友邻`Yelle`的[hugo stack 主题美化](https://yelleis.top/p/hugo-theme-stack-beautification/)，照猫画虎地魔改了[stack](https://github.com/CaiJimmy/hugo-theme-stack)主题，真是方便！傻瓜式教程见[草履虫看了也能建自己的个人网站]({{< relref "post/25_建站/index.md" >}})
 
 ## 建站原因
+
+📋 查看[问答页]({{< relref "page/hidden/2.md" >}})
 
 在我还是小孩的时候，中国互联网刚刚发展，我父母超级喜欢写博客，每次出去玩给我和我弟拍很多照片，写一些育儿的东西，放在新浪博客上。
 
