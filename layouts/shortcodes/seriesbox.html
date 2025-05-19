@@ -1,0 +1,20 @@
+{{ $series := index .Page.Params.series 0 }}
+{{ if $series }}
+  {{ $pages := where site.RegularPages "Params.series" "intersect" (slice $series) }}
+  {{ $pages = where $pages ".Params.series_order" "!=" nil }}
+  {{ $pages = sort $pages "Params.series_order" }}
+  {{ if gt (len $pages) 1 }}
+    <details class="series-box" open>
+      <summary class="series-title">📚 本文属于 <strong>{{ $series }}</strong> 系列</summary>
+      <ol class="series-list">
+        {{ range $pages }}
+          <li>
+            <a href="{{ .RelPermalink }}" class="{{ if eq $.Page.Permalink .Permalink }}active{{ end }}">
+              {{ printf "§ %d: %s" .Params.series_order .Title }}
+            </a>
+          </li>
+        {{ end }}
+      </ol>
+    </details>
+  {{ end }}
+{{ end }}

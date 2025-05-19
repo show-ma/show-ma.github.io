@@ -6,7 +6,12 @@ tags:
     - blog
 categories:
     - Maintain
+series: 
+    - 建站
+series_order: 3
 ---
+
+{{< seriesbox >}}
 
 ## 修改头像下面的链接
 
@@ -63,3 +68,6 @@ icon = "steam" //我把svg图片重命名为steam了
 | `DISABLE_REGION`    | `true` |
 
 ![](ev.png)
+
+
+{{< seriesbox >}}

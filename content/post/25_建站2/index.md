@@ -6,7 +6,12 @@ tags:
     - blog
 categories:
     - Maintain
+series: 
+    - 建站
+series_order: 2
 ---
+
+{{< seriesbox >}}
 
 ## 前置知识：主题覆盖
 
@@ -897,3 +902,5 @@ $defaultTagColors: #fff, #fff, #333, #333, #333;
   --widget-separation: var(--section-separation);
 }
 ```
+
+{{< seriesbox >}}

@@ -16,3 +16,9 @@ hasCJKLanguage = true
 
 [pagination]
 pagerSize = 8
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+author = "authors"
+series = "series"

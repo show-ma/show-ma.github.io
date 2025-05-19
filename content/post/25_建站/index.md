@@ -6,7 +6,12 @@ tags:
     - blog
 categories:
     - Maintain
+series: 
+    - 建站
+series_order: 1
 ---
+
+{{< seriesbox >}}
 
 写本文的原因：
 
@@ -356,3 +361,5 @@ categories:
 改完之后，参照`5.保存更改`再次提交到仓库。
 
 恭喜你，你已经有了一个默认风格的个人网站！耶！
+
+{{< seriesbox >}}

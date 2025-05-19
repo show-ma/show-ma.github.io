@@ -754,3 +754,41 @@ opacity: 0.8;
   height: 3rem;
   border-radius: 0.5rem;
 }
+
+// series
+.series-box {
+  background: var(--card-background);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 2rem 0;
+  box-shadow: var(--shadow-l1);
+  color: var(--card-text-color-main);
+}
+
+.series-box summary,
+.series-box .series-title {
+  color: var(--body-text-color);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+}
+
+.series-box ol.series-list {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0 0 0;
+}
+
+.series-box li {
+  margin: 0.25rem 0;
+  list-style: none;
+}
+
+.series-box a {
+  color: var(--card-text-color-main);
+  text-decoration: none;
+}
+
+.series-box a.active {
+  font-weight: bold;
+  color: var(--accent-color);
+}

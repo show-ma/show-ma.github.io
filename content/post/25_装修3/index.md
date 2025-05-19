@@ -7,7 +7,12 @@ tags:
     - blog
 categories:
     - Maintain
+series: 
+    - 主题美化
+series_order: 3
 ---
+
+{{< seriesbox >}}
 
 >封面来自[vg百科](https://www.vgbaike.com/disco_elysium/baike787)
 
@@ -248,3 +253,5 @@ text = "这里曾有一次请求响应，但你来得太迟了。\n<span class=\
 | 构建+JS `innerHTML` 替换  | 支持 HTML 样式 | ⭐⭐⭐⭐ | ⚡ 稍慢（多1次替换） | 多句带 `<span>` 风格句，视觉强化展示 |
 
 > 💡 实测下性能差异都在毫秒级，**除非你注入上百条文案**，否则体验无差异。
+
+{{< seriesbox >}}

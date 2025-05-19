@@ -6,7 +6,12 @@ tags:
     - blog
 categories:
     - Maintain
+series: 
+    - 主题美化
+series_order: 1
 ---
+
+{{< seriesbox >}}
 
 ## 调色盘
 
@@ -360,3 +365,5 @@ html{
             </h2>
         </div>
 ```
+
+{{< seriesbox >}}

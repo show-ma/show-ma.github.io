@@ -7,7 +7,12 @@ tags:
     - blog
 categories:
     - Maintain
+series: 
+    - 主题美化
+series_order: 2
 ---
+
+{{< seriesbox >}}
 
 ## 全站背景图
 
@@ -416,3 +421,5 @@ UI方面，我从[tabler.io](https://tabler.io/icons)下载的，并inline到我
     }
 }
 ```
+
+{{< seriesbox >}}
