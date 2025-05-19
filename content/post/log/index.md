@@ -8,9 +8,16 @@ comments: false
 slug: log
 ---
 
-
 {{< timeline date="2025-05-18" title="shortcode更新" description="文章合集｜时间轴" tags="样式" >}}
-{{< timeline date="2025-04-09" title="迁移至hugo" description="hugo+github pages" tags="建站" >}}
+{{< timeline date="2025-05-16" title="增加背景图" description="太美丽了" tags="样式" >}}
+{{< timeline date="2025-05-14" title="增加评论区" description="waline" tags="建站" >}}
+{{< timeline date="2025-05-13" title="图床解决方案" description="vercel + Postimg" tags="建站" >}}
+{{< timeline date="2025-05-12" title="增加足迹地图" description="google map" tags="样式" >}}
+{{< timeline date="2025-05-11" title="增加gallery" description="gallery page" tags="建站" >}}
+{{< timeline date="2025-05-10" title="增加分享卡片" description="" tags="建站" >}}
+{{< timeline date="2025-04-22" title="增加goods" description="goods page" tags="建站" >}}
+{{< timeline date="2025-04-14" title="增加回到顶部" description="" tags="样式" >}}
+{{< timeline date="2025-04-09" title="迁移至hugo" description="hugo + github pages" tags="建站" >}}
 {{< timeline date="2024-08-14" title="购买域名" description="有了自己的域名和二级域名" tags="建站" >}}
-{{< timeline date="2020-12-19" title="建立网站" description="jekyll+github pages" tags="建站" >}}
+{{< timeline date="2020-12-19" title="建立网站" description="jekyll + github pages" tags="建站" >}}
 {{< timeline date="2019-04-04" title="开始写作" description="为了锻炼自己的作文能力" tags="文章" url="/" >}}
