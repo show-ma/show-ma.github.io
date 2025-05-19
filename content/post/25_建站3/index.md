@@ -71,3 +71,5 @@ icon = "steam" //我把svg图片重命名为steam了
 
 
 {{< seriesbox >}}
+
+{{< post-nav >}}

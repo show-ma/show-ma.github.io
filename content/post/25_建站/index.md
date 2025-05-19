@@ -363,3 +363,5 @@ categories:
 恭喜你，你已经有了一个默认风格的个人网站！耶！
 
 {{< seriesbox >}}
+
+{{< post-nav >}}

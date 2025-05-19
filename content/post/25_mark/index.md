@@ -46,3 +46,5 @@ categories:
 ## 电影
 
 I'm thinking of ending things
+
+{{< post-nav >}}

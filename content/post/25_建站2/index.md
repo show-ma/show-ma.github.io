@@ -904,3 +904,5 @@ $defaultTagColors: #fff, #fff, #333, #333, #333;
 ```
 
 {{< seriesbox >}}
+
+{{< post-nav >}}

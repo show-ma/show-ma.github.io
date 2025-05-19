@@ -68,3 +68,5 @@ Acknowledging these feelings helps me understand myself better. I had a deep tal
 Next time you step into a gallery, you might remind yourself:
 
 > "I will approach each artwork with openness—valuing the visual, conceptual, or emotional experience first. Privilege is real, but it won't block my ability to appreciate or critically engage. I'll stay curious, support diverse voices where I can, and remember that awareness itself is powerful."
+
+{{< post-nav >}}

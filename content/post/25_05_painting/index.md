@@ -96,3 +96,5 @@ AI可以协助我们写邮件、制定方案、甚至创作图像，节省了时
 \[2] 中国美术馆展览引述，《轨迹中的拉奥孔》作品解读，或参见：[https://milenaolesinska.blogspot.com/2016/01/surrealism-rudolf-hausner.html](https://milenaolesinska.blogspot.com/2016/01/surrealism-rudolf-hausner.html)
 
 \[3] [https://www.arsmundi.de/en/artists/hausner-rudolf/](https://www.arsmundi.de/en/artists/hausner-rudolf/)
+
+{{< post-nav >}}

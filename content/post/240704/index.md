@@ -66,3 +66,5 @@ categories:
 <span class="disco-purple">循循善诱</span> — 你本可以顺着那句话说点什么。
 
 <span class="disco-yellow">从容自若</span> — 你保持了镇定。外表毫无波澜。
+
+{{< post-nav >}}

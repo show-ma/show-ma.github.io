@@ -367,3 +367,5 @@ html{
 ```
 
 {{< seriesbox >}}
+
+{{< post-nav >}}

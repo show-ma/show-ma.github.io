@@ -1,0 +1,38 @@
+{{ $prev := .Page.PrevInSection }}
+{{ $next := .Page.NextInSection }}
+
+<div class="post-nav">
+  {{ if $prev }}
+    <div class="post-nav-prev">
+      <a href="{{ $prev.RelPermalink }}">&larr; 上一篇<br>{{ $prev.Title }}</a>
+    </div>
+  {{ end }}
+  {{ if $next }}
+    <div class="post-nav-next">
+      <a href="{{ $next.RelPermalink }}">下一篇&rarr;<br>{{ $next.Title }}</a>
+    </div>
+  {{ end }}
+</div>
+
+<style>
+.post-nav {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #dddddda5;
+  display: flex;
+  justify-content: space-between;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: var(--card-text-color-secondary);
+}
+
+.post-nav a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+.post-nav a:hover {
+  color: var(--primary);
+}
+
+</style>

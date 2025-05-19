@@ -38,3 +38,5 @@ categories:
 2020-08-08
 
 ![](poetry6.jpg)
+
+{{< post-nav >}}
