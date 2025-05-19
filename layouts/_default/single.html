@@ -25,7 +25,10 @@
 
 {{ define "main" }}
     {{ partial "article/article.html" . }}
-    {{ partial "article/components/share-buttons" . }}
+    {{ if .Params.showShare | default true }}
+        {{ partial "article/components/share-buttons.html" . }}
+    {{ end }}
+
 
     {{ if .Params.links }}
         {{ partial "article/components/links" . }}

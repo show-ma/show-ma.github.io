@@ -14,6 +14,94 @@ series_order: 2
 
 {{< seriesbox >}}
 
+## 为文章添加系列模块
+
+感谢 blowfish 提供灵感。用 shortcode 灵活插入文章任意位置，自动标注当前文章位置，非常适合主题文章整理使用。
+
+首先是 front matter 的设置，在需要纳入合集的文章中添加：
+
+```toml
+series = ["建站"]
+series_order = 1
+```
+
+然后在想插入系列目录的位置，加上 shortcode：
+
+```go-html-template
+{{</* seriesbox */>}}
+```
+
+新建文件：
+
+`layouts/shortcodes/seriesbox.html`
+
+```go-html-template
+{{ $series := index .Page.Params.series 0 }}
+{{ if $series }}
+  {{ $pages := where site.RegularPages "Params.series" "intersect" (slice $series) }}
+  {{ $pages = where $pages ".Params.series_order" "!=" nil }}
+  {{ $pages = sort $pages "Params.series_order" }}
+  {{ if gt (len $pages) 1 }}
+    <details class="series-box" open>
+      <summary class="series-title">
+        本文属于 <strong>{{ $series }}</strong> 系列
+      </summary>
+      <ol class="series-list">
+        {{ range $pages }}
+          <li>
+            <a href="{{ .RelPermalink }}" class="{{ if eq $.Page.Permalink .Permalink }}active{{ end }}">
+              {{ printf "§ %d: %s" .Params.series_order .Title }}
+            </a>
+          </li>
+        {{ end }}
+      </ol>
+    </details>
+  {{ end }}
+{{ end }}
+```
+
+然后在 `/assets/scss/custom.scss` 中添加样式：
+
+```scss
+// series
+.series-box {
+  background: var(--card-background);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 2rem 0;
+  box-shadow: var(--shadow-l1);
+  color: var(--card-text-color-main);
+}
+
+.series-box summary,
+.series-box .series-title {
+  color: var(--body-text-color);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+}
+
+.series-box ol.series-list {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0 0 0;
+}
+
+.series-box li {
+  margin: 0.25rem 0;
+  list-style: none;
+}
+
+.series-box a {
+  color: var(--card-text-color-main);
+  text-decoration: none;
+}
+
+.series-box a.active {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+```
+
 ## 全站背景图
 
 感谢gpt-4o的帮助
