@@ -808,11 +808,11 @@ opacity: 0.8;
 // 悬浮图片
 #float-icon {
   position: fixed;
-  bottom: 60px;
+  bottom: 40px;
   right: 18px;
   width: 73px;
   height: 85px;
-  background-image: url("/img/copy.png"); // 换成你自己的图片
+  background-image: url("/img/copy.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -821,7 +821,7 @@ opacity: 0.8;
 }
 #dialog-box {
   position: fixed;
-  bottom: 115px;    /* 图标高度 85px + 间距 20px */
+  bottom: 90px;    /* 图标高度 85px + 间距 20px */
   right: 65px;      /* 图标宽度 73px + 间距 20px */
   transform: none;  /* 去掉原先的 translateX(-50%) 居中 */
   background-color: rgba(0, 0, 0, 0.92);
@@ -842,4 +842,19 @@ opacity: 0.8;
 
 .hidden {
   display: none;
+}
+
+// 音乐
+#music-float-icon {
+  position: fixed;
+  bottom: 40px; /* 根据你现有浮标做了错位，避免重叠 */
+  right: 88px;
+  width: 73px;
+  height: 85px;
+  background-image: url("/img/tape.png"); /* 替换成你播放图标的路径 */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9998;
+  cursor: pointer;
 }

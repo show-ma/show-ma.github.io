@@ -36,3 +36,33 @@
   </script>  
     
 {{ end }}
+
+{{ if .IsHome }}
+
+<!-- music player -->
+<div id="music-float-icon"></div>
+<audio id="music-audio" src="audio/British Sea Power - The Smallest Church in Sussex.mp3"></audio>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const icon = document.getElementById("music-float-icon");
+    const audio = document.getElementById("music-audio");
+    let isPlaying = false;
+
+    icon.addEventListener("click", () => {
+      if (isPlaying) {
+        audio.pause();
+        isPlaying = false;
+      } else {
+        audio.play();
+        isPlaying = true;
+      }
+    });
+
+    audio.addEventListener("ended", () => {
+      isPlaying = false;
+    });
+  });
+</script>
+
+{{ end }}
