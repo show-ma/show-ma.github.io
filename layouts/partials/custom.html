@@ -1,0 +1,38 @@
+{{ if .IsHome }} {{ $quotes := site.Data.dialogs.quotes }}
+<div id="float-icon"></div>
+<div id="dialog-box" class="hidden">
+  “{{ index $quotes 0 }}”
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const icon = document.getElementById("float-icon");
+      const box = document.getElementById("dialog-box");
+  
+      const rawQuotes = `{{ site.Data.dialogs.quotes | jsonify }}`;
+  
+      let quotes;
+      try {
+        quotes = JSON.parse(rawQuotes);
+      } catch (err) {
+        console.error("❌ Failed to parse quotes:", err);
+        return;
+      }
+  
+      let clickCount = 0;
+  
+      icon.addEventListener("click", () => {
+        const quoteIndex = clickCount % quotes.length;
+  
+        if (box.classList.contains("hidden")) {
+          box.textContent = quotes[quoteIndex];
+          box.classList.remove("hidden");
+        } else {
+          box.classList.add("hidden");
+          clickCount++;
+        }
+      });
+    });
+  </script>  
+    
+{{ end }}
