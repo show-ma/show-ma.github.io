@@ -24,6 +24,11 @@
             <main class="main full-width">
                 {{- block "main" . }}{{- end }}
             </main>
+            {{ if or (eq .RelPermalink "/about/") (eq .RelPermalink "/search/") }}
+            <a href="/notebook/">
+                <div id="notebook-float"></div>
+            </a>
+            {{ end }}
         </div>
         {{ partial "custom.html" . }}
         {{ partial "footer/include.html" . }}

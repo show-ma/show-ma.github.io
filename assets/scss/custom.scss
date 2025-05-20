@@ -858,3 +858,22 @@ opacity: 0.8;
   z-index: 9998;
   cursor: pointer;
 }
+
+#notebook-float {
+  position: fixed;
+  bottom: 60px;
+  right: 15px;
+  width: 73px;
+  height: 85px;
+  background-image: url("/img/notebook.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9999;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#notebook-float:hover {
+  transform: scale(1.1);
+}
