@@ -165,7 +165,7 @@ text = "这里曾有一次请求响应，但你来得太迟了。\n<span class=\
 * 用 `MutationObserver` 替换 `.wl-empty.innerHTML`
 * 完全支持 `<br>`、颜色 class、emoji 等格式
 
-## 省流：完整 `waline.html`和`custom.scss`
+### 省流：完整 `waline.html`和`custom.scss`
 
 ```gohtml
 <!-- Waline 样式与脚本 -->
@@ -244,7 +244,7 @@ text = "这里曾有一次请求响应，但你来得太迟了。\n<span class=\
 
 想实现刷新一次换一句的效果，但 DOM 异步加载顺序不稳定，最终决定不加，凑合用！
 
-## ⚙️ 性能对比总结
+### ⚙️ 性能对比总结
 
 | 方式                      | 功能支持       | 复杂度  | 性能          | 适合场景                    |
 | ----------------------- | ---------- | ---- | ----------- | ----------------------- |
@@ -257,3 +257,103 @@ text = "这里曾有一次请求响应，但你来得太迟了。\n<span class=\
 {{< seriesbox >}}
 
 {{< post-nav >}}
+
+## 悬浮图片和文本框
+
+* 展示一个小图标在页面右下角浮动；
+* 点击图标后，展示一段对话；
+* 再次点击隐藏，第三次点击显示下一段，以此循环。
+
+---
+
+想要显示的对话写入 `data/dialogs.yaml`：
+
+```yaml
+dialogs:
+  quotes:
+    - "“这个大容量的‘海军准将红朗姆’瓶子是空的。”"
+    - "“镜子里是一个陌生男人的脸。”"
+    - "“你感觉头疼欲裂，但你已经醒来了。”"
+```
+
+`layouts/partials/custom.html`：
+
+```html
+<div id="float-icon"></div>
+<div id="dialog-box" class="hidden">Loading...</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const icon = document.getElementById("float-icon");
+    const box = document.getElementById("dialog-box");
+
+    const rawQuotes = `{{ site.Data.dialogs.quotes | jsonify }}`;
+    let quotes = [];
+    try {
+      quotes = JSON.parse(rawQuotes);
+    } catch (err) {
+      console.error("读取 quotes 失败", err);
+      return;
+    }
+
+    let clickCount = 0;
+    icon.addEventListener("click", () => {
+      const quoteIndex = clickCount % quotes.length;
+      if (box.classList.contains("hidden")) {
+        box.textContent = quotes[quoteIndex];
+        box.classList.remove("hidden");
+      } else {
+        box.classList.add("hidden");
+        clickCount++;
+      }
+    });
+  });
+</script>
+```
+
+`assets/css/custom.scss`
+
+```scss
+#float-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 73px;
+  height: 85px;
+  background-image: url("/img/dice.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+#dialog-box {
+  position: fixed;
+  bottom: calc(20px + 85px);
+  right: calc(20px + 73px);
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  font-family: "SimSun", "宋体", serif;
+  font-size: 18px;
+  padding: 12px 18px;
+  border-radius: 12px;
+  max-width: 360px;
+  min-width: 160px;
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1.6;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#dialog-box.hidden {
+  display: none;
+}
+```
+
+确保 `baseof.html` 中有调用：
+
+```gohtml
+{{ partial "custom.html" . }}
+```

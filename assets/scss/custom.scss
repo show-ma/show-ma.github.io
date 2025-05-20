@@ -412,13 +412,25 @@ font-weight: bold;
       transform: scale(1.02);
     }
   }
-  
+
+/* 隐藏首页和没有目录页面的返回顶部按钮 */
+body.home #back-to-top {
+  display: none !important;
+}
+
 // 桌面端隐藏 mobile toc
 @media (min-width: 769px) {
   #mobile-toc,
   #mobile-toc-toggle {
     display: none !important;
   }
+}
+/* ❌ 隐藏首页和没有 TOC 的页面上的目录按钮和目录内容 */
+body.home #mobile-toc,
+body.home #mobile-toc-toggle,
+body.no-toc #mobile-toc,
+body.no-toc #mobile-toc-toggle {
+  display: none !important;
 }
 
 // 手机端隐藏 TOC，改为按钮
@@ -501,7 +513,7 @@ font-weight: bold;
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
+//好物
 .goods-card {
   background-color: var(--card-background);
   border-radius: var(--card-border-radius);
@@ -794,17 +806,40 @@ opacity: 0.8;
 }
 
 // 悬浮图片
-body::after {
-  content: "";
+#float-icon {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 60px;
+  right: 18px;
   width: 73px;
   height: 85px;
-  background-image: url("/img/copy.png");
+  background-image: url("/img/copy.png"); // 换成你自己的图片
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   z-index: 9999;
-  animation: floatDice 5s infinite ease-in-out;
+  cursor: pointer;
+}
+#dialog-box {
+  position: fixed;
+  bottom: 115px;    /* 图标高度 85px + 间距 20px */
+  right: 65px;      /* 图标宽度 73px + 间距 20px */
+  transform: none;  /* 去掉原先的 translateX(-50%) 居中 */
+  background-color: rgba(0, 0, 0, 0.92);
+  color: white;
+  font-family: "SimSun", "宋体", serif;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  max-width: 280px;
+  white-space: normal;     // ✅ 允许换行
+  overflow: visible;       // ✅ 显示所有内容
+  word-break: break-word; 
+  white-space: pre-wrap;
+  z-index: 9999;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.hidden {
+  display: none;
 }
