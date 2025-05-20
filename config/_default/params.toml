@@ -34,11 +34,11 @@ default = "Reproduction in any form is strictly prohibited without permission."
 [[widgets.homepage]]
 type = "search"
 
-[[widgets.homepage]]
-type = "archives"
+# [[widgets.homepage]]
+# type = "archives"
 
-[widgets.homepage.params]
-limit = 5
+# [widgets.homepage.params]
+# limit = 5
 
 [[widgets.homepage]]
 type = "categories"

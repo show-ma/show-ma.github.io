@@ -792,3 +792,19 @@ opacity: 0.8;
   font-weight: bold;
   color: var(--accent-color);
 }
+
+// 悬浮图片
+body::after {
+  content: "";
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 73px;
+  height: 85px;
+  background-image: url("/img/copy.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9999;
+  animation: floatDice 5s infinite ease-in-out;
+}
