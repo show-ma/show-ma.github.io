@@ -4,9 +4,14 @@
   height: 100vh;
   overflow: hidden;
   position: relative;
+  background: url('/img/2.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* 固定内容尺寸缩放（游戏UI风格） */
+
+
 .content {
   width: 1430px;
   height: 800px;
@@ -14,6 +19,19 @@
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 1;
+  overflow: visible;
+}
+
+.layer.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+  pointer-events: none;
 }
 
 /* 图层设置 */
@@ -32,9 +50,15 @@
 }
 
 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.65; /* 降低透明度 */
+  filter: contrast(160%) brightness(25%) saturate(200%);
   z-index: 1;
-  mix-blend-mode: multiply;
-  opacity: 1;
+  pointer-events: none;
 }
 
 .border {

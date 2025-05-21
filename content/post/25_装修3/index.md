@@ -254,10 +254,6 @@ text = "这里曾有一次请求响应，但你来得太迟了。\n<span class=\
 
 > 💡 实测下性能差异都在毫秒级，**除非你注入上百条文案**，否则体验无差异。
 
-{{< seriesbox >}}
-
-{{< post-nav >}}
-
 ## 悬浮图片和文本框
 
 * 展示一个小图标在页面右下角浮动；
@@ -357,3 +353,7 @@ dialogs:
 ```gohtml
 {{ partial "custom.html" . }}
 ```
+
+{{< seriesbox >}}
+
+{{< post-nav >}}
