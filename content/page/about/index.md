@@ -31,6 +31,8 @@ special thanks to 友邻`白石京`的[网站装修小技巧](https://thirdshire
 
 ## 自我介绍
 
+💌 查看[书影音游收藏]({{< relref "page/hidden/3.md" >}}) 和 [零零碎碎收藏]({{< relref "page/hidden/4.md" >}})
+
 女的，intp，学生，adhd，称呼我什么都可以
 
 三分钟热度，什么都会一点，什么都不精，略微拿得出手的爱好有：摄影/板绘/平面设计/混音/动画PV制作/篮球
