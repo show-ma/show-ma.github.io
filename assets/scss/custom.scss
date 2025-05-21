@@ -685,27 +685,27 @@ opacity: 0.8;
       /* range: 768-1024 */
       @include respond(md) {
           max-width: 1024px;
-          --left-sidebar-max-width: 25%;
-          --right-sidebar-max-width: 25%;
+          --left-sidebar-max-width: 18%;
+          --right-sidebar-max-width: 18%;
       }
 
       /* range: 1024-1280 */
       @include respond(lg) {
           max-width: 1280px;
-          --left-sidebar-max-width: 25%;
-          --right-sidebar-max-width: 20%;
+          --left-sidebar-max-width: 18%;
+          --right-sidebar-max-width: 18%;
       }
   }
 
   &.compact {
       @include respond(md) {
-          --left-sidebar-max-width: 25%;
+          --left-sidebar-max-width: 18%;
           max-width: 768px;
       }
 
       @include respond(lg) {
           max-width: 1024px;
-          --left-sidebar-max-width: 20%;
+          --left-sidebar-max-width: 18%;
       }
 
       @include respond(xl) {
@@ -716,14 +716,14 @@ opacity: 0.8;
 .left-sidebar {
   --sidebar-avatar-size: 120px;
   --sidebar-element-separation: 20px;
-  margin-right: 1%;
+  margin-right: 0;
   padding: var(--main-top-padding) 15px;
   max-height: 100vh;
-  padding-right: 25px;
+  padding-right: 15px;
 }
 
 .right-sidebar {
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 // 背景图
