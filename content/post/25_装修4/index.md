@@ -107,7 +107,7 @@ img.emoji {
 
 ## 彩蛋：如何下载毛象实例的表情包
 
-如果你还没准备好 `static/emoji/` 目录，可以用下面脚本从 Mastodon/Misskey 实例批量拉取所有自定义 emoji：
+如果你还没准备好 `static/emoji/` 目录，可以用下面脚本从Mastodon实例批量拉取所有自定义 emoji `Misskey魔改的太多了似乎没有一个好用的办法 有缘再见吧`：
 
 ### 步骤 1：获取所有 emoji 列表
 
