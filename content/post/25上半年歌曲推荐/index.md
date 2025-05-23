@@ -1,7 +1,8 @@
 ---
 title: 25上半年本人听的新专(全是rnb)
-date: 2025-05-24
+date: 2025-05-23
 image: o.jpg
+draft: true
 description: 一个两个都艺术成这样？
 tags: 
     - music
@@ -9,13 +10,15 @@ categories:
     - Nothingness
 ---
 
+今天心情: :nobeko_hearts: 
+
 省流版：
 
 | Artist  | Album |Release Date| Rating |
-| -------- | ------- | ------- |
+| -------- | ------- | ------- | ------- |
 | Bibi| EVE: ROMANCE | May 14| 9/10 |
 | Emotional Oranges | Orenjii | May 15| 9/10 |
-| Goldive | Blue | May 9 | /10 |
+| Goldive | Blue | May 9 | 8/10 |
 | Sara Rikas | Ja, Sára | Apr 23 |  /10 |
 
 评分标准：
@@ -44,8 +47,6 @@ categories:
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4OrisjS1FiGCNucXdwtd3Y?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-`9/10`
-
 一开始听觉得太大众了，没有前几张那种很疯狂的感觉，不如animal farm。而且说是新专，其中得有四五首都提前放出来过了，所以一开始听没有觉得特别。但我完全忘记了那些歌刚出的时候我也疯狂地循环。anyway，这张专辑的旋律性稍微下降，人声从一作变成了通讯作者那种感觉。但编曲水平显著上升，人仿佛也成为了乐器的一部分，听很多遍都不会腻。
 
 给普通人的轻松明亮的小曲：弘大rnb，scott and zelda，栗子羊羹，Midnight Cruise（这个还有一点citypop），bluebird
@@ -60,10 +61,13 @@ late night rnb： Burn it, pygma girl, real man
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/02fMlx2G9yykagmpDGzYRW?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-`9/10`
-
 非常中规中矩的rnb，旋律好听rap流畅，太顺耳了以至于在一种乱七八糟里很突出。鉴于本人的评分标准并不是好听而是有多想推荐给别人听，此专辑和此组合实在是和别人一起出行时可以一起听的必备好物，尤其是去南加州玩的时候。感觉他们的歌特别适合加州的日落，就是在特别宽阔的公路上开车，旁边是棕榈树和大海，你就在这样的环境里引吭高歌。一看歌手profile果然是LA人，真的笑死。
+
+此组合最出名的歌应该是west coast love，俺也是这首歌认识他们的。所以在里面看到和kpop爱豆合作意外地很惊讶！因为本人虽然天天看kpop但不关注男团完全不知道这个男爱豆是谁🤔
 
 ## Goldive - Blue
 
 ## Sara Rikas - Ja, Sára
+
+
+{{< post-nav >}}

@@ -1,5 +1,14 @@
 <section class="article-content">
     <!-- Refer to https://discourse.gohugo.io/t/responsive-tables-in-markdown/10639/5 -->
-    {{ $wrappedTable := printf "<div class=\"table-wrapper\">${1}</div>" }}
-    {{ .Content | replaceRE "(<table>(?:.|\n)+?</table>)" $wrappedTable | safeHTML }}
+        {{/* 1) match :emoji_name: */}}
+        {{ $emojiPattern := `:([A-Za-z0-9_-]+):` }}
+        {{/* 2) wrap <table>…</table> */}}
+        {{ $tableWrapper := printf "<div class=\"table-wrapper\">${1}</div>" }}
+      
+        {{/* 3) run both replacements in sequence */}}
+        {{ .Content
+           | replaceRE $emojiPattern `<img class="emoji" src="/emoji/$1.png" alt=":$1:" loading="lazy">`
+           | replaceRE "(<table>(?:.|\n)+?</table>)" $tableWrapper
+           | safeHTML
+        }}
 </section>

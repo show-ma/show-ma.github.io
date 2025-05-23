@@ -22,3 +22,8 @@ tag = "tags"
 category = "categories"
 author = "authors"
 series = "series"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
