@@ -17,23 +17,13 @@ comments: false
 
 special thanks to 友邻`白石京`的[网站装修小技巧](https://thirdshire.com/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/)和友邻`Yelle`的[hugo stack 主题美化](https://yelleis.top/p/hugo-theme-stack-beautification/)，照猫画虎地魔改了[stack](https://github.com/CaiJimmy/hugo-theme-stack)主题，真是方便！傻瓜式教程见[草履虫看了也能建自己的个人网站]({{< relref "post/25_建站/index.md" >}})
 
-## 建站原因
-
-📋 查看[问答页]({{< relref "page/hidden/2.md" >}})
-
-在我还是小孩的时候，中国互联网刚刚发展，我父母超级喜欢写博客，每次出去玩给我和我弟拍很多照片，写一些育儿的东西，放在新浪博客上。
-
-后来，我上了初中，几乎所有人都会在博客上写文章，就像如今超级多人拥有自己的公众号一样。我们班也有这样的博客，收录了大家的校园活动、班级趣事、旅游照片、优秀作业。
-
-是的，这两个博客都是新浪博客。在不知道哪一天，新浪博客关停了。当我想起还有这两个博客记录了我的人生中前15年的时候，已经太晚了，所有图片都失效了，文章据说登录自己账户就能看，可是谁能记得起来密码？
-
-哪有什么可相信的平台呢？只有自己可信。于是像做剪报一样把看到的有意思东西粘到本子上。
-
 ## 自我介绍
 
-💌 查看[书影音游收藏]({{< relref "page/hidden/3.md" >}}) 和 [零零碎碎收藏]({{< relref "page/hidden/4.md" >}})
+可以叫我象🐘，叫本人的毛象id也可以。女的，intp，学生，adhd
 
-女的，intp，学生，adhd，在常见的sns里go with 象/elysium/xyzxy
+📋 查看[博客作者问卷]({{< relref "page/hidden/2.md" >}})
+
+💌 查看[书影音游收藏]({{< relref "page/hidden/3.md" >}}) 和 [零零碎碎收藏]({{< relref "page/hidden/4.md" >}})
 
 ## 我的足迹
 
@@ -91,10 +81,6 @@ However，作为一名在AI领域活动的人，我对ai policy还是相当理�
 
 `Maintain`：网站装修相关
 
-## 注意事项
-
-- 偶尔会转载网上看到的文章，因为在这个互联网上除了自己的硬盘真是不能相信任何人。现在了再去看以前疫情时期的post觉得超级有意义！由于此网站是日记本，不产生商业价值所以完全没有去要授权`不是好习惯对不起`。不过我有认真标注来源，希望万一原作者们真的看到了不要骂我。
-
 ## 联系方式
 
-`xxyyzz1@tuta.io`
+fediverse（常用） `xxyyzz1@tuta.io`（不经常看）
