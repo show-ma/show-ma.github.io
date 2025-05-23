@@ -25,6 +25,10 @@ special thanks to 友邻`白石京`的[网站装修小技巧](https://thirdshire
 
 💌 查看[书影音游收藏]({{< relref "page/hidden/3.md" >}}) 和 [零零碎碎收藏]({{< relref "page/hidden/4.md" >}})
 
+请问你看到我的狗了吗？没丢，只是我想让所有人都看看
+
+![一只15斤的大狗](dog.png) ![很瓷实的小板凳](dog2.png)
+
 ## 我的足迹
 
 最喜欢的还是318国道 我❤️无人区^^
