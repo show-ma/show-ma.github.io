@@ -95,7 +95,7 @@ static/emoji/
 ```scss
 img.emoji {
   height:        1.8em;
-  width:         1.2em;
+  width:         1.8em;
   margin:        0 .15em;
   vertical-align: -0.2em;
 }
