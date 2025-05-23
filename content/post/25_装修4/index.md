@@ -16,6 +16,8 @@ series_order: 4
 
 受[如何在Hugo博客中使用Twemoji](https://gregueria.icu/posts/2025-05-23-twemoji/)的启发，给博客加了自定义的emoji`毕竟默认emoji的风格我觉得挺好 没有改成twemoji的必要`，用法和其它emoji一样，十分满意:nobeko_music:
 
+:nobeko_stressed: :nobeko_sleep: :nobeko_orz: :nobeko_ok: :nobeko_lick: :nobeko_kelian: :nobeko_hearts::nobeko_gift::nobeko_genki::nobeko_devil:
+
 ## 准备工作
 
 1. 下载并放置表情
