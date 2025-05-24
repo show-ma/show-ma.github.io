@@ -880,9 +880,9 @@ opacity: 0.8;
 
 //emoji
 img.emoji {
-  height: 1.8em; /* 如果需要像毛象一样大，则height和width都设置为1.8em */
-  width: 1.8em;
-  margin: 0 .15em; 
-  vertical-align: -0.2em; /* 表情在文字间对齐可以微调 */
+  height: 2em; /* 如果需要像毛象一样大，则height和width都设置为1.8em */
+  width: 2em;
+  margin: 0.1em; 
+  vertical-align: -0.4em; /* 表情在文字间对齐可以微调 */
   border-radius: 0px;
   }

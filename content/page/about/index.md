@@ -19,7 +19,7 @@ special thanks to 友邻`白石京`的[网站装修小技巧](https://thirdshire
 
 ## 自我介绍
 
-可以叫我象🐘，叫本人的毛象id也可以。女的，intp，学生，adhd
+可以叫我象🐘，叫本人的毛象id也可以。女的，:bisexual_flag:，intp，学生，:adhd:
 
 📋 查看[博客作者问卷]({{< relref "page/hidden/2.md" >}})
 
