@@ -1,6 +1,6 @@
 ---
 title: 赛博房子装修计划（4）自定义emoji
-date: 2025-05-23
+date: 2025-05-24
 description: 嘿嘿 我要把网页塞满猫
 image: nobeko.png
 tags: 
@@ -25,7 +25,7 @@ series_order: 4
 
 ```
 static/emoji/
-├── nobeko\_cry.png
+├── nobeko_cry.png
 ├── nobeko_devil.png
 └── ……
 ```
@@ -109,9 +109,13 @@ img.emoji {
 
 ## 彩蛋：如何下载毛象实例的表情包
 
-如果你还没准备好 `static/emoji/` 目录，可以用下面脚本从Mastodon实例批量拉取所有自定义 emoji `Misskey魔改的太多了似乎没有一个好用的办法 有缘再见吧`：
+如果你还没准备好 `static/emoji/` 目录，可以用下面脚本从Mastodon实例批量拉取所有自定义 emoji：
 
-### 步骤 1：获取所有 emoji 列表
+### Mastodon站点（以活吧为例）
+
+#### 命令行版本：
+
+**步骤 1：获取所有 emoji 列表**
 
 ```bash
 #!/usr/bin/env bash
@@ -120,12 +124,12 @@ INSTANCE="mastodon.example.com" # 比如活吧是 alive.bar/api/v1/custom_emojis
 API="https://${INSTANCE}/api/v1/custom_emojis"
 OUT="all_emojis.json"
 
-# 拉取全部（默认每页最多 80 个），如需分页请循环处理 Link 头部
+# 拉取全部
 curl -s "${API}?limit=80" -o "${OUT}"
 echo "已保存完整列表到 ${OUT}"
 ```
 
-### 步骤 2：根据分类或名称批量下载
+**步骤 2：根据分类或名称批量下载**
 
 1. **按分类下载**（例如只下载 category="小豆泥"）：
 
@@ -159,7 +163,86 @@ echo "已保存完整列表到 ${OUT}"
    done
    ```
 
-运行完毕后，`static/emoji/` 目录下即含所需的emoji，可直接在文章中使用两个引号的语法调用！
+#### python版本
+
+```python
+import os
+import json
+import requests
+
+resp = requests.get('https://alive.bar/api/v1/custom_emojis')
+resp.raise_for_status()
+data = resp.json()
+
+DEST_DIR = 'static/emoji'
+os.makedirs(DEST_DIR, exist_ok=True)
+
+for item in data:
+    if item.get('category') == '小豆泥':
+        shortcode = item['shortcode']
+        url      = item['url'] 
+        ext      = os.path.splitext(url)[1] 
+        out_path = os.path.join(DEST_DIR, f"{shortcode}{ext}")
+
+        try:
+            r = requests.get(url, stream=True)
+            r.raise_for_status()
+            with open(out_path, 'wb') as f:
+                for chunk in r.iter_content(1024):
+                    f.write(chunk)
+            print(f"✔ Downloaded {shortcode}{ext}")
+        except Exception as e:
+            print(f"✖ Failed {shortcode}: {e}")
+```
+
+### Misskey站点（以星屑为例）
+
+含有表情信息的链接是`https://stelpolva.moe/api/emojis`，点进去右键另存为`emojis.json`，之所以不直接写在代码里是因为正好通过api接口看一下具体的分类名叫什么，而且如果只有一两个emoji需要下载的话，直接复制链接在浏览器打开另存为算了，写代码干什么:nobeko_hmm:
+
+```python
+import json
+import os
+import requests
+
+# 加载 JSON 文件
+with open("emojis.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+# 从中提取 emoji 列表
+emoji_list = data.get("emojis", [])
+
+# 筛选 category 为 "catmeme"
+target_emojis = [e for e in emoji_list if e.get("category") == "catmeme"]
+
+# 准备保存路径
+SAVE_DIR = "emojis"
+os.makedirs(SAVE_DIR, exist_ok=True)
+
+# 下载表情包
+for emoji in target_emojis:
+    name = emoji["name"]
+    url = emoji["url"]
+    ext = os.path.splitext(url)[-1] or ".png"
+    filename = f"{name}{ext}"
+
+    try:
+        print(f"Downloading {name}...")
+        response = requests.get(url)
+        response.raise_for_status()
+        with open(os.path.join(SAVE_DIR, filename), "wb") as f:
+            f.write(response.content)
+    except Exception as e:
+        print(f"❌ Failed to download {name}: {e}")
+
+print(f"\n✅ 共下载 {len(target_emojis)} 个表情包，保存在 '{SAVE_DIR}/'")
+
+```
+
+运行完毕后，`static/emoji/` 目录下即含所需的emoji，可直接在文章中使用两个引号！
+
+{{<swatches "#FF218C" "#FFD800" "#21B1FF">}}
+
+:pan_sparkles:作为pan，今天是pan day，为了庆祝特意从双站偷了emoji！鼓掌:pan_heart::pan_sexual::pan_sparkles:
 
 {{< seriesbox >}}
 
