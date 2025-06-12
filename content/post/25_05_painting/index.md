@@ -7,6 +7,7 @@ tags:
     - Thinking
 categories:
     - Nothingness
+    - Dialogues
 ---
 
 {{<notice notice-info>}}

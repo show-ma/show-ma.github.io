@@ -7,6 +7,7 @@ tags:
     - thinking
 categories:
     - Meaningless
+    - Dialogues
 ---
 
 {{< notice notice-info >}}

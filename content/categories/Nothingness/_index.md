@@ -5,6 +5,6 @@ image: patrick.jpg
 
 # Badge style
 style:
-    background: "#84a9ac"
+    background: "#7e92e5"
     color: "#fff"
 ---
