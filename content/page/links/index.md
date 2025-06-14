@@ -15,7 +15,7 @@ menu:
 
 **请：**
 - 在评论区轻声呼喊
-- 通过fediverse给我发一条私信
+- 通过fediverse给我发一条私信，你可以通过`elysium[at]alive.bar`找到我。
 
 我的info：
 

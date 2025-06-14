@@ -7,26 +7,18 @@
 # icon = "home"
 # newtab = true
 
-[[social]]
-identifier = "Mastodon"
-name = "Mastodon"
-url = "https://alive.bar/@elysium"
+# [[social]]
+# identifier = "Mastodon"
+# name = "Mastodon"
+# url = "https://alive.bar/@elysium"
 
-[social.params]
-icon = "brand-mastodon"
+# [social.params]
+# icon = "brand-mastodon"
 
-[[social]]
-identifier = "Steam"
-name = "Steam"
-url = "https://steamcommunity.com/profiles/76561199051896101/"
+# [[social]]
+# identifier = "Steam"
+# name = "Steam"
+# url = "https://steamcommunity.com/profiles/76561199051896101/"
 
-[social.params]
-icon = "steam"
-
-[[social]]
-identifier = "Discord"
-name = "Discord"
-url = "https://discordapp.com/users/920200091367792691"
-
-[social.params]
-icon = "brand-discord"
+# [social.params]
+# icon = "steam"
