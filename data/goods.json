@@ -1,6 +1,13 @@
 {
     "goods": [
         {
+            "title":"iPhone 16",
+            "description":"miku痛机",
+            "price": 792,
+            "purchase_date": "2025-06-17",
+            "image":"https://s2.loli.net/2025/06/17/hx1CfJuNPaGX9Is.png"
+        },
+        {
             "title": "Acai Juice",
             "description": "Costco发现的神奇果汁，兑水和酸奶都别有一番风味，每次去都会买两瓶，适合普通果汁喝腻的人",
             "image": "https://s2.loli.net/2025/05/17/V8z26LYhaMsAlXf.png"
@@ -13,9 +20,10 @@
             "image": "https://s2.loli.net/2025/04/23/VDw1K9vly2Rp7Wq.png"
         },
         {
-            "title": "iPhone 12",
-            "description": "祖传手机，传奇耐摔王，裸机两年摔了十次一点事没有",
-            "image": "https://s2.loli.net/2025/04/23/D4YyhVrS9XafHwP.png"
+            "title": "iPhone 12（已退役）",
+            "description": "祖传手机，传奇耐摔王，裸机两年摔了十次一点事没有，于250616以二百刀trade in",
+            "image": "https://s2.loli.net/2025/04/23/D4YyhVrS9XafHwP.png",
+             "end_date":"2025-06-16",
         },
         {
             "title": "Switch + Mario Kart 8",
