@@ -2,7 +2,7 @@
     "goods": [
         {
             "title":"iPhone 16",
-            "description":"miku痛机",
+            "description":"苹果设备就是这样的，当你在网上看到宣传图眼睛停留了超过五秒，那么不管隔了一周还是一年，它总会出现在手里",
             "price": 792,
             "purchase_date": "2025-06-17",
             "image":"https://s2.loli.net/2025/06/17/hx1CfJuNPaGX9Is.png"
@@ -23,7 +23,7 @@
             "title": "iPhone 12（已退役）",
             "description": "祖传手机，传奇耐摔王，裸机两年摔了十次一点事没有，于250616以二百刀trade in",
             "image": "https://s2.loli.net/2025/04/23/D4YyhVrS9XafHwP.png",
-             "end_date":"2025-06-16",
+            "end_date":"2025-06-16"
         },
         {
             "title": "Switch + Mario Kart 8",
