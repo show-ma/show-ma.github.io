@@ -1,10 +1,11 @@
 ---
-title: 上半年游戏小结
+title: 25上半年｜游戏小结
 date: 2025-04-24
 image: 2.jpg
 description: 本来王国之泪能当封面的，结果半路杀出个苏丹！
 tags: 
     - game
+    - summary
 categories:
     - Nothingness
 ---

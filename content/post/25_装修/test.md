@@ -97,6 +97,49 @@ series_order: 1
 {< align right "文字居右" >}
 //实际使用记得换成双括号。
 ```
+## 文本高亮
+
+新建mark.html，内容为：
+
+```html
+<mark>{{ .Get "text" }}</mark>
+```
+
+`custom.scss`:
+
+```css
+//重点标记
+mark {
+  color: var(--card-text-color-main); 
+  padding: 0.15em 0.15em;
+  border-radius: 5px;
+}
+
+.highlight-green {
+  background: rgba(128, 177, 153, 0.5);
+}
+
+.highlight-blue {
+  background: rgba(101, 151, 180, 0.5); 
+}
+
+.highlight-purple {
+  background: rgba(179, 137, 214, 0.5);
+}
+
+.highlight-yellow {
+  background: rgba(212, 206, 99, 0.5);
+}
+```
+
+普通文字{{< mark text="绿绿的" >}}普通文字{{< mark text="This will be highlighted in blue." color="blue" >}}{{< mark text="紫色" color="purple" >}}{{< mark text="yellow" color="yellow">}}
+
+```text
+普通文字{< mark text="绿绿的" >}普通文字
+{< mark text="This will be highlighted in blue." color="blue" >}
+{< mark text="紫色" color="purple" >}
+{< mark text="yellow" color="yellow">}
+```
 
 ## Safari浏览器书签收录网站icon
 

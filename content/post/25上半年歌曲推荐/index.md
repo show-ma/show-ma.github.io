@@ -1,10 +1,11 @@
 ---
-title: 25上半年本人听的新专(全是rnb)
+title: 25上半年｜新专推荐
 date: 2025-06-23
 image: o.jpg
 description: 一个两个都艺术成这样？
 tags: 
     - music
+    - summary
 categories:
     - Nothingness
 ---

@@ -886,3 +886,26 @@ img.emoji {
   vertical-align: -0.4em; /* 表情在文字间对齐可以微调 */
   border-radius: 0px;
   }
+
+//重点标记
+mark {
+  color: var(--card-text-color-main); 
+  padding: 0.15em 0.15em;
+  border-radius: 5px;
+}
+
+.highlight-green {
+  background: rgba(128, 177, 153, 0.5);
+}
+
+.highlight-blue {
+  background: rgba(101, 151, 180, 0.5); 
+}
+
+.highlight-purple {
+  background: rgba(179, 137, 214, 0.5);
+}
+
+.highlight-yellow {
+  background: rgba(212, 206, 99, 0.5);
+}

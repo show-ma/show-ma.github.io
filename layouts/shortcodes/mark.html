@@ -1,0 +1,11 @@
+{{/* Get the text to be highlighted from the "text" parameter */}}
+{{ $text := .Get "text" }}
+
+{{/* Get the desired color from the "color" parameter, defaulting to "green" */}}
+{{ $color := .Get "color" | default "green" }}
+
+{{/* Create the final CSS class name, e.g., "highlight-green" */}}
+{{ $class := printf "highlight-%s" $color }}
+
+{{/* Render the mark tag with the specific class */}}
+<mark class="{{ $class }}">{{ $text }}</mark>

@@ -84,7 +84,3 @@ However，作为一名在AI领域活动的人，我对ai policy还是相当理�
 `Witness`：重大事件发生时我的视角
 
 `Maintain`：网站装修相关
-
-## 联系方式
-
-fediverse（常用） `xxyyzz1@tuta.io`（不经常看）
