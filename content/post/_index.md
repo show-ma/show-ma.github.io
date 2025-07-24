@@ -1,8 +1,9 @@
 ---
+title: "Posts"
 menu:
     main:
-        name: Home
-        weight: 1
+        name: Posts
+        weight: 2
         params:
             icon: home
 ---

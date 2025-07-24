@@ -1,0 +1,163 @@
+        /* Font Reset */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        div,
+        span {
+            font-family: inherit;
+        }
+
+        /* Basic Setup */
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            overflow: hidden;
+            /* Changed from overflow-x to prevent all scrolling */
+            height: 100vh;
+            width: 100vw;
+            background-image: url('/dark.jpg');
+            background-size: cover;
+            background-position: center;
+
+            /* --- UPDATED: Use Flexbox to center the collage --- */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Wrapper for scaling the collage */
+        #scale-wrapper {
+            position: relative;
+        }
+
+        /* The main container for all collage items */
+        #collage-container {
+            position: relative;
+            width: 700px;
+            height: 700px;
+            transform-origin: top left;
+        }
+
+        /* Save Layout Button */
+        #save-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 9999;
+            padding: 10px 15px;
+            background-color: #fff;
+            color: #111;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Core style for every draggable item */
+        .draggable-item {
+            position: absolute;
+            cursor: grab;
+            user-select: none;
+            transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+            transform-origin: center center;
+        }
+
+        .draggable-item:active {
+            cursor: grabbing;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+            transform: scale(1.02);
+            z-index: 1000;
+        }
+
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .image-item {
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .image-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            pointer-events: none;
+        }
+
+        .text-block {
+            --text-bg-color: #111;
+            --text-color: #fff;
+            --text-font-size: 24px;
+            --text-font-family: 'Helvetica Neue', sans-serif;
+            --text-font-weight: bold;
+            background-color: var(--text-bg-color);
+            color: var(--text-color);
+            padding: 25px;
+            font-size: var(--text-font-size);
+            font-family: var(--text-font-family);
+            font-weight: var(--text-font-weight);
+            line-height: 1.3;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .outline-text {
+            color: rgb(255, 255, 255);
+            border: 2px solid white;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: transparent;
+        }
+
+        .tight-text {
+            background-color: #000000;
+            color: white;
+            padding: 2px;
+            font-size: 2rem;
+            font-weight: 900;
+            border-radius: 0px;
+            overflow: hidden;
+        }
+
+        .grid-bg {
+            background-color: #fff;
+            background-image: linear-gradient(rgba(0, 0, 0, .1) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, .1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            padding: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .pixel-text {
+            font-family: 'Courier New', monospace;
+            background-color: #000;
+            color: rgb(115, 234, 206);
+            padding: 15px;
+            font-size: 20px;
+            text-transform: uppercase;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .gradient-circle-card {
+            background-color: rgba(20, 20, 30, 0);
+            background-image: radial-gradient(circle at center, rgba(255, 100, 200, 0.6) 0%, rgba(100, 150, 255, 0.4) 40%, rgba(20, 20, 30, 0) 70%);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }

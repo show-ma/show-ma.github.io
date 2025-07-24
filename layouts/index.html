@@ -1,19 +1,82 @@
-{{ define "main" }}
-    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-    {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
-    {{ $filtered := ($pages | intersect $notHidden) }}
-    {{ $pag := .Paginate ($filtered) }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
 
-    <section class="article-list">
-        {{ range $index, $element := $pag.Pages }}
-            {{ partial "article-list/default" . }}
-        {{ end }}
-    </section>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="{{ "css/collage.css" | relURL }}">
+</head>
+<body>
+    
+    <div id="scale-wrapper">
+        <div id="collage-container">
+            <div class="draggable-item text-block" 
+            style="--text-font-family: 'Square Peg', cursive; --text-bg-color:#ffffff00; text-align: center; line-height: 1.1; --text-font-size: 26px;">
+           when the world was at war before</br>we just kept dancing
+           </div>
+    
+            <div class="draggable-item text-block" 
+                 style="--text-bg-color: #195f64; --text-font-size: 14px; --text-font-family: 'Georgia', serif; padding: 10px;">
+                What does it feel like to be part of the system?
+            </div>
+    
+            <div class="draggable-item glass-effect" style="width: 350px;">
+                <h3>INTERLINKED</h3>
+                <p>Do they teach you how to feel finger to finger?</br>Do you long for having your heart interlinked?</p>
+            </div>
+    
+            <div class="draggable-item image-item" style="width: 200px; height: 300px;">
+                <img src="{{ "img/figure.jpg" | relURL }}" alt="Artwork of a figure">
+            </div>
+    
+            <div class="draggable-item image-item" style="width: 250px; height: 500px;">
+                <img src="{{ "img/statue.jpg" | relURL }}" alt="figure">
+            </div>
+    
+            <div class="draggable-item image-item" style="width: 10%; height: 5%;">
+                <img src="{{ "img/papertape.png" | relURL }}" alt="tape">
+            </div>
+            <div class="draggable-item image-item" style="width: 200px; height: 200px; transform: rotate(30deg);">
+                <img src="{{ "img/flower.png" | relURL }}" alt="flower">
+            </div>
+    
+            <div class="draggable-item grid-bg" style="width: 300px; padding: 20px;">
+                <h4 style="margin: 0; font-weight: 900; color: #333;">So we beat on,</br>boats against the current,</br>borne back ceaselessly into the past.</h4>
+            </div>
+            
+            <div class="draggable-item pixel-text">
+                Create. Erase. Repeat.
+            </div>
+    
+            <div class="draggable-item text-block" style="width: 250px; --text-bg-color: transparent; --text-font-size: 12px;">
+                The Figurines Won't Win Her Back.</br>They do nothing.
+            </div>
+    
+            <div class="draggable-item tight-text">
+                MEANINGLESS.
+            </div>
+    
+            <div class="draggable-item gradient-circle-card" style="width: 250px; height: 250px; display: flex; justify-content: center; align-items: center;">
+                <h4>Take a deep breath.</h4>
+            </div>
+    
+            <div class="draggable-item gradient-circle-card" style="width: 150px; height: 150px; display: flex; justify-content: center; align-items: center; background-image: radial-gradient(circle at center, 
+            rgba(163, 223, 255, 0.6) 0%, 
+            rgba(60, 255, 206, 0.386) 40%, 
+            rgba(20, 20, 30, 0) 70%);"></div>
+        </div>
+    </div>
 
-    {{- partial "pagination.html" . -}}
-    {{- partial "footer/footer" . -}}
-{{ end }}
+    <a href="{{ "/post" | relURL }}" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; padding: 12px 20px; background: white; color: black; text-decoration: none; border-radius: 8px; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+        Enter Blog &rarr;
+    </a>
 
-{{ define "right-sidebar" }}
-    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
-{{ end }}
+    <script src="{{ "js/collage.js" | relURL }}"></script>
+
+</body>
+</html>
