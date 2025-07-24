@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ "css/collage.css" | relURL }}">
 </head>
 <body>
-    
+    <!-- <button id="save-button">Save Layout</button> -->
     <div id="scale-wrapper">
         <div id="collage-container">
             <div class="draggable-item text-block" 
@@ -69,6 +69,24 @@
             rgba(163, 223, 255, 0.6) 0%, 
             rgba(60, 255, 206, 0.386) 40%, 
             rgba(20, 20, 30, 0) 70%);"></div>
+
+            <div class="draggable-item image-item" style="width: 50%; height: 50%;">
+                <img src="{{ "img/river.png" | relURL }}" alt="river">
+            </div>
+
+            <div class="draggable-item tight-text">
+                NOTHINGNESS.
+            </div>
+
+            <div class="draggable-item image-item" style="width: 100px; height: 250px;">
+                <img src="{{ "img/pineapple.png" | relURL }}" alt="pineapple">
+            </div>
+            <div class="draggable-item image-item" style="width: 50%; height: 50%;transform: rotate(-30deg);">
+                <img src="{{ "img/fl3.png" | relURL }}" alt="flower3">
+            </div>
+            <div class="draggable-item image-item" style="width: 50%; height: 50%;">
+                <img src="{{ "img/fl2.png" | relURL }}" alt="flower2">
+            </div>
         </div>
     </div>
 
