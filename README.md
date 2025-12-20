@@ -10,3 +10,5 @@ categories:
     - 
 ---
 ```
+
+hugo server

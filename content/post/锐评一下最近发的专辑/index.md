@@ -1,7 +1,7 @@
 ---
 title: 24下半年｜锐评一下最近发的专辑
 date: 2024-08-31
-image: short-n-sweet.jpg
+image: short-n-sweet.webp
 description: 一切都在不可避免地向抖音短视频滑去
 tags: 
     - music

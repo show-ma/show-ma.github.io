@@ -1,7 +1,7 @@
 ---
 title: Nothingness
 description: 没必要的艺术
-image: patrick.jpg 
+image: patrick.jpg
 
 # Badge style
 style:

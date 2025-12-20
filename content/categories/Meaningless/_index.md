@@ -1,7 +1,7 @@
 ---
 title: Meaningless
 description: 没有意义的话
-image: steve.jpg 
+image: steve.jpg
 
 # Badge style
 style:
