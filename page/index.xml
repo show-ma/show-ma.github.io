@@ -1,0 +1,2479 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Meaningless Nothingness</title><link>https://xyzxy.me/page/</link><description>Recent content in Pages on Meaningless Nothingness</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate><atom:link href="https://xyzxy.me/page/index.xml" rel="self" type="application/rss+xml"/><item><title>网站更新日志</title><link>https://xyzxy.me/%E7%BD%91%E7%AB%99%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</link><pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate><guid>https://xyzxy.me/%E7%BD%91%E7%AB%99%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</guid><description>&lt;p&gt;&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2025-07-23&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-page"&gt;建站&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;交互拼贴主页&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+夹带私货中
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2025-05-23&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-style"&gt;样式&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;增加emoji&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+小豆泥嘿嘿
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2025-05-18&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-style"&gt;样式&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;shortcode更新&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+文章合集｜时间轴｜翻页
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2025-05-16&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-style"&gt;样式&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;增加背景图&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+太美丽了
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2025-05-14&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-page"&gt;建站&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;增加评论区&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+waline
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2025-05-13&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-page"&gt;建站&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;图床解决方案&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+vercel &amp;#43; Postimg
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2025-05-12&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-style"&gt;样式&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;增加足迹地图&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+google map
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2025-05-11&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-page"&gt;建站&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;增加gallery&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+gallery page
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2025-05-10&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-page"&gt;建站&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;增加分享卡片&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2025-04-22&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-page"&gt;建站&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;增加goods&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+goods page
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2025-04-14&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-style"&gt;样式&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;增加回到顶部&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2025-04-09&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-page"&gt;建站&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;迁移至hugo&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+hugo &amp;#43; github pages
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2024-08-14&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-page"&gt;建站&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;购买域名&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+有了自己的域名和二级域名
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2020-12-19&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-page"&gt;建站&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;建立网站&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+jekyll &amp;#43; github pages
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;div class="timeline__row"&gt;
+&lt;div class="timeline__time"&gt;
+&lt;div class="timeline__time"&gt;2019-04-04&lt;/div&gt;
+&lt;div class="timeline__split-line"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline__content"&gt;
+&lt;div class="timeline__tags"&gt;
+&lt;span class="timeline__tag timeline__tag-article"&gt;文章&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline__title"&gt;开始写作&lt;/div&gt;
+&lt;div class="timeline__description"&gt;
+为了锻炼自己的作文能力
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: var(--card-text-color-secondary);
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: var(--card-text-color-tertiary);
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #A4B465;
+border-color: #8FA157;
+color: #2c2c2c;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #F5ECD5;
+border-color: #e3d9bb;
+color: #3d3d3d;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style&gt;
+&lt;/p&gt;</description></item><item><title>About</title><link>https://xyzxy.me/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xyzxy.me/about/</guid><description>&lt;p&gt;可以叫我象🐘，或者你在其他平台看到的我的id。女的，:bisexual_flag:，intp，学生，:adhd:&lt;/p&gt;
+&lt;p&gt;📓 查看&lt;a class="link" href="https://xyzxy.me/%E7%BD%91%E7%AB%99%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/" &gt;网站更新日志&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;📋 查看&lt;a class="link" href="https://xyzxy.me/%E9%97%AE%E5%8D%B7/" &gt;博客作者问卷&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;💌 查看&lt;a class="link" href="https://xyzxy.me/%E6%9C%AC%E4%BA%BA%E6%9C%80%E7%88%B1%E4%B9%A6%E5%BD%B1%E9%9F%B3%E6%B8%B8/" &gt;书影音游收藏&lt;/a&gt; 和 &lt;a class="link" href="https://xyzxy.me/%E9%9B%B6%E9%9B%B6%E7%A2%8E%E7%A2%8E%E6%94%B6%E8%97%8F/" &gt;零零碎碎收藏&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;请问你看到我的狗了吗？没丢，只是我想让所有人都看看&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://xyzxy.me/about/dog.png"
+width="1162"
+height="1498"
+srcset="https://xyzxy.me/about/dog_hu_31fce00bbaaab479.png 480w, https://xyzxy.me/about/dog_hu_964ac6937779ceee.png 1024w"
+loading="lazy"
+alt="一只15斤的大狗"
+class="gallery-image"
+data-flex-grow="77"
+data-flex-basis="186px"
+&gt; &lt;img src="https://xyzxy.me/about/dog2.png"
+width="1020"
+height="1206"
+srcset="https://xyzxy.me/about/dog2_hu_5e8653c14316d9a0.png 480w, https://xyzxy.me/about/dog2_hu_2f305a9f3ca1ec97.png 1024w"
+loading="lazy"
+alt="很瓷实的小板凳"
+class="gallery-image"
+data-flex-grow="84"
+data-flex-basis="202px"
+&gt;&lt;/p&gt;
+&lt;h2 id="我的足迹"&gt;我的足迹
+&lt;/h2&gt;&lt;p&gt;最喜欢的还是318国道 我❤️无人区^^&lt;/p&gt;
+&lt;p&gt;说来好笑，从来没有以旅游为目的去过别的国家，好想出国玩啊……&lt;/p&gt;
+&lt;p&gt;（使用Google map记录 不确保在墙内能正常加载）&lt;/p&gt;
+&lt;div class="map-container"&gt;
+&lt;iframe
+src="https://www.google.com/maps/d/u/1/embed?mid=13m3n-fbAoM2H3LZt7SFchwGkp-Ikh60&amp;ehbc=2E312F&amp;noprof=1"
+width="100%"
+height="100%"
+allowfullscreen=""
+loading="lazy"
+style="border:0;"
+referrerpolicy="no-referrer-when-downgrade"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.map-container {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 aspect ratio */
+height: 0;
+overflow: hidden;
+border-radius: 12px;
+}
+.map-container iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+&lt;/style&gt;
+&lt;h2 id="标签说明"&gt;标签说明
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Meaningness&lt;/code&gt;：输出无意义的观点&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Nothingless&lt;/code&gt;：搞点没必要的艺术&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Repost&lt;/code&gt;：转载喜欢的东西&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Maintain&lt;/code&gt;：网站装修相关&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Dialogues&lt;/code&gt;：和ai的对话&lt;/p&gt;</description></item><item><title>Archives</title><link>https://xyzxy.me/archives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xyzxy.me/archives/</guid><description/></item><item><title>Goods</title><link>https://xyzxy.me/goods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xyzxy.me/goods/</guid><description/></item><item><title>Links</title><link>https://xyzxy.me/link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xyzxy.me/link/</guid><description>&lt;p&gt;&lt;span class=disco-purple&gt;内陆帝国&lt;/span&gt;&lt;span class=disco-grey&gt;[困难：成功]&lt;/span&gt; — 你感到某种仪式在加载——站与站之间的感情链接，即将达成。&lt;/p&gt;
+&lt;p&gt;请和我交换链接……没有什么要求，只是希望不在中国大陆备案，支持女权和LGBT+ rights。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;请：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在评论区轻声呼喊&lt;/li&gt;
+&lt;li&gt;通过fediverse给我发一条私信，你可以通过&lt;code&gt;elysium[at]alive.bar&lt;/code&gt;找到我。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我的info：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-json" data-lang="json"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;title&amp;#34;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Meaningless Nothingness&amp;#34;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;description&amp;#34;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;桂棹兮兰桨，击空明兮溯流光&amp;#34;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;website&amp;#34;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;https://xyzxy.me&amp;#34;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;image&amp;#34;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;http://xyzxy.me/favicon.png&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Photos</title><link>https://xyzxy.me/photos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xyzxy.me/photos/</guid><description/></item><item><title>Search</title><link>https://xyzxy.me/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xyzxy.me/search/</guid><description/></item><item><title>本人最爱书影音游</title><link>https://xyzxy.me/%E6%9C%AC%E4%BA%BA%E6%9C%80%E7%88%B1%E4%B9%A6%E5%BD%B1%E9%9F%B3%E6%B8%B8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xyzxy.me/%E6%9C%AC%E4%BA%BA%E6%9C%80%E7%88%B1%E4%B9%A6%E5%BD%B1%E9%9F%B3%E6%B8%B8/</guid><description>&lt;h2 id="改变我的人生奖"&gt;改变我的人生奖
+&lt;/h2&gt;&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/item/doubangame/2024/07/16/6a7c714d-9b5a-4d71-8e59-f17d2d1aa0be.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/game/3abGCov9P5QHlNNqHZIlM3" class="cute" target="_blank" rel="noreferrer"&gt;极乐迪斯科&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:95%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;9.5&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;《极乐迪斯科》是在一款奇幻都市设定下，极具开创性的硬汉风侦探类等距视角角色扮演游戏。
+你将扮演一位落魄潦倒的中尉侦探，身处堕落的港口城市瑞瓦肖城，这里腐败横行，谋杀案一波未平一波又起，青少年们也整天只想着蹦迪。你在其中或是搜寻线索，审讯疑犯，或是探索这座广袤迷人的手绘城市，揭露它深埋的秘密。与此同时，局势逐渐恶化，城中冲突加剧，危机一触即发……
+极乐迪斯科原创的全套技能系统使你可以与游戏产生高维度的对话，谈论你内心深处的感受、疑惑、甚至记忆，逐渐养成专属于你的人设。强化理性思维系统？磨练社交能力？抑或是屈服于本能？只有你能决定成为怎样的警探。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;game&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+the one and only&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/movie/2021/09/13be8c59a7-d7ee-4440-b384-0de83ea31472.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/movie/07UjvDPvTdebqvHoCaVT43" class="cute" target="_blank" rel="noreferrer"&gt;银翼杀手&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:86%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;8.6&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;二十一世纪初，泰勒公司先进机器人发展到了连锁阶段，那些机器人实际上和人类完全相同，被称为复制人，这些复制人在体力、敏捷度和智慧上都不错，被人类用于外世界从事奴隶的劳动、危险的探险工作及其他星球的殖民任务上，经过外界殖民地连锁六号战斗组的血腥暴动后，地球上宣布复制人为违法物——必须处死。特勤小组——银翼杀手受命侦查任何入侵复制人，并予以击毙。那不叫做处决，而是称之为退休。Rick Deckard（Harrison Ford 饰）就是银翼杀手之一，某天，他奉命追踪潜入泰勒公司的复制人Roy Batty（Rutger Hauer 饰）、Zhora（Joanna Cassidy 饰）、Leon（Brion James 饰）和Pris（Daryl Hannah 饰），和他搭档的是泰勒公司的连锁六号复制人Rachael（Sean Young 饰）在追踪的过程中，他和瑞秋产生了感情，明白了复制人们为了延长自身的机器寿命而做出的努力，渐渐地开始反思人类的命运。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;movie&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/movie/2021/09/157822004c-fbbf-4182-a410-caae5c082468.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/movie/1fJZOK4O6k9vb4nPjSCYFX" class="cute" target="_blank" rel="noreferrer"&gt;银翼杀手2049&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:85%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;8.5&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;故事发生在大断电30年后。复制人K（瑞恩·高斯林 Ryan Gosling 饰）是新一代的银翼杀手，在如今的世界里，人类和复制人之间的界限划分的更加明确，复制人从刚一制造出来就被灌输了服务于人类的思想，绝对不被允许产生人类的感情。
+某日，一具女性复制人的遗骨被挖掘了出来 ，令陆军中尉乔什（罗宾·怀特 Robin Wright 饰）感到震惊的是，这名女性复制人生前不仅怀过孕，还将孩子生了下来，这个孩子的存在将会彻底破坏政府苦心经营的规则和秩序。乔什命令K找出这个孩子，并将他杀死。在一间废弃的农场里，K发现了一些线索，然而，这些线索竟然和他被植入的过去的记忆有着千丝万缕的关联。与此同时，复制人尼安德（杰瑞德·莱托 Jared Leto 饰）和他的手下拉芙（西尔维娅·侯克斯 Sylvia Hoeks 饰）也在寻找着这个孩子的下落。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;movie&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+最喜欢的美学风格，当然对于人和仿生人的讨论也相当地影响了我，算是本人想学cs和ai的理由。&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/book/2021/10/04723ec858-85f0-449a-b6ed-996b86dd4d33.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/book/6SQb57LUnbPXWR9ULzRNYb" class="cute" target="_blank" rel="noreferrer"&gt;庄子諵譁（上）&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:90%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;9&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;《南怀瑾讲述:庄子諵譁(上)》内容简介：《庄子》一书内容博大精深，涵盖世间、出世间的重要观念法则和人生修身养心之道，是中华文化最伟大不朽的经典之一。《庄子》文章汪洋恣肆，仪态万方，但于现代人来说，却不免有其论莫测高深，其文艰深难明之感。上世纪八十年代初，南先生讲解《庄子》于台北十方书院，游乎经史子集，博征佛道乃至西方宗教学术观点，阐扬《庄子》之宗旨大义，清晰明白，通俗生动，精义迭出。据南先生的讲解录音整理成书的《庄子諵譁》是现代读者阅读、理解《庄子》的最好读本。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;book&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+高中的时候老师让大家摘抄并赏析，挑不到合适的书，正好看见这本，一直看了。相比其他讲庄子的书更通俗易懂些，很适合本高中生。还是庄子好，孔子那套经过几千年的发展变得很toxic，老子又看不懂，庄子正合适。&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/movie/2021/09/145af1bcb6-5800-49ed-9ab9-3d84a30e5c4d.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/tv/season/62LOLjoVYgGLVk3wfQtAG6" class="cute" target="_blank" rel="noreferrer"&gt;命运石之门&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:90%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;9&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;本作主人公冈部伦太郎（宫野真守 配音）是个患有严重中二病的大学生，自称为“凤凰院凶真”的他和伙伴们组成了“未来发明研究所”，在位于秋叶原的一个简陋实验室内进行各种古怪发明和调查。
+2010年7月28日这天，冈部和青梅竹马真由理（花泽香菜 配音）一同去了科学讲义会场，在那里，他们遇见了天才少女牧濑红莉栖（今井麻美 配音）。让人意想不到的事情发生了，冈部在会馆楼道内听到一声惨叫，他闻声而至，发现了倒在血泊中的牧濑。冈部用手机短信将这件事告诉好友桥田至，这个举动，让世界都颠覆了。实验室里那个所谓的“未来道具”，竟然真的可以左右世界的进程，冈部自此成了孤独的观测者。
+这一切都是命运石之门的选择。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;tv&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+挺好笑的，看了石头门疯狂地爱上助手，目标是成为像助手一样的天才科学家在会议上做报告，于是从高中开始一路stem到现在硕士毕业。十年过去了目标只完成了“家”字。&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/movie/2021/09/153c3015b5-9fa5-4673-a6d0-49abd1664fa9.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/movie/1RKw529fXy1hGGcCfQl5kU" class="cute" target="_blank" rel="noreferrer"&gt;了不起的盖茨比&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:74%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;7.4&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;1922年的春天，作家尼克(托比•马奎尔 Tobey Maguire 饰)满怀希望离开家乡，随淘金热潮来到纽约这个新兴的城市，虽然这里爵士乐流行，股票飞涨，但是贫富两极分化，人们沉沦在纸醉金迷中。尼克为了追寻美国梦，放弃写作而进入证券市场，并搬入纽约附近的海湾居住，成为了神秘富豪盖茨比（莱昂纳多•迪卡普里奥 Leonardo DiCaprio 饰）的邻居。而海湾的对岸住着尼克的表妹黛西（凯瑞•穆里根 Carey Mulligan 饰）和她的贵族丈夫汤姆（乔尔•埃哲顿 Joel Edgerton 饰），尼克不仅被邀请去赴宴，之后汤姆还带着他去找情妇寻欢，尼克渐渐迷失在这个充满魅力，以及富豪编制的假象、爱与谎言的世界中。
+但是只有盖茨比最特别，他是唯一让尼克感到在这个迷失城市里充满希望的人。尼克被邀请参加了盖茨比豪宅中的盛宴，还发现盖茨比心中的秘密，原来他一直深爱着黛西，即使她没等到他战后归来，转而嫁给富豪汤姆，盖茨比一直深信他们的爱情矢志不渝。尼克作为盖茨比与黛西爱情的见证者，终于在盖茨比被谋杀之后，看清了这个上流社会的虚情寡义，决心远离喧嚣、冷漠、虚假的大都市，黯然回到故乡……&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;movie&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+说不上来怎么改变我的人生了，但是此电影2013刚上映就震撼了还是初中生的我，这么多年总是隔段时间就从脑子里冒出来，坐飞机如果能选我就会点开它。完美的电影……&lt;/p&gt;
+&lt;h2 id="好东西值得一试奖"&gt;好东西值得一试奖
+&lt;/h2&gt;&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/book/2021/09/16887df137-cc71-4d18-8289-8c96de0ba301.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/book/6JX6z5nNc3OcX6w2siIQpy" class="cute" target="_blank" rel="noreferrer"&gt;病隙碎笔&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:91%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;9.1&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;史铁生用生动而通俗甚至是优美的语言追寻和探索了关于我们人生的已知和未知的道理：人生、命运、爱情、金钱、道义、信仰，健康的心态、成功的途径和价值、孩子的教育、家庭的纽带，共分六部分，243则。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;book&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+感觉史铁生也是intp，看他说话觉得很有启发，想通了很多。读的时候上高中，找不到生活的意义，读完稍微找到了一些。至少会把这个问题暂时搁置，不去讨论了。&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/movie/2021/09/15b22a8e54-8d69-4287-b155-4a1967d08c2c.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/tv/season/0cyPCMgpt2rZsC1QIrSLr3" class="cute" target="_blank" rel="noreferrer"&gt;克拉克森的农场 第一季&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:94%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;9.4&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;着眼于杰瑞米·克拉克森在农村经营农场的糟糕尝试。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;tv&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+老头种地可好看了，十分解压。主要是因为没去过英国乡村所以喜欢看，像对象这种住了三年英国大农村的一给他看他就嗷嗷嗷地跑走了。&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/movie/2021/09/16f8b498b9-c585-4b7a-bdc4-87884b6ea2f8.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/tv/season/1ldc1nUofMqLGXy3I9f0F5" class="cute" target="_blank" rel="noreferrer"&gt;命运之夜 无限剑制 命运之夜 无限剑制&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:83%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;8.3&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;圣杯是传说中可实现持有者一切愿望的宝物。而为了得到圣杯的仪式就被称为圣杯战争。
+参加圣杯战争的7名由圣杯选出的魔术师被称为Master，与7名被称为Servant的使魔订定契约。他们是由圣杯选择的七位英灵，被分为七个职阶，以使魔的身份被召唤出来。能获得圣杯的只有一组，这7组人马各自为了成为最后的那一组而互相残杀。
+卫宫切嗣的养子卫宫士郎，偶然地与servant中的剑士Saber（セイバー）订定契约，被卷入圣杯战争当中...&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;tv&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+掐指一算也是搞了十年型月了，类型月亮你把我的人生都毁了&lt;/p&gt;
+&lt;h2 id="虽然很烂但是没关系我喜欢"&gt;虽然很烂但是没关系我喜欢
+&lt;/h2&gt;&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/book/2021/09/1589a077ab-045c-46b9-b288-59720ea43c82.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/book/4tcyaWT3WcfJBEPsnMdOX1" class="cute" target="_blank" rel="noreferrer"&gt;球状闪电&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:84%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;8.4&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;在某个离奇的雨夜，一颗球状闪电闯进了少年的视野。它的啸叫低沉中透着尖利，像是一个鬼魂在太古的荒原上吹着埙。当鬼魂奏完乐曲，球状闪电在一瞬间将少年的父母化为灰烬，而他们身下板凳却是奇迹般的冰凉。
+这一夜，少年的命运被彻底改变了，他将毕其一生去解开那个将他变成孤儿的自然之谜。但是他未曾想到，多年以后，单纯的自然科学研究被纳入进“新概念武器”开发计划，他所追寻的球状闪电变成了下一场战争中决定祖国生存或是灭亡的终极武器！
+当被禁锢在终极武器中的大自然的伟力被释放时，一轮冰冷的“蓝太阳”升起在大西部的戈壁滩上，整个戈壁淹没在它的蓝光中，这个世界变得陌生而怪异。一个从未有人想像过的未来，在宇宙观测者的注视下，降临在人类面前……&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;book&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+刘慈欣写女角色如果没把女角色当女的写就会很有魅力。&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/movie/2021/09/14027c966a-0ab9-4ad9-80bf-7180490a84de.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/movie/7XzXdPO3pKNuciYIOQvWrI" class="cute" target="_blank" rel="noreferrer"&gt;自杀小队&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:56%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;5.6&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;阿曼达（维奥拉·戴维斯 Viola Davis 饰）身为政府秘密机构的领导人，面对社会中出现的层出不穷的暴力恐怖袭击事件，决心启用一批被关押在监狱中判了无期徒刑的超级反派们，他们是小丑女（玛歌特·罗比 Margot Robbie 饰）、死亡射手（威尔·史密斯 Will Smith 饰）、回旋镖队长（杰·科特尼 Jai Courtney 饰）、复仇恶魔（杰伊·赫尔南德兹 Jay Hernandez 饰）和杀手鳄（阿德沃尔·阿吉纽依-艾格拜吉 Adewale Akinnuoye-Agbaje 饰）。
+他们所要面对的，是拥有强大法力的魅巫（卡拉·迪瓦伊 Cara Delevingne 饰），她和她的哥哥一起制造了一种非常危险的武器，企图用此控制全人类。除此之外，阿曼达还必须提防为了解救女友小丑女而不惜一切手段的危险人物小丑（杰瑞德·莱托 Jared Leto 饰）。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;movie&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+上辈子犯事了这辈子喜欢这部电影&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/movie/2021/09/15f62c4093-b3be-4829-87e9-320449e3a5f9.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/movie/6B0zuW9QkAApwjKD3ZLSi4" class="cute" target="_blank" rel="noreferrer"&gt;沙丘&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:76%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;7.6&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;电影《沙丘》为观众呈现了一段神秘而感人至深的英雄之旅。天赋异禀的少年保罗·厄崔迪（提莫西·查拉梅 饰）被命运指引，为了保卫自己的家族和人民，决心前往浩瀚宇宙间最危险的星球，开启一场惊心动魄的冒险。与此同时，各路势力为了抢夺这颗星球上一种能够释放人类最大潜力的珍贵资源而纷纷加入战场。最终，唯有那些能够战胜内心恐惧的人才能生存下去。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;movie&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+屎味（剧情）的巧克力（维伦纽瓦）&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/movie/2021/09/1651a0aaab-19d2-4fde-8f39-409de4e45aac.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/movie/7NDIsVGvSVxiAwedPMZWsT" class="cute" target="_blank" rel="noreferrer"&gt;妖猫传&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:67%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;6.7&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;故事发生在盛唐时期的长安城，白乐天（黄轩 饰）本是朝廷要官，却为了收集写诗的素材而甘愿被贬为起居郎。长安城内连连发生离奇的死亡事件，就连当今圣上也难逃厄运离奇身亡，这一切都和一只神出鬼没的妖猫有关。日本僧人空海（染谷将太 饰）本为了替皇帝解咒远渡重洋而来，却和白乐天意气相投，两人决心携手调查案件真相。
+一首如怨如诉的《清平调》表明，妖猫作祟和三十年前倾国倾城的杨贵妃（张榕容 饰）之死有着千丝万缕的关联，追寻着曾经迷恋杨贵妃的阿部仲麻吕（阿部宽 饰）所留下的日记，白乐天和空海一同见证了大唐曾经的荣光，亦揭开了当年隐瞒至今的阴谋。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;movie&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+屎味巧克力2号，真的太烂了，但是画面还挺美的&lt;/p&gt;
+&lt;h2 id="爱上你是我的不幸"&gt;爱上你是我的不幸
+&lt;/h2&gt;&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/movie/2021/09/16146b8edb-8ac5-48db-9a35-b9f3deab328f.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/movie/2ng5fbk5WobgaEu969JbFP" class="cute" target="_blank" rel="noreferrer"&gt;秘密特工&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:77%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;7.7&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;故事发生在1963年的德国，时值冷战期间，德国女汽车技师嘉比（艾丽西亚·维坎德 Alicia Vikander 饰）的父亲是一位精通核武器的专家，最近，有证据表情他正在帮助纳粹制造核武器，来达到统一全人类的邪恶野望。
+拿破仑（亨利·卡维尔 Henry Cavill 饰）是CIA的特工，他曾经犯过的错误让他的仕途岌岌可危，他必须做出点成绩来证明自己并非无用之才。伊利亚（艾米·汉莫 Armie Hammer 饰）是苏联国家安全委员会特工，他的父亲被政府打上了贪污分子的烙印，为了摆脱父亲带给自己的不良影响，伊利亚必须比其他人更加努力。这样的两个人都想要赶在对方之前将核弹大师捉拿归案。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;movie&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+盖里奇我讨厌你。&lt;/p&gt;
+&lt;h2 id="日本文学把我害惨了"&gt;日本文学把我害惨了
+&lt;/h2&gt;&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/book/2021/09/15bba8f33f-d3b1-4f78-a66a-b36f1a3cc1ce.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/book/4efLUTHXxl1TFRzDpYbg3w" class="cute" target="_blank" rel="noreferrer"&gt;雪国&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:82%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;8.2&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;史上最美诺贝尔文学奖作品，教育部推荐大学生必读书目
+大师经典名作，全新精装收藏版
+像《百年孤独》一样，《雪国》影响了余华、莫言、贾平凹等几代中国作家
+川端康成《雪国》中的一句话，如同暗夜中的灯塔，照亮了我前进的道路。——莫言
+————————————————————————————————-————
+本书包括诺贝尔奖获奖作《雪国》与川端康成经典作品《湖》。
+故事由驶往雪国的列车开始，窗外不停掠过的暮景，映着玻璃上照出的少女的双眸，扑朔迷离。舞蹈艺术研究者岛村前后三次前往白雪皑皑的北国山村，与当地的艺伎驹子，以及萍水相逢的少女叶子，陷入爱恋纠葛，簌簌落下的雪掩盖了一切爱与徒劳……
+《雪国》是川端康成最高代表作，其间描绘的虚无之美、洁净之美与悲哀之美达到极致，令人怦然心动，又惆怅不已。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;book&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/book/2021/11/278eeeb853-e800-4077-8947-06dd6c8589b1.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/book/3dZEbY4cgMM2Msk7FO6IKR" class="cute" target="_blank" rel="noreferrer"&gt;古都&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:0%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;0&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;※知名設計師林小乙操刀設計•絕對典藏概念
+※首刷布面刺繡精裝
+※經典翻譯、全新校訂
+《古都》為川端康成晚年於1962年發表的中篇小說。書名「古都」指的就是京都。
+佐田千重子是京都一間和服批發生意商的千金，20歲的她始終知道，自己是太吉郎與阿繁所撫養的棄嬰。八坂神社一次偶然的遭逢，千重子懷疑自己有一位雙胞胎姊妹，打聽後發現這個名喚苗子的姑娘就住在京都背面北山的杉村，並在北山之北的杉林區工作。
+而暗中追求千重子的日本傳統的編織工秀男，在一次誤會中錯認了苗子，也由於地位差距而不敢向千重子表達愛意，轉而追求苗子；苗子婉拒，因為她知道秀男心中愛慕的是雙胞胎姊妹。
+最後千重子依據日本傳統的媒妁之言，招贅同業大店「水木商店」的長子水木龍助——龍助的弟弟真一，則是千重子兒時的玩伴。
+《古都》描述一對孿生姊妹迫於生活的無奈，各自展開了不同的人生際遇，在她們分離與相遇的過程中，作者不僅引領我們瀏覽了一趟典雅的京都祭典之旅，也彷彿在訴說著舊時代的日本與新時代的日本，終將有各自的去路。
+《古都》基本上表現出日本傳統的美學思想，協以日本傳統祭典所表現的內在拘謹心理意識，透露文化中的物哀、風雅、與幽玄的獨特美感。《古都》是川端康成末年之作，談的是作者一貫關心的主題：兩性間的鴻溝、兩性差異的焦慮、單純無邪的嚮往、人與自然的結合、環境和個性的結合——同時探討居住戰後古都京都的藝術家對現代與傳統的愛憎情理：現代很吸引人，卻也使人迷惘，如何迎接現代化並保留傳統，永遠是需要面對的疑問。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;book&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/book/2021/10/22345af346-9d2d-403a-8f2d-81a385c45d23.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/book/4W8Ui3Ik8LSf1kD2dmdWXE" class="cute" target="_blank" rel="noreferrer"&gt;金閣寺&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:0%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;0&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;In The Temple of the Golden Pavilion, celebrated Japanese novelist Yukio Mishima creates a haunting portrait of a young man’s obsession with idealized beauty and his destructive quest to possess it fully.Mizoguchi, an ostracized stutterer, develops a childhood fascination with Kyoto’s famous Golden Temple. While an acolyte at the temple, he fixates on the structure’s aesthetic perfection and it becomes his one and only object of desire. But as Mizoguchi begins to perceive flaws in the temple, he determines that the only true path to beauty lies in an act of horrific violence. Based on a real incident that occurred in 1950, The Temple of the Golden Pavilion brilliantly portrays the passions and agonies of a young man in postwar Japan, bringing to the subject the erotic imagination and instinct for the dramatic moment that marked Mishima as one of the towering makers of modern fiction. With an introduction by Donald Keene; Translated from the Japanese by Ivan Morris.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;book&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/book/2022/01/258b0eee5c-4737-4f2a-9148-81c8cddbebd8.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/book/38r5tHr58uzKB9Bizm83ia" class="cute" target="_blank" rel="noreferrer"&gt;丰饶之海&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:76%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;7.6&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;《丰饶之海》（1965－1970）四部曲包括《春雪》、《奔马》、《晓寺》、《天人五衰》四部长篇小说。《丰饶之海》为三岛由纪夫的绝笔之作，作品将他的浪漫、唯美与古典主义发挥到了尽美之境，为三岛的文学生涯画上了句号。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;book&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;美是真的美，致郁也是真致郁，最爱看的两年每天都在想自杀，三岛由纪夫和川端康成你们两个把我害惨了！&lt;/p&gt;
+&lt;h2 id="优秀下饭剧"&gt;优秀下饭剧
+&lt;/h2&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/movie/2021/12/1021f27df3-4d06-433c-8b50-6fbac85fe8bc.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/tv/season/4Dip5EfoXTxyESqAZR50Az" class="cute" target="_blank" rel="noreferrer"&gt;恶搞之家 第十一季&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:88%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;8.8&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;tv&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;还有武林外传家有儿女编辑部的故事和甄嬛传，不列了，全中国人都知道&lt;/p&gt;
+&lt;h2 id="列出来显得本人很有品奖"&gt;列出来显得本人很有品奖
+&lt;/h2&gt;&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/book/2021/09/16c99002c1-befd-41a6-9607-0537bcf418a8.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/book/7gFV905eAJ1caFSUrhLWyZ" class="cute" target="_blank" rel="noreferrer"&gt;微暗的火&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:0%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;0&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;“人类生活无非是给一部晦涩难懂而未完成的杰作添加的一系列注释罢了。”
+★ 纳博科夫完美的超高难度实验文本
+★ 开创性的后现代文学和“后设小说”典范
+★ 争议盖过《洛丽塔》，魔力领先《尤利西斯》
+《微暗的火》是纳博科夫小说中极为奇特的一部，颠覆了人们心目中固有的对小说的定义。这部小说由前言、一首四个篇章的长诗、评注和索引组成。纳博科夫虚构了一名教授兼诗人谢德，以及他的同事兼邻居金波特，诗人死后留下了一首自传性质的长诗，而邻居则为此诗写了前言和评注、索引。长诗仅占全书十分之一，评注却非常冗长繁琐。主体长诗讲的是诗人的一生，他死去的女儿、他对人生、爱情、死亡、真实与虚幻的理解等。而邻居通过长长的评注，将诗的含义解读为一名来自虚构国度赞巴拉的末代国王的故事。作为一个前卫性的探索作家，纳博科夫一直在寻找独创的小说形式。这种以评注为主体的互文结构，反映了纳博科夫的一个观点：“人类生活无非是给一部晦涩难懂而未完成的杰作添加的一系列注释罢了。”
+“微暗的火”出自莎士比亚悲剧，指月亮是小偷，靠吸收太阳的光得到“微暗的火”。作为一个前卫的探索作家，纳博科夫一直在寻找独创的小说形式，《微暗的火》就是这种尝试的终极形态，一面世就让所有评论家大吃一惊，它颠覆了人们心目中惯有的对小说的定义，堪称开创性的后现代文学和“后设小说”典范。这部完美的超高难度实验性文本，模糊了读者与作家之间的界限，会让读者投入一场酣畅淋漓的头脑风暴。
+弗拉基米尔•纳博科夫的作品对英文文学乃至世界文学都产生了不可磨灭的影响。“纳博科夫精选集I”在已出版的二十余种纳博科夫作品中，精选纳博科夫五部最具代表性的经典作品，以精装版全新面貌呈现，其中不乏市面上难以寻见、读者翘首以盼的“期待之书”。除了最著名最具争议的《洛丽塔》，还有超高难度实验文本《微暗的火》、戏仿通俗剧的黑色寓言《黑暗中的笑声》、最具自传色彩的诙谐经典《普宁》及别具一格的回忆录《说吧，记忆》。五部作品各具特色，皆代表纳博科夫创作过程中的独特面向，重新出发，理解小说大师。
+“自莎士比亚之后，没有第二个作家对语言的浇铸与运用能够如此灵动、慧黠和创造力十足。”《每日邮报》如是评论。厄普代克盛赞：“想象的伟力再难找到如此活力充沛的代言人。”
+炉火纯青的小说技法，幽暗跌宕的现世寓言，萦绕一生的记忆回响。欢迎来到纳博科夫的小说世界。如果文字能唤起至纯的感官享受，那么舍此无它。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;book&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+2049里主角爱读的书，看了觉得确实符合调性&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="db-card"&gt;
+&lt;div class="db-card-subject"&gt;
+&lt;div class="db-card-post"&gt;&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/book/2021/09/168bc529a0-fc15-4d4e-a523-017cfc926e86.jpg"&gt;&lt;/div&gt;
+&lt;div class="db-card-content"&gt;
+&lt;div class="db-card-title"&gt;&lt;a href="https://neodb.social/book/6y5YKJUAJcSwS9gNwWI35s" class="cute" target="_blank" rel="noreferrer"&gt;纸上的伊比利亚&lt;/a&gt;&lt;/div&gt;
+&lt;div class="rating"&gt;&lt;span class="allstardark"&gt;&lt;span class="allstarlight" style="width:85%"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="rating_nums"&gt;8.5&lt;/span&gt;&lt;/div&gt;
+&lt;div class="db-card-abstract"&gt;这本选集的突出特点是编者独特的视角。他没有循规蹈矩，既没按年代和流派、也没按文学门类编选（可能是由于篇幅所限），而是按作品的主题来编选。这就使编者有了充分的自由，只管收录自己熟悉并喜欢的名家名作。可谓独辟蹊径，聪明而又实用之举。此外，他在书中选用了一些译界前辈的文本，使我们对西班牙文学的译介过程有一个总体印象，这也是十分有意义并有趣味的。书中有些诗作是他自己翻译的，依他的文学功底，应很值得期待。&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="db-card-cate"&gt;book&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+百年孤独是名著中的名著，可实在读不下去一点。为了了解拉美文学看到了这本书，翻译得很好，诗十分美丽。&lt;/p&gt;</description></item><item><title>零零碎碎收藏</title><link>https://xyzxy.me/%E9%9B%B6%E9%9B%B6%E7%A2%8E%E7%A2%8E%E6%94%B6%E8%97%8F/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xyzxy.me/%E9%9B%B6%E9%9B%B6%E7%A2%8E%E7%A2%8E%E6%94%B6%E8%97%8F/</guid><description>&lt;h2 id="cg-artist"&gt;CG artist
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://www.stuartlippincott.net" target="_blank" rel="noopener"
+&gt;stuz0r&lt;/a&gt; 巨物爱好者&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://art.hellodave.co/all" target="_blank" rel="noopener"
+&gt;Davison Carvalho&lt;/a&gt; 星球桌&lt;/p&gt;
+&lt;h2 id="试图学习"&gt;试图学习
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://www.uu.se/en/study/reading-list?query=39859" target="_blank" rel="noopener"
+&gt;瑞典乌普萨拉大学游戏设计系 “男人，男性气质与游戏” reading materials&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="神秘小网站"&gt;神秘小网站
+&lt;/h2&gt;&lt;p&gt;毛象数据可视化 &lt;a class="link" href="https://purr.neocities.org" target="_blank" rel="noopener"
+&gt;meow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;手帐模板 &lt;a class="link" href="http://pdc2.u1m.biz" target="_blank" rel="noopener"
+&gt;pdf de calendar 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;老物件的声音 &lt;a class="link" href="https://www.conservethesound.de" target="_blank" rel="noopener"
+&gt;conserve the sound&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://seaside-station.com/region/recommended-whole-of-japan/" target="_blank" rel="noopener"
+&gt;搜集日本海边车站场景的网站&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;木版画检索网站 &lt;a class="link" href="https://zh.ukiyo-e.org/?continueFlag=368247671a9c3ae963699b046b4b825e" target="_blank" rel="noopener"
+&gt;日本木版画搜索&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;1896-1946年各种类型的怀旧杂志，复古杂志封面设计参考 &lt;a class="link" href="https://www.pulpmags.org/magazines.html" target="_blank" rel="noopener"
+&gt;pulpmags&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;废墟摄影 &lt;a class="link" href="https://haikyo.org/~/abandoned/" target="_blank" rel="noopener"
+&gt;HAIKYO: ABANDONED JAPAN&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.artic.edu/collection?continueFlag=368247671a9c3ae963699b046b4b825e" target="_blank" rel="noopener"
+&gt;art institute chicago&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://collections.louvre.fr/en/recherche" target="_blank" rel="noopener"
+&gt;louvre&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://indiegoodies.com/awesome-open-source-mac-apps" target="_blank" rel="noopener"
+&gt;Mac系统开源免费软件列表&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;无神论注释全本圣经，包括但不限于谬误、矛盾、女性、同性恋、性和政治，让你在骂战中言必有据挥斥方遒，脚下堆满心梗而死的基要派和福音派&lt;a class="link" href="https://www.skepticsannotatedbible.com" target="_blank" rel="noopener"
+&gt;The Skeptic&amp;rsquo;s Annotated Bible&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="电影"&gt;电影
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;m thinking of ending things&lt;/p&gt;</description></item><item><title>问卷</title><link>https://xyzxy.me/%E9%97%AE%E5%8D%B7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xyzxy.me/%E9%97%AE%E5%8D%B7/</guid><description>&lt;p&gt;&lt;a class="link" href="https://anotherdayu.com/2024/5962/" target="_blank" rel="noopener"
+&gt;题目链接&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;简单介绍下自己或者你的博客？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;网站的名字其实是随便翻书翻到的。起初只想写一些废话，感觉除了我也没人爱看，就取了一个相对负面的名字。不过确实，贱名好养活，写着没什么负担，想发就发了。爱写生活日常，最爱看的也是日常。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;什么契机让你开始写博客？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;人总会无聊，无聊就想写点长的。俺喜欢把想法记下来，又永远会把纸质的日记本弄丢。&lt;code&gt;总塞在角落，然后某天大扫除被家里人发现并公开处刑。哈哈&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;又想起做作业时候从很多大佬的个人网站上找到了答案，好酷，于是我也整了一个。&lt;/p&gt;
+&lt;p&gt;我一直喜欢摄影，苦于没有地方存放自己的照片，所以也整合进来了。&lt;/p&gt;
+&lt;p&gt;又想起小时候历史课老师让找家里的历史。我家的老人们都挺有文化的，有中医有戏曲演员还有研究所工作的还有钢铁厂工人。如果我的长辈们有日记本，我也不至于抓耳挠腮没得写！&lt;/p&gt;
+&lt;p&gt;等我老了，那会的年轻人如果好奇，我就能掏出一个链接，这是本人特展，看看浓缩的我的一生吧。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你是如何完成创作的？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;想到什么就写什么，有时候是日记，有时候是和gpt聊天之后的整理，有时候是今天学到的小知识。以前用typora，后来工作用到notion，全平台同步甚是好用。会先在notion写草稿，再用vscode提交到github仓库里。&lt;/p&gt;
+&lt;p&gt;我通过被动地吸收知识获取写作灵感。看多了就会想吐出来，可惜学业繁忙看的越来越少，肚子里着实没什么墨水。难啊！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;运营博客的过程中是否有失去过动力？如果有，是为什么恢复的？如果没有，请问您又是如何保持创作的激情？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;运营吗？我写日记的，让别人付费看我日记实在是没有道理！大概断更过两次，大二学业压力太大，一直断更到研一才捡起来。写了一篇又抛之脑后了，研究生毕业才又想起来。以后我不会再鸽了。&lt;/p&gt;
+&lt;p&gt;动力？高考前压力太大我开始写文章，大学期末考前压力太大我开始建网站。研究生毕业不得不找工作我想起还有网站开始高强度更新（与此同时用于找工作的网站dns record都失效了）。动力就是，有急迫的正经事要做。那我就不做。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如何搭建博客，以及运营博客每年需要投入的资金？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;请见本站Maintain分类。需要花钱的只有域名，一年$25。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;推荐 1 篇你博客中的文章，并推荐一个你喜欢读的博客，聊聊原因。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class="link" href="https://xyzxy.me/p/%E8%8D%89%E5%B1%A5%E8%99%AB%E7%9C%8B%E4%BA%86%E4%B9%9F%E8%83%BD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%991/" &gt;草履虫也会的建站教程&lt;/a&gt;，身边的朋友看了我的网站觉得很酷，但是害怕太难了从未开始。于是写了一篇告诉他们完全不难！都给我开始！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;推荐 1 个近期喜欢的事物？（例如书籍、电影、音乐、工具、软件。）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;最近最爱的是健康饮食，得知吃饭顺序是先吃菜再吃肉再吃碳水，十分震惊，打算实行几天看看情况。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;想做还没有做的事，或想尝试还没有尝试的主题？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;想做的事太多了。博客相关的话可能是完善UI，争取把stack魔改到谁也认不出来&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;写到这里，闭上你的眼睛，深呼吸几分钟，或是出去溜达一圈，然后回来写任何你想写的东西。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我需要坦白，我默默关注的一位网友，是博士，也是同人女。她的同人网站和日记网站共用同一个域名还有导航页，我就，顺藤摸瓜读完了她所有的日记。从高中到大学到如今将要博士毕业，我好像参与了她的一生一样。但我们其实只是几句话聊得来的网友，点赞之交罢了。个人网站让我们距离彼此的精神世界很近，距离大家的物理身份很远。非常享受这样的交流&lt;/p&gt;</description></item></channel></rss>

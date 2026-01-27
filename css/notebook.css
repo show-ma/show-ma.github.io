@@ -1,0 +1,168 @@
+/* 缩放外壳 */
+.zoom-wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background: url('/img/2.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* 固定内容尺寸缩放（游戏UI风格） */
+
+
+.content {
+  width: 1430px;
+  height: 800px;
+  transform-origin: top left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: visible;
+}
+
+.layer.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* 图层设置 */
+.layer {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.bg {
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.65; /* 降低透明度 */
+  filter: contrast(160%) brightness(25%) saturate(200%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.border {
+  z-index: 2;
+}
+
+/* 主UI容器 */
+.notebook-ui {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 200px 160px 80px 160px; /* 微调内容居中 */
+  box-sizing: border-box;
+}
+
+/* 左栏（任务） */
+.left-panel {
+  width: 350px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.task-list {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+.task {
+  font-weight: bold;
+  margin-bottom: 14px;
+  cursor: pointer;
+  color: #e0e0e0;
+  font-size: 18px;
+  line-height: 1.5;
+  transition: color 0.2s ease;
+}
+
+.task:hover {
+  color: #ffcc66;
+}
+
+/* 右栏（内容） */
+.right-panel {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.entry-detail {
+  width: 100%;
+  max-width: 650px;
+  height: 100%;
+  padding: -20 10px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  color: #f0f0f0;
+}
+
+.detail-block {
+  display: none;
+}
+
+.detail-block:first-child {
+  display: block;
+}
+
+/* 文本排版 */
+p {
+  margin-bottom: 1.2em;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #f2f2f2;
+}
+
+p:first-child {
+  margin-top: 0.5em;
+}
+.disco-purple {
+  color: #8266d1;
+  font-weight: bold;
+}
+
+.disco-pink {
+color: #e66285;
+font-weight: bold;
+}
+
+.disco-grey {
+  color: #b7b7b7
+}
+
+.disco-blue {
+  color: #4ea7b7;
+  font-weight: bold;
+}
+
+.disco-yellow {
+color: #c39f2d;
+font-weight: bold;
+}
